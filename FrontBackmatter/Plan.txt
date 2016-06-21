@@ -1,0 +1,25 @@
+1. Inhaltsverzeichnis
+2. Introduction
+	- Motivation
+	- Related Work
+3. Grundlagen
+	- Concepts/Definitions
+		- Casual and Focused Interaction
+		- Audio Features (music retrieval)
+	- SpeechToText
+	- accelerometer based gesture recognition algorithm (wiigee paper)
+4. Implementation
+	- Devices (Handheld, Smartwatch)
+	- typical usecases
+	- programstructure, mobile- and wear module
+	- communication protocols
+	- important features of spotify API
+	- speech command recognition algorithm
+	- track selection from audiofeatures (algorithm)
+5. Case study
+	- Research Question
+	- Concept (detailed Scenario description and Tasks)
+	- Results (plotted, etc)
+6. Case study evaluation 	//maybe put into 5.
+	- Data Interpretation
+7. Conclusion

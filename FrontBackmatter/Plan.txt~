@@ -1,0 +1,23 @@
+1. Inhaltsverzeichnis
+2. Introduction
+	- Motivation
+	- Related Work
+3. Grundlagen
+	- Concepts/Definitions
+		- Casual and Focused Interaction
+		- Audio Features (music retrieval)
+	- SpeechToText
+	- accelerometer based gesture recognition algorithm (wiigee paper)
+4. Programm
+	- Benutzung (typischer Programmablauf)
+	- Programmstruktur
+	- Implementierung
+	- Technische Daten
+5. Benutzerstudie
+	- Aufbau
+	- Durchführung
+	- Ergebnisse
+6. Auswertung der Ergebnisse
+	- Deutung
+	- Kritische Würdigung
+7. Ausblick
