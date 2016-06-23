@@ -1,7 +1,7 @@
-1. Inhaltsverzeichnis
-2. Introduction
+Inhaltsverzeichnis
+1. Introduction
 	- Motivation
-	- Related Work
+2. Related Work
 3. Grundlagen
 	- Concepts/Definitions
 		- Casual and Focused Interaction
