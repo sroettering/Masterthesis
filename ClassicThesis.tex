@@ -38,7 +38,7 @@
 %		 * [high] Check this out: http://www.golatex.de/koma-script-warnung-in-verbindung-mit-listings-package-t2058.html
 %    * [medium] mathbb in section-titles/chapter-titles => disappears somehow in headlines!!!
 % **************************************************************************************************************
-\documentclass[ twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,% letterpaper a4paper
+\documentclass[ twoside,openright,titlepage,numbers=noenddot,headinclude,hyphens,%1headlines,% letterpaper a4paper
                 footinclude=true,cleardoublepage=empty,abstractoff, % <--- obsolete, remove (todo)
                 BCOR=5mm,paper=a4,fontsize=11pt,%11pt,a4paper,%
                 ngerman,american,%
@@ -86,8 +86,7 @@
 %\setcounter{page}{90}
 % use \cleardoublepage here to avoid problems with pdfbookmark
 \cleardoublepage
-\part{Some Kind of Manual}
-\include{Chapters/Chapter01}
+\include{Chapters/Motivation}
 \cleardoublepage
 \ctparttext{You can put some informational part preamble text here. 
 Illo principalmente su nos. Non message \emph{occidental} angloromanic
@@ -95,7 +94,6 @@ da. Debitas effortio simplificate sia se, auxiliar summarios da que,
 se avantiate publicationes via. Pan in terra summarios, capital
 interlingua se que. Al via multo esser specimen, campo responder que
 da. Le usate medical addresses pro, europa origine sanctificate nos se.}
-\part{The Showcase}
 \include{Chapters/Chapter02}
 %\addtocontents{toc}{\protect\clearpage} % <--- just debug stuff, ignore
 \include{Chapters/Chapter03}
@@ -104,17 +102,14 @@ da. Le usate medical addresses pro, europa origine sanctificate nos se.}
 % Backmatter
 %*******************************************************
 \cleardoublepage
-\part{Figures and Tables}
 \include{FrontBackmatter/FiguresTables}
 \appendix
 \cleardoublepage
-\part{Appendix}
 \include{Chapters/Chapter0A}
 %********************************************************************
 % Other Stuff in the Back
 %*******************************************************
 \cleardoublepage
-\part{Bibliography}
 \include{FrontBackmatter/Bibliography}
 % ********************************************************************
 % Game Over: Restore, Restart, or Quit?
