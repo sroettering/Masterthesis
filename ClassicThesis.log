@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  25 JUN 2016 00:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  27 JUN 2016 15:45
 entering extended mode
 **ClassicThesis.tex
 
@@ -814,8 +814,8 @@ tter/Abstract.aux)
 tter/Contents.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Mo
 tivation.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
-apter02.aux)
+(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Re
+latedWork.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
 apter03.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
@@ -900,7 +900,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
-tter/Titlepage.tex <gfx/welfenschloss.pdf, id=95, 1530.71875pt x 439.6425pt>
+tter/Titlepage.tex <gfx/welfenschloss.pdf, id=71, 1530.71875pt x 439.6425pt>
 File: gfx/welfenschloss.pdf Graphic file (type pdf)
 
 <use gfx/welfenschloss.pdf>
@@ -1043,158 +1043,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
 
 ]
-Overfull \hbox (6.65218pt too wide) in paragraph at lines 22--23
-\T1/pplj/m/n/10.95 gain more po-ten-tial, namely a mi-cro-phone and a dis-play.
- Smart-watches
- []
-
+Package acronym Info: Label `acro:SDK' newly defined as it shall be overridden
+although it is yet undefined on input line 24.
+ [2]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 24.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 26.
 
-LaTeX Warning: Reference `ch:fundamentals' on page 2 undefined on input line 24
+
+LaTeX Warning: Reference `ch:fundamentals' on page 3 undefined on input line 26
 .
 
 
-LaTeX Warning: Reference `ch:implementation' on page 2 undefined on input line 
-24.
+LaTeX Warning: Reference `ch:implementation' on page 3 undefined on input line 
+26.
 
 
-LaTeX Warning: Reference `ch:user-study' on page 2 undefined on input line 24.
+LaTeX Warning: Reference `ch:user-study' on page 3 undefined on input line 26.
 
 
-LaTeX Warning: Reference `ch:evaluation' on page 2 undefined on input line 24.
+LaTeX Warning: Reference `ch:evaluation' on page 3 undefined on input line 26.
 
-[2]
 
-LaTeX Warning: Reference `ch:conclusion' on page 3 undefined on input line 26.
+Overfull \hbox (2.78511pt too wide) in paragraph at lines 26--27
+[]\T1/pplj/m/n/10.95 Chapter []2[] first out-lines the re-lated work and Chap-t
+er [] then teaches
+ []
+
+
+LaTeX Warning: Reference `ch:conclusion' on page 3 undefined on input line 28.
 
 ) [3] [4
 
 
 
 ]
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
-apter02.tex
+(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Re
+latedWork.tex
 Chapter 2.
 
-Package natbib Warning: Citation `dueck:trio' on page 5 undefined on input line
- 7.
-
-
-Package natbib Warning: Citation `dueck:trio' on page 5 undefined on input line
- 7.
-
-LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 23.
-LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <9> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 23.
-
-Overfull \hbox (1.02399pt too wide) in paragraph at lines 24--29
-\T1/pplj/m/n/10.95 clu-daturque. Al-bu-cius ap-pel-lan-tur de-ter-ruis-set id e
-am, viven-dum par-
+Overfull \hbox (1.25954pt too wide) in paragraph at lines 8--11
+[]\T1/pplj/m/n/10.95 Vatavu User-Defined Ges-tures for Free-Hand TV Con-trol, A
+gree-
  []
 
-Package acronym Info: Label `acro:UML' newly defined as it shall be overridden
-although it is yet undefined on input line 30.
+) [5
 
-Overfull \hbox (9.1717pt too wide) in paragraph at lines 30--37
-[]\T1/pplj/m/n/10.95 Errem om-nium ea per, pro [][][]Unified Mod-el-ing Lan-gua
-ge ([])[] congue
- []
 
-Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 45.
-[5
+
+] [6
 
 
 
 ]
-
-Package natbib Warning: Citation `bentley:1999' on page 6 undefined on input li
-ne 65.
-
-
-Package natbib Warning: Citation `bentley:1999' on page 6 undefined on input li
-ne 66.
-
-
-Package natbib Warning: Citation `cormen:2001' on page 6 undefined on input lin
-e 82.
-
-
-Package natbib Warning: Citation `cormen:2001' on page 6 undefined on input lin
-e 82.
-
-
-Package natbib Warning: Citation `knuth:1976' on page 6 undefined on input line
- 98.
-
-
-Package natbib Warning: Citation `knuth:1976' on page 6 undefined on input line
- 99.
-
-
-Package natbib Warning: Citation `sommerville:1992' on page 6 undefined on inpu
-t line 110.
-
-
-Package natbib Warning: Citation `sommerville:1992' on page 6 undefined on inpu
-t line 111.
-
-[6]
-
-Package natbib Warning: Citation `knuth:1976' on page 7 undefined on input line
- 140.
-
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 142.
-
-Package natbib Warning: Citation `knuth:1976' on page 7 undefined on input line
- 142.
-
-
-Package natbib Warning: Citation `knuth:1976' on page 7 undefined on input line
- 142.
-
-<gfx/example_1.jpg, id=204, 240.9pt x 180.675pt>
-File: gfx/example_1.jpg Graphic file (type jpg)
- <use gfx/example_1.jpg>
-Package pdftex.def Info: gfx/example_1.jpg used on input line 160.
-(pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
-
-<gfx/example_2.jpg, id=205, 240.9pt x 180.675pt>
-File: gfx/example_2.jpg Graphic file (type jpg)
- <use gfx/example_2.jpg>
-Package pdftex.def Info: gfx/example_2.jpg used on input line 163.
-(pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
-
-<gfx/example_3.jpg, id=206, 240.9pt x 180.675pt>
-File: gfx/example_3.jpg Graphic file (type jpg)
- <use gfx/example_3.jpg>
-Package pdftex.def Info: gfx/example_3.jpg used on input line 165.
-(pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
-
-<gfx/example_4.jpg, id=207, 240.9pt x 180.675pt>
-File: gfx/example_4.jpg Graphic file (type jpg)
- <use gfx/example_4.jpg>
-Package pdftex.def Info: gfx/example_4.jpg used on input line 167.
-(pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
-)
-[7 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/gfx/exam
-ple_1.jpg> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/
-gfx/example_2.jpg> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Maste
-rthesis/gfx/example_3.jpg> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbe
-it/Masterthesis/gfx/example_4.jpg>]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
-apter03.tex [8
-
-
-
-
-]
+apter03.tex
 Chapter 3.
 
-Package natbib Warning: Citation `knuth:1974' on page 9 undefined on input line
+Package natbib Warning: Citation `knuth:1974' on page 7 undefined on input line
  7.
 
 
@@ -1203,9 +1108,17 @@ Overfull \hbox (1.89992pt too wide) in paragraph at lines 4--8
  no decore
  []
 
+LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 25.
+LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <9> not available
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 25.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
 (Font)              scaled to size 7.65005pt on input line 25.
-[9]) [10]
+[7
+
+
+
+]) [8]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/FiguresTables.tex
 Package tocbasic Info: character protrusion at lof deactivated on input line 17
@@ -1226,13 +1139,13 @@ is.lol)
 \tf@lol=\write8
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 52.
- [11
+ [9
 
 
 
 
 
-] [12
+] [10
 
 
 ])
@@ -1251,7 +1164,7 @@ Overfull \hbox (1.89992pt too wide) in paragraph at lines 22--25
  no decore
  []
 
-[13
+[11
 
 
 
@@ -1261,11 +1174,11 @@ Overfull \hbox (1.89992pt too wide) in paragraph at lines 22--25
 ]
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 64.
-) [14]
+) [12]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/Bibliography.tex
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\ClassicThes
-is.bbl)) [15
+is.bbl)) [13
 
 
 
@@ -1276,8 +1189,8 @@ is.bbl)) [15
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
 
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\ClassicThes
 is.aux
@@ -1293,8 +1206,8 @@ tter/Abstract.aux)
 tter/Contents.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Mo
 tivation.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
-apter02.aux)
+(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Re
+latedWork.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
 apter03.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
@@ -1303,7 +1216,7 @@ tter/FiguresTables.aux)
 apter0A.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/Bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
 
 
  *File List*
@@ -1443,11 +1356,7 @@ FrontBackmatter/Abstract.tex
 FrontBackmatter/Contents.tex
 Chapters/Motivation.tex
    t1fvm.fd    2004/09/07 scalable font definitions for T1/fvm.
-Chapters/Chapter02.tex
-gfx/example_1.jpg
-gfx/example_2.jpg
-gfx/example_3.jpg
-gfx/example_4.jpg
+Chapters/RelatedWork.tex
 Chapters/Chapter03.tex
 FrontBackmatter/FiguresTables.tex
 Chapters/Chapter0A.tex
@@ -1455,22 +1364,22 @@ FrontBackmatter/Bibliography.tex
 ClassicThesis.bbl
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 066787F97DEC127018F721C38D888B58;1474.
+(rerunfilecheck)             Checksum: 8781EFAABE62249D1A36D9701483782A;1011.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 16961 strings out of 494045
- 262150 string characters out of 3148390
- 518553 words of memory out of 3000000
- 19715 multiletter control sequences out of 15000+200000
- 96670 words of font info for 149 fonts, out of 3000000 for 9000
+ 16865 strings out of 494045
+ 260661 string characters out of 3148390
+ 517312 words of memory out of 3000000
+ 19646 multiletter control sequences out of 15000+200000
+ 93745 words of font info for 145 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 45i,14n,67p,1114b,2330s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,13n,67p,1114b,2330s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Program Files/MiKTeX 2.9/
@@ -1484,9 +1393,9 @@ X 2.9/fonts/type1/bera/fvmro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/latxfont/lcircle1.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (23 pages, 277922 bytes).
+Output written on ClassicThesis.pdf (21 pages, 210998 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 20178 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 287 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 19598 words of extra memory for PDF output out of 20736 (max. 10000000)
 
