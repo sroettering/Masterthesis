@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  27 JUN 2016 15:45
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  27 JUN 2016 21:57
 entering extended mode
 **ClassicThesis.tex
 
@@ -1081,20 +1081,35 @@ LaTeX Warning: Reference `ch:conclusion' on page 3 undefined on input line 28.
 latedWork.tex
 Chapter 2.
 
-Overfull \hbox (1.25954pt too wide) in paragraph at lines 8--11
+Overfull \hbox (1.25954pt too wide) in paragraph at lines 15--19
 []\T1/pplj/m/n/10.95 Vatavu User-Defined Ges-tures for Free-Hand TV Con-trol, A
 gree-
  []
 
-) [5
 
+Overfull \hbox (4.96147pt too wide) in paragraph at lines 29--32
+\T1/pplj/m/n/10.95 tion com-mands must be learn-able eas-ily and quickly, user 
+prefers
+ []
 
+Package acronym Info: Label `acro:HCI' newly defined as it shall be overridden
+although it is yet undefined on input line 51.
 
-] [6
+Overfull \hbox (15.1258pt too wide) in paragraph at lines 51--52
+[]\T1/pplj/m/n/10.95 Casual in-ter-ac-tion has be-come a big re-search topic in
+ [][][]human-computer
+ []
+
+[5
 
 
 
 ]
+
+Package natbib Warning: Citation `bailly2012shoesense' on page 6 undefined on i
+nput line 58.
+
+) [6]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
 apter03.tex
 Chapter 3.
@@ -1115,6 +1130,9 @@ LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <9> not available
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
 (Font)              scaled to size 7.65005pt on input line 25.
 [7
+
+
+
 
 
 
@@ -1373,10 +1391,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 16865 strings out of 494045
- 260661 string characters out of 3148390
- 517312 words of memory out of 3000000
- 19646 multiletter control sequences out of 15000+200000
+ 16870 strings out of 494045
+ 260721 string characters out of 3148390
+ 518320 words of memory out of 3000000
+ 19649 multiletter control sequences out of 15000+200000
  93745 words of font info for 145 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  45i,13n,67p,1114b,2330s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1393,9 +1411,9 @@ X 2.9/fonts/type1/bera/fvmro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/latxfont/lcircle1.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (21 pages, 210998 bytes).
+Output written on ClassicThesis.pdf (21 pages, 215295 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
+ 292 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
  19598 words of extra memory for PDF output out of 20736 (max. 10000000)
 
