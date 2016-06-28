@@ -10,6 +10,22 @@
   organization={ACM}
 }
 
+@mastersthesis{Busse2014Thesis,
+  author={Karoline Busse},
+  title={Casual Interaction with a Bracelet},
+  school={Leibniz Universit\"at Hannover},
+  year={2014}
+}
+
+@inproceedings{boland2015engaging,
+  title={Engaging with mobile music retrieval},
+  author={Boland, Daniel and McLachlan, Ross and Murray-Smith, Roderick},
+  booktitle={Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services},
+  pages={484--493},
+  year={2015},
+  organization={ACM}
+}
+
 @article{chaudhary2013intelligent,
   title={Intelligent approaches to interact with machines using hand gesture recognition in natural way: a survey},
   author={Chaudhary, Ankit and Raheja, Jagdish Lal and Das, Karen and Raheja, Sonia},
@@ -132,5 +148,20 @@
   pages={657--675},
   year={2009},
   publisher={Elsevier}
+}
+
+@inproceedings{laplante2006everyday,
+  title={Everyday Life Music Information-Seeking Behaviour of Young Adults.},
+  author={Laplante, Audrey and Downie, J Stephen},
+  booktitle={ISMIR},
+  pages={381--382},
+  year={2006},
+  organization={Citeseer}
+}
+
+@article{flemisch2003h,
+  title={The H-Metaphor as a guideline for vehicle automation and interaction},
+  author={Flemisch, Frank O and Adams, Catherine A and Conway, Sheila R and Goodrich, Ken H and Palmer, Michael T and Schutte, Paul C},
+  year={2003}
 }
 

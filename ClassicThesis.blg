@@ -1,21 +1,59 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: ClassicThesis.aux
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ClassicThesis.aux
 A level-1 auxiliary file: FrontBackmatter/Titlepage.aux
 A level-1 auxiliary file: FrontBackmatter/Titleback.aux
 A level-1 auxiliary file: FrontBackmatter/Declaration.aux
 A level-1 auxiliary file: FrontBackmatter/Abstract.aux
 A level-1 auxiliary file: FrontBackmatter/Contents.aux
 A level-1 auxiliary file: Chapters/Motivation.aux
-A level-1 auxiliary file: Chapters/Chapter02.aux
+A level-1 auxiliary file: Chapters/RelatedWork.aux
 A level-1 auxiliary file: Chapters/Chapter03.aux
 A level-1 auxiliary file: FrontBackmatter/FiguresTables.aux
 A level-1 auxiliary file: Chapters/Chapter0A.aux
 A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
 The style file: plainnat.bst
 Database file #1: Bibliography.bib
-Warning--I didn't find a database entry for "dueck:trio"
-Warning--I didn't find a database entry for "bentley:1999"
-Warning--I didn't find a database entry for "cormen:2001"
-Warning--I didn't find a database entry for "knuth:1976"
-Warning--I didn't find a database entry for "sommerville:1992"
 Warning--I didn't find a database entry for "knuth:1974"
-(There were 6 warnings)
+You've used 3 entries,
+            2773 wiz_defined-function locations,
+            622 strings with 5703 characters,
+and the built_in function-call counts, 1705 in all, are:
+= -- 167
+> -- 79
+< -- 4
++ -- 27
+- -- 24
+* -- 115
+:= -- 247
+add.period$ -- 11
+call.type$ -- 3
+change.case$ -- 17
+chr.to.int$ -- 3
+cite$ -- 6
+duplicate$ -- 84
+empty$ -- 136
+format.name$ -- 29
+if$ -- 377
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 2
+newline$ -- 23
+num.names$ -- 12
+pop$ -- 38
+preamble$ -- 1
+purify$ -- 14
+quote$ -- 0
+skip$ -- 74
+stack$ -- 0
+substring$ -- 86
+swap$ -- 26
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 33
+warning$ -- 0
+while$ -- 15
+width$ -- 0
+write$ -- 48
+(There was 1 warning)
