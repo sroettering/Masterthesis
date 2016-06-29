@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,10 +14,25 @@ Gilles Bailly, J{\"o}rg M{\"u}ller, Michael Rohs, Daniel Wigdor, and Sven
 \newblock In \emph{Proceedings of the SIGCHI Conference on Human Factors in
   Computing Systems}, pages 1239--1248. ACM, 2012.
 
+\bibitem[Boland et~al.(2015)Boland, McLachlan, and
+  Murray-Smith]{boland2015engaging}
+Daniel Boland, Ross McLachlan, and Roderick Murray-Smith.
+\newblock Engaging with mobile music retrieval.
+\newblock In \emph{Proceedings of the 17th International Conference on
+  Human-Computer Interaction with Mobile Devices and Services}, pages 484--493.
+  ACM, 2015.
+
 \bibitem[Busse(2014)]{Busse2014Thesis}
 Karoline Busse.
 \newblock Casual interaction with a bracelet.
 \newblock Master's thesis, Leibniz Universit\"at Hannover, 2014.
+
+\bibitem[Flemisch et~al.(2003)Flemisch, Adams, Conway, Goodrich, Palmer, and
+  Schutte]{flemisch2003h}
+Frank~O Flemisch, Catherine~A Adams, Sheila~R Conway, Ken~H Goodrich, Michael~T
+  Palmer, and Paul~C Schutte.
+\newblock The h-metaphor as a guideline for vehicle automation and interaction.
+\newblock 2003.
 
 \bibitem[Pohl and Murray-Smith(2013)]{pohl2013focused}
 Henning Pohl and Roderick Murray-Smith.
@@ -25,5 +40,12 @@ Henning Pohl and Roderick Murray-Smith.
   of engagement.
 \newblock In \emph{Proceedings of the SIGCHI Conference on Human Factors in
   Computing Systems}, pages 2223--2232. ACM, 2013.
+
+\bibitem[Pohl and Rohs(2014)]{pohl2014around}
+Henning Pohl and Michael Rohs.
+\newblock Around-device devices: my coffee mug is a volume dial.
+\newblock In \emph{Proceedings of the 16th international conference on
+  Human-computer interaction with mobile devices \& services}, pages 81--90.
+  ACM, 2014.
 
 \end{thebibliography}
