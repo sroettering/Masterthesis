@@ -16,45 +16,45 @@ The style file: plainnat.bst
 Database file #1: Bibliography.bib
 Warning--I didn't find a database entry for "knuth:1974"
 Warning--empty journal in flemisch2003h
-You've used 6 entries,
+You've used 7 entries,
             2773 wiz_defined-function locations,
-            637 strings with 6363 characters,
-and the built_in function-call counts, 3451 in all, are:
-= -- 328
-> -- 187
+            646 strings with 6645 characters,
+and the built_in function-call counts, 4107 in all, are:
+= -- 383
+> -- 244
 < -- 7
-+ -- 63
-- -- 57
-* -- 248
-:= -- 500
-add.period$ -- 22
-call.type$ -- 6
-change.case$ -- 37
-chr.to.int$ -- 6
-cite$ -- 13
-duplicate$ -- 167
-empty$ -- 271
-format.name$ -- 67
-if$ -- 761
++ -- 82
+- -- 75
+* -- 314
+:= -- 604
+add.period$ -- 25
+call.type$ -- 7
+change.case$ -- 46
+chr.to.int$ -- 7
+cite$ -- 15
+duplicate$ -- 188
+empty$ -- 312
+format.name$ -- 86
+if$ -- 892
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 5
-newline$ -- 38
-num.names$ -- 24
-pop$ -- 86
+missing$ -- 6
+newline$ -- 43
+num.names$ -- 28
+pop$ -- 102
 preamble$ -- 1
-purify$ -- 31
+purify$ -- 39
 quote$ -- 0
-skip$ -- 142
+skip$ -- 160
 stack$ -- 0
-substring$ -- 148
-swap$ -- 46
+substring$ -- 175
+swap$ -- 47
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 66
+type$ -- 77
 warning$ -- 1
-while$ -- 30
+while$ -- 35
 width$ -- 0
-write$ -- 87
+write$ -- 100
 (There were 2 warnings)

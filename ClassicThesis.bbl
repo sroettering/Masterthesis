@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -33,6 +33,15 @@ Frank~O Flemisch, Catherine~A Adams, Sheila~R Conway, Ken~H Goodrich, Michael~T
   Palmer, and Paul~C Schutte.
 \newblock The h-metaphor as a guideline for vehicle automation and interaction.
 \newblock 2003.
+
+\bibitem[K{\"u}hnel et~al.(2011)K{\"u}hnel, Westermann, Hemmert, Kratz,
+  M{\"u}ller, and M{\"o}ller]{kuhnel2011m}
+Christine K{\"u}hnel, Tilo Westermann, Fabian Hemmert, Sven Kratz, Alexander
+  M{\"u}ller, and Sebastian M{\"o}ller.
+\newblock I'm home: Defining and evaluating a gesture set for smart-home
+  control.
+\newblock \emph{International Journal of Human-Computer Studies}, 69\penalty0
+  (11):\penalty0 693--704, 2011.
 
 \bibitem[Pohl and Murray-Smith(2013)]{pohl2013focused}
 Henning Pohl and Roderick Murray-Smith.
