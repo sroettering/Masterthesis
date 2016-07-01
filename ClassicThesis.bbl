@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-\begin{thebibliography}{3}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -15,35 +14,11 @@ Gilles Bailly, J{\"o}rg M{\"u}ller, Michael Rohs, Daniel Wigdor, and Sven
 \newblock In \emph{Proceedings of the SIGCHI Conference on Human Factors in
   Computing Systems}, pages 1239--1248. ACM, 2012.
 
-\bibitem[Busse(2014)]{Busse2014Thesis}
-Karoline Busse.
-\newblock Casual interaction with a bracelet.
-\newblock Master's thesis, Leibniz Universit\"at Hannover, 2014.
-
-\bibitem[Pohl and Murray-Smith(2013)]{pohl2013focused}
-Henning Pohl and Roderick Murray-Smith.
-\newblock Focused and casual interactions: allowing users to vary their level
-  of engagement.
-\newblock In \emph{Proceedings of the SIGCHI Conference on Human Factors in
-  Computing Systems}, pages 2223--2232. ACM, 2013.
-
-\end{thebibliography}
-=======
-\begin{thebibliography}{8}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Bailly et~al.(2012)Bailly, M{\"u}ller, Rohs, Wigdor, and
-  Kratz]{bailly2012shoesense}
-Gilles Bailly, J{\"o}rg M{\"u}ller, Michael Rohs, Daniel Wigdor, and Sven
-  Kratz.
-\newblock Shoesense: a new perspective on gestural interaction and wearable
-  applications.
-\newblock In \emph{Proceedings of the SIGCHI Conference on Human Factors in
-  Computing Systems}, pages 1239--1248. ACM, 2012.
+\bibitem[Blumendorf et~al.(2008)Blumendorf, Feuerstack, and
+  Albayrak]{blumendorf2008multimodal}
+Marco Blumendorf, Sebastian Feuerstack, and Sahin Albayrak.
+\newblock Multimodal smart home user interfaces.
+\newblock In \emph{Proc. of IUI4AAL Workshop on IUI}, 2008.
 
 \bibitem[Boland et~al.(2015)Boland, McLachlan, and
   Murray-Smith]{boland2015engaging}
@@ -57,6 +32,13 @@ Daniel Boland, Ross McLachlan, and Roderick Murray-Smith.
 Karoline Busse.
 \newblock Casual interaction with a bracelet.
 \newblock Master's thesis, Leibniz Universit\"at Hannover, 2014.
+
+\bibitem[Choi et~al.(2012)Choi, Kwon, Lee, Lee, and Chung]{choi2012can}
+Eunjung Choi, Sunghyuk Kwon, Donghun Lee, Hojin Lee, and Min~K Chung.
+\newblock Can user-derived gesture be considered as the best gesture for a
+  command?: Focusing on the commands for smart home system.
+\newblock In \emph{Proceedings of the Human Factors and Ergonomics Society
+  Annual Meeting}, volume~56, pages 1253--1257. SAGE Publications, 2012.
 
 \bibitem[Flemisch et~al.(2003)Flemisch, Adams, Conway, Goodrich, Palmer, and
   Schutte]{flemisch2003h}
@@ -95,4 +77,3 @@ Jacob~O Wobbrock, Meredith~Ringel Morris, and Andrew~D Wilson.
   Computing Systems}, pages 1083--1092. ACM, 2009.
 
 \end{thebibliography}
->>>>>>> 7af27467d49b60b7056a6ca7ffe95d4416b783af

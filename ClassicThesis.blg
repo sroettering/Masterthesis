@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This is BibTeX, Version 0.99dThe top-level auxiliary file: ClassicThesis.aux
 A level-1 auxiliary file: FrontBackmatter/Titlepage.aux
 A level-1 auxiliary file: FrontBackmatter/Titleback.aux
@@ -14,67 +13,6 @@ A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
 The style file: plainnat.bst
 Database file #1: Bibliography.bib
 Warning--I didn't find a database entry for "knuth:1974"
-(There was 1 warning)
-=======
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: ClassicThesis.aux
-A level-1 auxiliary file: FrontBackmatter/Titlepage.aux
-A level-1 auxiliary file: FrontBackmatter/Titleback.aux
-A level-1 auxiliary file: FrontBackmatter/Declaration.aux
-A level-1 auxiliary file: FrontBackmatter/Abstract.aux
-A level-1 auxiliary file: FrontBackmatter/Contents.aux
-A level-1 auxiliary file: Chapters/Motivation.aux
-A level-1 auxiliary file: Chapters/RelatedWork.aux
-A level-1 auxiliary file: Chapters/Chapter03.aux
-A level-1 auxiliary file: FrontBackmatter/FiguresTables.aux
-A level-1 auxiliary file: Chapters/Chapter0A.aux
-A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
-The style file: plainnat.bst
-Database file #1: Bibliography.bib
-Warning--I didn't find a database entry for "blumendorf2008multimodal"
-Warning--I didn't find a database entry for "knuth:1974"
+Warning--can't use both volume and number fields in choi2012can
 Warning--empty journal in flemisch2003h
-You've used 8 entries,
-            2773 wiz_defined-function locations,
-            652 strings with 6808 characters,
-and the built_in function-call counts, 4781 in all, are:
-= -- 451
-> -- 274
-< -- 8
-+ -- 92
-- -- 84
-* -- 363
-:= -- 693
-add.period$ -- 29
-call.type$ -- 8
-change.case$ -- 52
-chr.to.int$ -- 8
-cite$ -- 17
-duplicate$ -- 223
-empty$ -- 369
-format.name$ -- 96
-if$ -- 1048
-int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 7
-newline$ -- 48
-num.names$ -- 32
-pop$ -- 117
-preamble$ -- 1
-purify$ -- 44
-quote$ -- 0
-skip$ -- 189
-stack$ -- 0
-substring$ -- 217
-swap$ -- 60
-text.length$ -- 5
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 88
-warning$ -- 1
-while$ -- 41
-width$ -- 0
-write$ -- 114
 (There were 3 warnings)
->>>>>>> 7af27467d49b60b7056a6ca7ffe95d4416b783af
