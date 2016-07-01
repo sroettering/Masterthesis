@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  1 JUL 2016 14:34
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  1 JUL 2016 19:24
 entering extended mode
 **ClassicThesis.tex
 
@@ -1060,10 +1060,6 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 29.
 
 
-LaTeX Warning: Reference `ch:fundamentals' on page 3 undefined on input line 29
-.
-
-
 LaTeX Warning: Reference `ch:implementation' on page 3 undefined on input line 
 29.
 
@@ -1072,12 +1068,6 @@ LaTeX Warning: Reference `ch:user-study' on page 3 undefined on input line 29.
 
 
 LaTeX Warning: Reference `ch:evaluation' on page 3 undefined on input line 29.
-
-
-Overfull \hbox (2.78511pt too wide) in paragraph at lines 29--30
-[]\T1/pplj/m/n/10.95 Chapter []2[] first out-lines the re-lated work and Chap-t
-er [] then teaches
- []
 
 
 LaTeX Warning: Reference `ch:conclusion' on page 3 undefined on input line 31.
@@ -1434,10 +1424,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 16914 strings out of 494045
- 261454 string characters out of 3148390
+ 16912 strings out of 494045
+ 261426 string characters out of 3148390
  517908 words of memory out of 3000000
- 19678 multiletter control sequences out of 15000+200000
+ 19676 multiletter control sequences out of 15000+200000
  93745 words of font info for 145 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  45i,13n,67p,1354b,2330s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1447,17 +1437,16 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
 fonts/type1/public/amsfonts/euler/eufm7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/euler/eurb10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/euler/eurm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/euler/eurm7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/mat
-hpazo/fplmr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl/fplrij8a.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/bera/fvmro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/latxfont/lcircle1.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/up
-lb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (27 pages, 231484 bytes).
+ic/amsfonts/euler/eurm7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl
+/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl/fplrij8a.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/bera/fvmro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/latxfont/lcircle1.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
+/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
+8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on ClassicThesis.pdf (27 pages, 228349 bytes).
 PDF statistics:
- 342 PDF objects out of 1000 (max. 8388607)
+ 338 PDF objects out of 1000 (max. 8388607)
  85 named destinations out of 1000 (max. 500000)
  19598 words of extra memory for PDF output out of 20736 (max. 10000000)
 
