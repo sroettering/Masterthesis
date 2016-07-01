@@ -1,9 +1,18 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bailly et~al.(2012)Bailly, M{\"u}ller, Rohs, Wigdor, and
+  Kratz]{bailly2012shoesense}
+Gilles Bailly, J{\"o}rg M{\"u}ller, Michael Rohs, Daniel Wigdor, and Sven
+  Kratz.
+\newblock Shoesense: a new perspective on gestural interaction and wearable
+  applications.
+\newblock In \emph{Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 1239--1248. ACM, 2012.
 
 \bibitem[Busse(2014)]{Busse2014Thesis}
 Karoline Busse.

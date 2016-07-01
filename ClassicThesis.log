@@ -1104,12 +1104,7 @@ Overfull \hbox (15.1258pt too wide) in paragraph at lines 51--52
 
 
 
-]
-
-Package natbib Warning: Citation `bailly2012shoesense' on page 6 undefined on i
-nput line 58.
-
-) [6]
+]) [6]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
 apter03.tex
 Chapter 3.
@@ -1391,10 +1386,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 16870 strings out of 494045
- 260721 string characters out of 3148390
- 518320 words of memory out of 3000000
- 19649 multiletter control sequences out of 15000+200000
+ 16873 strings out of 494045
+ 260805 string characters out of 3148390
+ 517394 words of memory out of 3000000
+ 19651 multiletter control sequences out of 15000+200000
  93745 words of font info for 145 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  45i,13n,67p,1114b,2330s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1411,9 +1406,9 @@ X 2.9/fonts/type1/bera/fvmro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/latxfont/lcircle1.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (21 pages, 215295 bytes).
+Output written on ClassicThesis.pdf (21 pages, 215860 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
  19598 words of extra memory for PDF output out of 20736 (max. 10000000)
 
