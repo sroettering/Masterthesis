@@ -38,7 +38,9 @@ Each technique can be used for the simpler actions of the music player such as p
 Both applications are implemented for the android platform. The handheld device has no further hardware or software requirements other than supporting the android wearable \ac{API} so a Samsung Galaxy S6 is chosen. The smartwatch application certainly requires the device to be equipped with a acceleration sensor and a microphone. A moto360 from Motorola is well suited for this. Both devices need to support Bluetooth, too.
 
 \section{User Interface}
-The \ac{GUI} from the mobile application only differs in appearance from the wear \ac{GUI}. In terms of control over the music player, both versions offer the same possibilities and show the same information at any given time. The wear application, however, additionally introduces speech and gesture interactions which the mobile application is not capable of.
+The \ac{GUI} from the mobile application only differs from the wear \ac{GUI} in terms of appearance. In terms of control over the music player, both versions offer the same possibilities and show the same information (when connected) at any given time. The wear application, however, additionally introduces speech and gesture interactions which the mobile application is not capable of.
+
+It is noteworthy that the Spotify \ac{SDK} offers a lot more functionality than implemented, such as creating own playlists or searching the entire Spotify music library for keywords. The implemented music player, however, just offers the basic playback functionalities in order to keep the application simple and to not overload the experiment participants with information since they have to remember how to control the music player.
 
 \subsection{Touch Input - \ac{GUI}}
 Both \ac{GUI}s are designed to be simple and straightforward. The mobile version mainly consists of two areas. Figure \ref{fig:mobileGUI} depicts a screenshot of this layout. A control panel is situated at the bottom of the screen. Above this is a left-right scrollable pager containing different kinds of lists. \marginpar{Categories are Spotify's extended version of genres} The scrollable list pager contains five lists, one for each music arrangement which are playlists, songs, albums, artists and categories.
@@ -48,11 +50,9 @@ Both \ac{GUI}s are designed to be simple and straightforward. The mobile version
 	\caption{\ac{GUI} of the mobile application. (1) shows the left-right scrollable list pager with indicators which list is shown at the top. (2) shows the player control panel in blue.}
 	\label{fig:mobileGUI}
 \end{figure}
-
 The control panel located beneath the list pager contains four control buttons such as a shuffle button including on-off indicator, a skip to previous song button, a play-pause button and a skip to next song button. Unlike the wear application, the mobile version spares buttons for controlling the volume, because most devices own hardware buttons for this purpose. Information on the name of the current song and artist can be found above these buttons. The track's progress and total duration can be found at the very bottom of the screen. \\
 
-%TODO gui watch: intro text
-However, the intention of the wear application is, that the user does not need to bother reaching his mobile phone. For this reason, the wear application's \ac{GUI} offers the same amount of touch control over the music player. Figure \ref{fig:wearGUI} demonstrates the layout of the wear application. It consists of a GridViewPager with three horizontal pages. Figure \ref{fig:wearGUI-controls} shows the main control page which is divided into five rows (1) - (5). A dot indicator showing the current page with a bigger dot is located at the top of the screen in row (1). 
+However, the intention of the wear application is, that the user does not need to bother reaching his mobile phone. For this reason, the wear application's \ac{GUI} offers the same amount of touch control over the music player. Figure \ref{fig:wearGUI} demonstrates the layout of the wear application. It consists of a GridViewPager with three horizontal pages. 
 
 \begin{figure}[bth]
 	\myfloatalign
@@ -72,7 +72,20 @@ However, the intention of the wear application is, that the user does not need t
 	\label{fig:wearGUI}
 \end{figure}
 
+Figure \ref{fig:wearGUI-controls} shows the main control page which is divided into five rows (1) - (5). A dot indicator showing the current page with a bigger dot is located at the top of the screen in row (1). Row (2) contains the current artist and track that is playing. Row (3) and (4) contain the control buttons, i.e. in (3) the buttons for play previous song, toggle play and pause, play next song and in (4) the buttons for decrease volume, toggle shuffle (grey = off, green = on) and increase volume are located. Row (5) contains two icons which indicate whether speech and gesture recognition are active (green) or inactive (grey).
+
+Figure \ref{fig:wearGUI-select} shows the page in the middle which is reached by swiping over the screen from right to left. The page contains a vertical scrollable list of the five music arrangements, namely playlists, songs, albums, artists and categories. Selecting a list entry scrolls to the right (the third) page which always adapts its list showing the respective items in the selected arrangement. \\
+
+The moto360 smartwatch is equipped with a battery saving mode called ambient mode. In this mode cpu processing is reduced and it is recommended\footnote{\url{https://developer.android.com/training/wearables/apps/always-on.html}} to reduce the \ac{UI} layout to a black background and white text color. Updates to the \ac{UI} should then happen on a several seconds up to a minute basis. Applications that run in both ambient and interactive mode are called \textit{always-on apps}. The transition from interactive to ambient mode happens either automatically after a short period of user inactivity or can be forced by covering the screen. Leaving ambient mode happens either by touching the screen or by bringing up the wrist as in looking at the time. Figure \ref{fig:wearGUI-ambient} depicts the control page of the wear application running in ambient mode with a black background and white text and icon color. \\
+
 \subsection{Speech Control}
+The wear application offers the possibility to control the music player via speech commands. In order to enter a speech command, the application must be in interactive mode which activates the continuous speech recognition (indicated by the green microphone in \ref{fig:wearGUI-controls} at the bottom of the screen). The user can then talk to the watch and issue a command. Speech data is recorded and converted to text by the android speech recognition service\footnote{\url{https://developer.android.com/reference/android/speech/SpeechRecognizer.html}}.  The converted text is then send to the mobile application where it is parsed, transformed into a command and finally executed.
+\begin{figure}[bth]
+	\myfloatalign
+	\includegraphics[width=.99\linewidth]{img/SpeechActivityDiagram.png}
+	\caption{Lorem Ipsum}
+	\label{fig:speechAD}
+\end{figure}
 
 \subsection{Gesture Control}
 
