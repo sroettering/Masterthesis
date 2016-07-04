@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  4 JUL 2016 11:12
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  4 JUL 2016 11:35
 entering extended mode
 **ClassicThesis.tex
 
@@ -1131,40 +1131,45 @@ File: img/mobileGUIlabeled.png Graphic file (type png)
 <use img/mobileGUIlabeled.png>
 Package pdftex.def Info: img/mobileGUIlabeled.png used on input line 47.
 (pdftex.def)             Requested size: 151.19897pt x 258.88348pt.
- [10 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/mo
-bileGUIlabeled.png>]
-<img/wearGUIambient.png, id=328, 270.25969pt x 247.67531pt>
-File: img/wearGUIambient.png Graphic file (type png)
 
-<use img/wearGUIambient.png>
-Package pdftex.def Info: img/wearGUIambient.png used on input line 60.
-(pdftex.def)             Requested size: 151.19897pt x 138.56494pt.
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
-<img/wearGUIcontrolsPage.png, id=329, 271.0125pt x 248.42813pt>
+ []
+
+[10 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/mob
+ileGUIlabeled.png>]
+<img/wearGUIcontrolsPage.png, id=331, 271.0125pt x 248.42813pt>
 File: img/wearGUIcontrolsPage.png Graphic file (type png)
 
 <use img/wearGUIcontrolsPage.png>
-Package pdftex.def Info: img/wearGUIcontrolsPage.png used on input line 63.
-(pdftex.def)             Requested size: 151.19897pt x 138.60326pt.
+Package pdftex.def Info: img/wearGUIcontrolsPage.png used on input line 61.
+(pdftex.def)             Requested size: 100.80103pt x 92.40218pt.
 
-<img/wearGUIselect.png, id=330, 268.75406pt x 248.42813pt>
+<img/wearGUIselect.png, id=332, 268.75406pt x 248.42813pt>
 File: img/wearGUIselect.png Graphic file (type png)
 
 <use img/wearGUIselect.png>
-Package pdftex.def Info: img/wearGUIselect.png used on input line 66.
-(pdftex.def)             Requested size: 151.19897pt x 139.76321pt.
+Package pdftex.def Info: img/wearGUIselect.png used on input line 64.
+(pdftex.def)             Requested size: 100.80103pt x 93.17548pt.
 
-<img/wearGUIitems.png, id=331, 268.75406pt x 247.67531pt>
+<img/wearGUIitems.png, id=333, 268.75406pt x 247.67531pt>
 File: img/wearGUIitems.png Graphic file (type png)
 
 <use img/wearGUIitems.png>
-Package pdftex.def Info: img/wearGUIitems.png used on input line 69.
-(pdftex.def)             Requested size: 151.19897pt x 139.33969pt.
+Package pdftex.def Info: img/wearGUIitems.png used on input line 67.
+(pdftex.def)             Requested size: 100.80103pt x 92.89313pt.
+
+<img/wearGUIambient.png, id=334, 270.25969pt x 247.67531pt>
+File: img/wearGUIambient.png Graphic file (type png)
+
+<use img/wearGUIambient.png>
+Package pdftex.def Info: img/wearGUIambient.png used on input line 70.
+(pdftex.def)             Requested size: 100.80103pt x 92.37537pt.
 ) [11 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/w
-earGUIambient.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Maste
-rthesis/img/wearGUIcontrolsPage.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/
-Masterarbeit/Masterthesis/img/wearGUIselect.png> <D:/Users/Sven/Documents/Dropb
-ox/home/Uni/Masterarbeit/Masterthesis/img/wearGUIitems.png>] [12
+earGUIcontrolsPage.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/
+Masterthesis/img/wearGUIselect.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/M
+asterarbeit/Masterthesis/img/wearGUIitems.png> <D:/Users/Sven/Documents/Dropbox
+/home/Uni/Masterarbeit/Masterthesis/img/wearGUIambient.png>] [12
 
 
 
@@ -1361,25 +1366,25 @@ e 142.
 Package natbib Warning: Citation `knuth:1976' on page 25 undefined on input lin
 e 142.
 
-<gfx/example_1.jpg, id=586, 240.9pt x 180.675pt>
+<gfx/example_1.jpg, id=589, 240.9pt x 180.675pt>
 File: gfx/example_1.jpg Graphic file (type jpg)
  <use gfx/example_1.jpg>
 Package pdftex.def Info: gfx/example_1.jpg used on input line 160.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 
-<gfx/example_2.jpg, id=587, 240.9pt x 180.675pt>
+<gfx/example_2.jpg, id=590, 240.9pt x 180.675pt>
 File: gfx/example_2.jpg Graphic file (type jpg)
  <use gfx/example_2.jpg>
 Package pdftex.def Info: gfx/example_2.jpg used on input line 163.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 
-<gfx/example_3.jpg, id=588, 240.9pt x 180.675pt>
+<gfx/example_3.jpg, id=591, 240.9pt x 180.675pt>
 File: gfx/example_3.jpg Graphic file (type jpg)
  <use gfx/example_3.jpg>
 Package pdftex.def Info: gfx/example_3.jpg used on input line 165.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 
-<gfx/example_4.jpg, id=589, 240.9pt x 180.675pt>
+<gfx/example_4.jpg, id=592, 240.9pt x 180.675pt>
 File: gfx/example_4.jpg Graphic file (type jpg)
  <use gfx/example_4.jpg>
 Package pdftex.def Info: gfx/example_4.jpg used on input line 167.
@@ -1426,13 +1431,13 @@ Overfull \hbox (7.23195pt too wide) in paragraph at lines 8--8
  []
 
 
-Overfull \hbox (1.95255pt too wide) in paragraph at lines 8--8
- []\T1/pplj/m/n/10.95 2b[] is the same screen in in-ter-ac-tive mode. Swip- 
+Overfull \hbox (1.3722pt too wide) in paragraph at lines 8--8
+ []\T1/pplj/m/n/10.95 2a[] is the same screen in in-ter-ac-tive mode. Swip- 
  []
 
 
-Overfull \hbox (41.21996pt too wide) in paragraph at lines 8--8
- \T1/pplj/m/n/10.95 the third page []2d[] show-ing a list with all playlists.[]
+Overfull \hbox (39.39131pt too wide) in paragraph at lines 8--8
+ \T1/pplj/m/n/10.95 the third page []2c[] show-ing a list with all playlists.[]
  []  
  []
 
@@ -1670,10 +1675,10 @@ Chapters/Motivation.tex
 Chapters/RelatedWork.tex
 Chapters/Implementation.tex
 img/mobileGUIlabeled.png
-img/wearGUIambient.png
 img/wearGUIcontrolsPage.png
 img/wearGUIselect.png
 img/wearGUIitems.png
+img/wearGUIambient.png
 Chapters/Chapter01.tex
 Examples/classicthesis-article.tex
 Examples/classicthesis-book.tex
@@ -1722,9 +1727,9 @@ X 2.9/fonts/type1/bera/fvmro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/latxfont/lcircle1.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (42 pages, 966232 bytes).
+Output written on ClassicThesis.pdf (42 pages, 967307 bytes).
 PDF statistics:
- 798 PDF objects out of 1000 (max. 8388607)
+ 801 PDF objects out of 1000 (max. 8388607)
  300 named destinations out of 1000 (max. 500000)
  21851 words of extra memory for PDF output out of 24883 (max. 10000000)
 

@@ -49,24 +49,25 @@ Both \ac{GUI}s are designed to be simple and straightforward. The mobile version
 	\label{fig:mobileGUI}
 \end{figure}
 
-The control panel located beneath the list pager contains four control buttons such as a shuffle button including on-off indicator, a skip to previous song button, a play-pause button and a skip to next button. Information on the name of the current song and artist can be found above these buttons. The track's progress and total duration can be found at the very bottom of the screen.
+The control panel located beneath the list pager contains four control buttons such as a shuffle button including on-off indicator, a skip to previous song button, a play-pause button and a skip to next song button. Unlike the wear application, the mobile version spares buttons for controlling the volume, because most devices own hardware buttons for this purpose. Information on the name of the current song and artist can be found above these buttons. The track's progress and total duration can be found at the very bottom of the screen. \\
 
 %TODO gui watch: intro text
+However, the intention of the wear application is, that the user does not need to bother reaching his mobile phone. For this reason, the wear application's \ac{GUI} offers the same amount of touch control over the music player. Figure \ref{fig:wearGUI} demonstrates the layout of the wear application. It consists of a GridViewPager with three horizontal pages. Figure \ref{fig:wearGUI-controls} shows the main control page which is divided into five rows (1) - (5). A dot indicator showing the current page with a bigger dot is located at the top of the screen in row (1). 
 
 \begin{figure}[bth]
 	\myfloatalign
-	\subfloat[control panel in ambient mode]
-	{\label{fig:wearGUI-ambient}
-	\includegraphics[width=.45\linewidth]{img/wearGUIambient.png}} \quad
 	\subfloat[control panel in interactive mode]
 	{\label{fig:wearGUI-controls}
-	\includegraphics[width=.45\linewidth]{img/wearGUIcontrolsPage.png}} \\
+	\includegraphics[width=.3\linewidth]{img/wearGUIcontrolsPage.png}} \quad
 	\subfloat[list of music arrangements]
 	{\label{fig:wearGUI-select}
-	\includegraphics[width=.45\linewidth]{img/wearGUIselect.png}} \quad
+	\includegraphics[width=.3\linewidth]{img/wearGUIselect.png}} \quad
 	\subfloat[list of playlists]
 	{\label{fig:wearGUI-items}
-	\includegraphics[width=.45\linewidth]{img/wearGUIitems.png}}
+	\includegraphics[width=.3\linewidth]{img/wearGUIitems.png}} \\
+	\subfloat[control panel in ambient mode]
+	{\label{fig:wearGUI-ambient}
+	\includegraphics[width=.3\linewidth]{img/wearGUIambient.png}}
 	\caption{ The \ac{GUI} of the wear application consists of a GridViewPager containing three horizontal pages. A dot indicator at the top of the screen shows the current page. \ref{fig:wearGUI-ambient} depicts the controls page in ambient mode, i.e. battery saving mode, while \ref{fig:wearGUI-controls} is the same screen in interactive mode. Swiping right brings up the list of music arrangements \ref{fig:wearGUI-select}. Selecting e.g. playlists switches to the third page \ref{fig:wearGUI-items} showing a list with all playlists.}
 	\label{fig:wearGUI}
 \end{figure}

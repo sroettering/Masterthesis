@@ -6,10 +6,10 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1}{\ignorespaces \ac {GUI} of the mobile application. (1) shows the left-right scrollable list pager with indicators which list is shown at the top. (2) shows the player control panel in blue.\relax }}{10}{figure.caption.10}
 \contentsline {figure}{\numberline {2}{\ignorespaces The \ac {GUI} of the wear application consists of a GridViewPager containing three horizontal pages. A dot indicator at the top of the screen shows the current page. \ref {fig:wearGUI-ambient} depicts the controls page in ambient mode, i.e. battery saving mode, while \ref {fig:wearGUI-controls} is the same screen in interactive mode. Swiping right brings up the list of music arrangements \ref {fig:wearGUI-select}. Selecting e.g. playlists switches to the third page \ref {fig:wearGUI-items} showing a list with all playlists.\relax }}{11}{figure.caption.11}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {control panel in ambient mode}}}{11}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {control panel in interactive mode}}}{11}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {list of music arrangements}}}{11}{subfigure.2.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {list of playlists}}}{11}{subfigure.2.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {control panel in interactive mode}}}{11}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {list of music arrangements}}}{11}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {list of playlists}}}{11}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {control panel in ambient mode}}}{11}{subfigure.2.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3}{\ignorespaces Tu duo titulo debitas latente}}{25}{figure.caption.14}
