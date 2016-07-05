@@ -37,7 +37,7 @@ Each technique can be used for the simpler actions of the music player such as p
 
 Both applications are implemented for the android platform. The handheld device has no further hardware or software requirements other than supporting the android wearable \ac{API} so a Samsung Galaxy S6 is chosen. The smartwatch application certainly requires the device to be equipped with a acceleration sensor and a microphone. A moto360 from Motorola is well suited for this. Both devices need to support Bluetooth, too.
 
-\section{User Interface}
+\section{User Interface}\label{sec:UserInterface}
 The \ac{GUI} from the mobile application only differs from the wear \ac{GUI} in terms of appearance. In terms of control over the music player, both versions offer the same possibilities and show the same information (when connected) at any given time. The wear application, however, additionally introduces speech and gesture interactions which the mobile application is not capable of.
 
 It is noteworthy that the Spotify \ac{SDK} offers a lot more functionality than implemented, such as creating own playlists or searching the entire Spotify music library for keywords. The implemented music player, however, just offers the basic playback functionalities in order to keep the application simple and to not overload the experiment participants with information since they have to remember how to control the music player.
@@ -79,13 +79,65 @@ Figure \ref{fig:wearGUI-select} shows the page in the middle which is reached by
 The moto360 smartwatch is equipped with a battery saving mode called ambient mode. In this mode cpu processing is reduced and it is recommended\footnote{\url{https://developer.android.com/training/wearables/apps/always-on.html}} to reduce the \ac{UI} layout to a black background and white text color. Updates to the \ac{UI} should then happen on a several seconds up to a minute basis. Applications that run in both ambient and interactive mode are called \textit{always-on apps}. The transition from interactive to ambient mode happens either automatically after a short period of user inactivity or can be forced by covering the screen. Leaving ambient mode happens either by touching the screen or by bringing up the wrist as in looking at the time. Figure \ref{fig:wearGUI-ambient} depicts the control page of the wear application running in ambient mode with a black background and white text and icon color. \\
 
 \subsection{Speech Control}
-The wear application offers the possibility to control the music player via speech commands. In order to enter a speech command, the application must be in interactive mode which activates the continuous speech recognition (indicated by the green microphone in \ref{fig:wearGUI-controls} at the bottom of the screen). The user can then talk to the watch and issue a command. Speech data is recorded and converted to text by the android speech recognition service\footnote{\url{https://developer.android.com/reference/android/speech/SpeechRecognizer.html}}.  The converted text is then send to the mobile application where it is parsed, transformed into a command and finally executed.
+The wear application offers the possibility to control the music player via speech commands. In order to enter a speech command, the application must be in interactive mode which activates the continuous speech recognition (indicated by the green microphone seen in \ref{fig:wearGUI-controls} at the bottom of the screen). The user can then talk to the watch and issue a command. Speech data is recorded and converted to text by the android speech recognition service\footnote{\url{https://developer.android.com/reference/android/speech/SpeechRecognizer.html}}. Since the speech recognition happens continuously input must be recognized easily as a possible valid command. Therefor every command has to end with a special final keyword, the word \textit{``bitte''} \marginpar{``Bitte'' is the german word for ``please''}. As soon as the wear application detects this keyword, the converted text is send to the mobile application where it gets parsed, transformed into a command and finally executed. Figure \ref{fig:speechActivityDiagram} illustrates this procedure with an activity diagram. The wear-mobile communication process is described in more detail in section \ref{sec:Communication}.
 \begin{figure}[bth]
 	\myfloatalign
 	\includegraphics[width=.99\linewidth]{img/SpeechActivityDiagram.png}
-	\caption{Lorem Ipsum}
-	\label{fig:speechAD}
+	\caption{Activity diagram of the speech interaction procedure. Actions to the left of the dashed line happen in the wear application and actions to the right of the dashed line happen in the mobile application. At stage (1) a preliminary decision is made whether the converted text resembles a command or not.}
+	\label{fig:speechActivityDiagram}
 \end{figure}
+
+Speech commands can be divided into three groups by their complexity. The first group contains the simplest commands that just consist of one word. Commands in the second group start with a certain keyword and the words afterwards, until the final keyword, are handled as input parameters. Commands in the third group are built by chaining different keywords together forming a simple sentence.
+
+Table \ref{tab:speechCommands} contains the respective keywords for commands in the first two groups. The first six simple keywords represent a command by itself thus belonging to group 1. The \textit{play} command is the only command in group 2 meaning it requires a parameter to work as intended.
+\newpage
+\begin{table}[Hbt]
+	\myfloatalign
+	\begin{tabularx}{\textwidth}{XX} \toprule
+		\tableheadline{Speech Command Keywords} & \tableheadline{Actions in Music Player} \\ 
+		\midrule
+		pause & pause music playback \\
+		weiter & resume music playback \\
+		n\"achstes & skips to next song \\
+		zur\"uck & skips to previous song \\
+		lauter & increases the volume \\
+		leiser & decreases the volume \\
+		\midrule
+		play <music element> & load and play an element from the music library \\
+		\bottomrule
+	\end{tabularx}
+	\caption{Speech commands from the first two groups. The play command is the only command accepting parameters. All other commands in this table belong to group 1. To issue a command, simply activate speech recognition by entering the watches interactive mode and say the keyword followed by the final keyword ``bitte''.}
+	\label{tab:speechCommands}
+\end{table}
+
+Commands in the third group, which are built by chaining the keywords shown in table \ref{tab:speechCommandsAudioFeature} together, offer a special kind of control over the music player. They allow for queuing and playing tracks that differ in the specified audio feature from the current playing track.
+\begin{description}
+	\item[Audio Feature:] Spotify runs a suite of audio analysis algorithms on every track in their catalog. These extract about a dozen high-level acoustic attributes from the audio. Some are well-known musical features, like tempo and loudness. Others are more specialized, like valence and energy.
+\end{description}
+
+The four most intuitive audio features can be used with speech commands, which are\footnote{A complete list of audio features and their meaning can be found at: \url{https://developer.spotify.com/web-api/get-several-audio-features/}}:
+\begin{description}
+
+	\item[Tempo:]The estimated tempo of a track measured in \ac{BPM}. It derives directly from the average beat duration.
+	\item[Energy:]A measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale.
+	\item[Loudness:]The overall loudness of a track in decibles (dB). Loudness values are averaged across the entire track. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values range between -60 and 0 db.
+	\item[Valence:]A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive, while tracks with low valence sound more negative.
+\end{description}
+
+\begin{table}[h]
+	\myfloatalign
+	\begin{tabularx}{\textwidth}{XXX} \toprule
+		\tableheadline{Scaling} & \tableheadline{Direction} & \tableheadline{Audio Feature} \\ 
+		\midrule
+		etwas & mehr & Tempo \\
+		viel & weniger & Energie \\
+		 & & Lautst\"arke \\
+		 & & Stimmung \\
+		\bottomrule
+	\end{tabularx}
+	\caption{Building blocks for commands from the third group. Choose a keyword from each column, chain them to a sentence and attach the final keyword ``bitte'' at the end.}
+	\label{tab:speechCommandsAudioFeature}
+\end{table}
 
 \subsection{Gesture Control}
 
