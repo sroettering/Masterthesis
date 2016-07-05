@@ -87,9 +87,9 @@ The wear application offers the possibility to control the music player via spee
 	\label{fig:speechActivityDiagram}
 \end{figure}
 
-Speech commands can be divided into three groups by their complexity. The first group contains the simplest commands that just consist of one word. Commands in the second group start with a certain keyword and the words afterwards, until the final keyword, are handled as input parameters. Commands in the third group are built by chaining different keywords together forming a simple sentence.
+Speech commands for this music player can be divided into three groups based on their complexity. The first group contains the simplest commands that just consist of one keyword. Commands in the second group start with a keyword and are followd by additional words, until the final keyword occurs, that are handled as the input parameters. Commands in the third group are built by chaining different keywords together forming a simple sentence.
 
-Table \ref{tab:speechCommands} contains the respective keywords for commands in the first two groups. The first six simple keywords represent a command by itself thus belonging to group 1. The \textit{play} command is the only command in group 2 meaning it requires a parameter to work as intended.
+Table \ref{tab:speechCommands} contains the respective keywords for commands in the first two groups. The first six simple keywords each represent a command by itself and thus belong to group 1. The \textit{play} command is the only command in group 2 meaning it requires a parameter to work as intended.
 \newpage
 \begin{table}[Hbt]
 	\myfloatalign
@@ -110,12 +110,12 @@ Table \ref{tab:speechCommands} contains the respective keywords for commands in 
 	\label{tab:speechCommands}
 \end{table}
 
-Commands in the third group, which are built by chaining the keywords shown in table \ref{tab:speechCommandsAudioFeature} together, offer a special kind of control over the music player. They allow for queuing and playing tracks that differ in the specified audio feature from the current playing track.
+Commands in the third group, which are built by chaining the keywords shown in table \ref{tab:speechCommandsAudioFeature} together, offer a special kind of control over the music player. They allow for queuing and playing tracks that differ in terms of an audio feature from the current playing track.
 \begin{description}
 	\item[Audio Feature:] Spotify runs a suite of audio analysis algorithms on every track in their catalog. These extract about a dozen high-level acoustic attributes from the audio. Some are well-known musical features, like tempo and loudness. Others are more specialized, like valence and energy.
 \end{description}
 
-The four most intuitive audio features can be used with speech commands, which are\footnote{A complete list of audio features and their meaning can be found at: \url{https://developer.spotify.com/web-api/get-several-audio-features/}}:
+The four most intuitive audio features are supported by the music player to be used with speech commands, which are\footnote{A complete list of audio features and their meaning can be found at: \url{https://developer.spotify.com/web-api/get-several-audio-features/}}:
 \begin{description}
 
 	\item[Tempo:]The estimated tempo of a track measured in \ac{BPM}. It derives directly from the average beat duration.
@@ -135,9 +135,33 @@ The four most intuitive audio features can be used with speech commands, which a
 		 & & Stimmung \\
 		\bottomrule
 	\end{tabularx}
-	\caption{Building blocks for commands from the third group. Choose a keyword from each column, chain them to a sentence and attach the final keyword ``bitte'' at the end.}
+	\caption{Building blocks (keywords) for commands from the third group. Choose a keyword from each column, chain them to a sentence and attach the final keyword ``bitte'' at the end. The scaling keyword can be omitted.}
 	\label{tab:speechCommandsAudioFeature}
 \end{table}
+
+Changing tracks based on the current track's audio features enables the user to specify what kind of music she wants to listen to in a situation, without deciding on the exact tracks to be played. The pseudo code in listing \ref{lst:audioFeature} is responsible for searching the corresponding tracks in the music library. The new value for the specified audio feature is calculated by first evaluating the direction keyword which determines whether to increase or decrease the current value. The scale keyword then determines the scaling factor which indicates by how much the current value is changed. Therefor the scaling factor is multiplied by the distance between the current value and either the global minimum or maximum value for the given audio feature depending on the direction keyword. Afterwards, tracks in  range of the new calculated value, determined by a tolerance radius, are searched. The tolerance radius is increased by a fix amount as long as no tracks are found. Figure \ref{fig:audioFeatureExample} explains this mechanism with example values.
+
+\begin{lstlisting}[caption=Pseudo code for calculating the new audio feature value and looking up respective tracks with a tolerance radius from the music library, label=lst:audioFeature]
+if(direction == negative) {
+	newValue = cur + (cur - min) * -scale;
+} else {
+	newValue = cur + (max - cur) * scale;
+}
+
+while(noTracksFound) {
+	lookupTracksWithValueAndTolerance(newValue, tolerance);
+	increase(tolerance);
+}
+\end{lstlisting}
+
+\begin{figure}[bth]
+	\myfloatalign
+	\includegraphics[width=.99\linewidth]{img/calcAudioFeatureExample.png}
+	\caption{Example calculation for changing tracks based on the audio's tempo. The big X's show the current and the new value, while the smaller ones depict values with a smaller scaling factor. The red rectangle around the new value illustrates the tolerance radius in which new tracks are searched.}
+	\label{fig:audioFeatureExample}
+\end{figure}
+
+After sending a possible speech command to the mobile application, the text needs to be converted to an applicable command. For this, an algorithm first tries to find keywords %simple group 1 and 2. complex from group 3. decision diagram from note
 
 \subsection{Gesture Control}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  5 JUL 2016 16:02
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  5 JUL 2016 22:26
 entering extended mode
 **ClassicThesis.tex
 
@@ -449,33 +449,6 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
-File: lstlang2.sty 2015/06/04 1.6 listings language file
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang3.sty"
-File: lstlang3.sty 2015/06/04 1.6 listings language file
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
-File: lstlang2.sty 2015/06/04 1.6 listings language file
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang3.sty"
-File: lstlang3.sty 2015/06/04 1.6 listings language file
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
-File: lstlang2.sty 2015/06/04 1.6 listings language file
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang3.sty"
-File: lstlang3.sty 2015/06/04 1.6 listings language file
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
@@ -575,7 +548,7 @@ LaTeX Info: Redefining \pageref on input line 5847.
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 159.
+(scrhack)             need that hack, on input line 161.
 
 
 Package hyperref Message: Driver: hpdftex.
@@ -609,17 +582,17 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 207.
-Package hyperref Info: Option `linktocpage' set `true' on input line 207.
-Package hyperref Info: Option `colorlinks' set `false' on input line 207.
-Package hyperref Info: Option `linktocpage' set `false' on input line 207.
-Package hyperref Info: Option `breaklinks' set `true' on input line 207.
-Package hyperref Info: Option `pageanchor' set `true' on input line 207.
-Package hyperref Info: Option `plainpages' set `false' on input line 207.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 207.
+Package hyperref Info: Option `colorlinks' set `true' on input line 209.
+Package hyperref Info: Option `linktocpage' set `true' on input line 209.
+Package hyperref Info: Option `colorlinks' set `false' on input line 209.
+Package hyperref Info: Option `linktocpage' set `false' on input line 209.
+Package hyperref Info: Option `breaklinks' set `true' on input line 209.
+Package hyperref Info: Option `pageanchor' set `true' on input line 209.
+Package hyperref Info: Option `plainpages' set `false' on input line 209.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 209.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 207.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 207.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 209.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 209.
 
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\classicthes
 is.sty
@@ -1207,11 +1180,18 @@ Overfull \hbox (3.8985pt too wide) in paragraph at lines 121--122
 per Minute
  []
 
-[14]) [15] [16
+[14]
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 8.50006pt on input line 144.
+ <img/calcAudioFeatureExample.png, id=397, 405.01312pt x 210.7875pt>
+File: img/calcAudioFeatureExample.png Graphic file (type png)
 
-
-
-]
+<use img/calcAudioFeatureExample.png>
+Package pdftex.def Info: img/calcAudioFeatureExample.png used on input line 159
+.
+(pdftex.def)             Requested size: 332.64185pt x 173.1267pt.
+) [15] [16 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/
+img/calcAudioFeatureExample.png>]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
 apter01.tex
 Chapter 4.
@@ -1226,6 +1206,9 @@ t line 13.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 9.30756pt on input line 25.
 [17
+
+
+
 
 
 
@@ -1272,8 +1255,6 @@ Overfull \hbox (2.07549pt too wide) in paragraph at lines 252--252
 \T1/fvm/m/sl/9 thesis-config.tex  
  []
 
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 254.
 
 Overfull \hbox (2.07549pt too wide) in paragraph at lines 286--286
  \T1/fvm/m/sl/9 classicthesis.sty
@@ -1404,25 +1385,25 @@ e 142.
 Package natbib Warning: Citation `knuth:1976' on page 29 undefined on input lin
 e 142.
 
-<gfx/example_1.jpg, id=629, 240.9pt x 180.675pt>
+<gfx/example_1.jpg, id=646, 240.9pt x 180.675pt>
 File: gfx/example_1.jpg Graphic file (type jpg)
  <use gfx/example_1.jpg>
 Package pdftex.def Info: gfx/example_1.jpg used on input line 160.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 
-<gfx/example_2.jpg, id=630, 240.9pt x 180.675pt>
+<gfx/example_2.jpg, id=647, 240.9pt x 180.675pt>
 File: gfx/example_2.jpg Graphic file (type jpg)
  <use gfx/example_2.jpg>
 Package pdftex.def Info: gfx/example_2.jpg used on input line 163.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 
-<gfx/example_3.jpg, id=631, 240.9pt x 180.675pt>
+<gfx/example_3.jpg, id=648, 240.9pt x 180.675pt>
 File: gfx/example_3.jpg Graphic file (type jpg)
  <use gfx/example_3.jpg>
 Package pdftex.def Info: gfx/example_3.jpg used on input line 165.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 
-<gfx/example_4.jpg, id=632, 240.9pt x 180.675pt>
+<gfx/example_4.jpg, id=649, 240.9pt x 180.675pt>
 File: gfx/example_4.jpg Graphic file (type jpg)
  <use gfx/example_4.jpg>
 Package pdftex.def Info: gfx/example_4.jpg used on input line 167.
@@ -1479,6 +1460,11 @@ Overfull \hbox (39.39131pt too wide) in paragraph at lines 8--8
  []  
  []
 
+
+Overfull \hbox (5.56685pt too wide) in paragraph at lines 14--14
+ \T1/pplj/m/n/10.95 ra-dius for which new tracks are searched.[] []  
+ []
+
 )
 \tf@lof=\write6
 Package tocbasic Info: character protrusion at lot deactivated on input line 28
@@ -1495,17 +1481,32 @@ Overfull \hbox (15.29033pt too wide) in paragraph at lines 7--7
  \T1/pplj/m/n/10.95 word fol-lowed by the fi-nal key-word ``bitte''.[] []  
  []
 
-)
-\tf@lot=\write7
 
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\ClassicThes
-is.lol [33
+Overfull \hbox (3.90799pt too wide) in paragraph at lines 8--8
+ [][] [][]\T1/pplj/m/n/10.95 Building blocks (key-words) for com-mands from 
+ []
+
+[33
 
 
 
 
 
 ])
+\tf@lot=\write7
+
+(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\ClassicThes
+is.lol
+Overfull \hbox (4.80585pt too wide) in paragraph at lines 7--7
+ \T1/pplj/m/n/10.95 ture value and look-ing up re-spec-tive tracks with 
+ []
+
+
+Overfull \hbox (1.84389pt too wide) in paragraph at lines 7--7
+ \T1/pplj/m/n/10.95 a tol-er-ance ra-dius from the mu-sic li-brary[] []  
+ []
+
+)
 \tf@lol=\write8
  [34])
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
@@ -1636,15 +1637,6 @@ listings.sty    2015/06/04 1.6 (Carsten Heinz)
 listings.cfg    2015/06/04 1.6 listings configuration
 listings.hak    2012/07/29 v3.11b KOMA-Script hacking package listings
 lstlang1.sty    2015/06/04 1.6 listings language file
-lstlang2.sty    2015/06/04 1.6 listings language file
-lstlang3.sty    2015/06/04 1.6 listings language file
-lstlang1.sty    2015/06/04 1.6 listings language file
-lstlang2.sty    2015/06/04 1.6 listings language file
-lstlang3.sty    2015/06/04 1.6 listings language file
-lstlang1.sty    2015/06/04 1.6 listings language file
-lstlang2.sty    2015/06/04 1.6 listings language file
-lstlang3.sty    2015/06/04 1.6 listings language file
- lstmisc.sty    2015/06/04 1.6 (Carsten Heinz)
 hyperref.sty    2012/05/13 v6.82q Hypertext links for LaTeX
 hobsub-hyperref.sty    2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 hobsub-generic.sty    2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
@@ -1728,6 +1720,7 @@ img/wearGUIselect.png
 img/wearGUIitems.png
 img/wearGUIambient.png
 img/SpeechActivityDiagram.png
+img/calcAudioFeatureExample.png
 Chapters/Chapter01.tex
 Examples/classicthesis-article.tex
 Examples/classicthesis-book.tex
@@ -1753,16 +1746,19 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 17551 strings out of 494045
- 273250 string characters out of 3148390
- 730684 words of memory out of 3000000
- 20036 multiletter control sequences out of 15000+200000
- 100040 words of font info for 157 fonts, out of 3000000 for 9000
+ 16447 strings out of 494045
+ 256721 string characters out of 3148390
+ 703824 words of memory out of 3000000
+ 18936 multiletter control sequences out of 15000+200000
+ 100681 words of font info for 160 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 51i,14n,67p,1356b,2290s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,14n,49p,1356b,1907s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Program Files/MiKTeX 2.9/
@@ -1776,9 +1772,9 @@ X 2.9/fonts/type1/bera/fvmro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/latxfont/lcircle1.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (46 pages, 1010943 bytes).
+Output written on ClassicThesis.pdf (46 pages, 1030396 bytes).
 PDF statistics:
- 862 PDF objects out of 1000 (max. 8388607)
- 311 named destinations out of 1000 (max. 500000)
- 21856 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 888 PDF objects out of 1000 (max. 8388607)
+ 323 named destinations out of 1000 (max. 500000)
+ 21861 words of extra memory for PDF output out of 24883 (max. 10000000)
 

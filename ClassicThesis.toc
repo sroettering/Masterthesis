@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {3.1}User Interface}{10}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Touch Input - \ac {GUI}}{10}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Speech Control}{12}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Gesture Control}{15}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}Gesture Control}{16}{subsection.3.1.3}
 \contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Introduction}}{17}{chapter.4}
 \contentsline {paragraph}{Important Note:}{18}{Item.2}
 \contentsline {section}{\numberline {4.1}Organization}{18}{section.4.1}

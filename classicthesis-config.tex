@@ -128,15 +128,17 @@
 % ****************************************************************************************************
 \usepackage{listings} 
 %\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % for special keywords
-\lstset{language=[LaTeX]Tex,%C++,
+\lstset{language=Java,
     keywordstyle=\color{LUHblue},%\bfseries,
     basicstyle=\small\ttfamily,
     %identifierstyle=\color{NavyBlue},
     commentstyle=\color{LUHgreen}\ttfamily,
     stringstyle=\rmfamily,
-    numbers=none,%left,%
+    numbers=left,%
     numberstyle=\scriptsize,%\tiny
-    stepnumber=5,
+    numberfirstline=true,
+    firstnumber=1,
+    stepnumber=1,
     numbersep=8pt,
     showstringspaces=false,
     breaklines=true,

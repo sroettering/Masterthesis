@@ -5,10 +5,10 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {1}{\ignorespaces Speech commands from the first two groups. The play command is the only command accepting parameters. All other commands in this table belong to group 1. To issue a command, simply activate speech recognition by entering the watches interactive mode and say the keyword followed by the final keyword ``bitte''.\relax }}{14}{table.caption.14}
-\contentsline {table}{\numberline {2}{\ignorespaces Building blocks for commands from the third group. Choose a keyword from each column, chain them to a sentence and attach the final keyword ``bitte'' at the end.\relax }}{15}{table.caption.16}
+\contentsline {table}{\numberline {2}{\ignorespaces Building blocks (keywords) for commands from the third group. Choose a keyword from each column, chain them to a sentence and attach the final keyword ``bitte'' at the end. The scaling keyword can be omitted.\relax }}{15}{table.caption.16}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3}{\ignorespaces Autem timeam deleniti usu id}}{29}{table.caption.18}
+\contentsline {table}{\numberline {3}{\ignorespaces Autem timeam deleniti usu id}}{29}{table.caption.19}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4}{\ignorespaces Autem usu id}}{35}{table.caption.24}
+\contentsline {table}{\numberline {4}{\ignorespaces Autem usu id}}{35}{table.caption.25}
