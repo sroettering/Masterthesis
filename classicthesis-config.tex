@@ -119,7 +119,18 @@
 \newcommand{\myfloatalign}{\centering} % to be used with each float for alignment
 \usepackage{caption}
 \captionsetup{format=hang,font=small}
-\usepackage{subfig}  
+\usepackage{subfig}
+
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+
+% Plots
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+\pgfplotsset{compat=newest}
+
 % ****************************************************************************************************
 
 

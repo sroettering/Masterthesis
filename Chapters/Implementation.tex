@@ -202,7 +202,7 @@ The following commands are examples from every group executed on the music libra
 %}
 
 \subsection{Gesture Control}
-The third interaction technique supported by the implemented music player involves acceleration based gesture recognition. With this the user is able to issue commands to the player without looking at or touching the screen with the other hand.
+The third interaction technique supported by the implemented music player involves acceleration based gesture recognition. With this the user is able to issue commands to the player without looking at or touching the screen with the other hand. Gesture commands on the contrary are not as powerful as touch input or speech commands. They only offer control for pause and resume, skip to next song, back to previous song as well as increase and decrease volume. The other commands that speech input offers would result in gestures too complex to perform and remember for a user.
 
 For this, a pre-built event-driven gesture recognition library called \textit{Wiigee}\footnote{Official Wiigee site: \url{www.wiigee.org}} is used. Wiigee accepts three dimensional acceleration vectors as input for pattern training and recognition. The vectors are sent through a four-level recognition pipeline which is shown in Figure \ref{fig:wiigeePipeline}. \cite{Schlomer:2008:GRW:1347390.1347395} describe the four stages of the pipeline in detail.
 
@@ -213,11 +213,54 @@ For this, a pre-built event-driven gesture recognition library called \textit{Wi
 	\label{fig:wiigeePipeline}
 \end{figure}
 
-In order to recognize gestures, they first have to be trained to wiigee. For later use, the data for every gesture can be saved to a file afterwards. \cite{Schlomer:2008:GRW:1347390.1347395} claims that a training session with five to ten repetitions is sufficient for Wiigee to learn a new gesture. The gestures for controlling the music player are kept short and simple as \cite{kuhnel2011m} suggest. However, to avoid unintentional commands and to save battery life, an activation gesture has to be performed beforehand. Also, Wiigee does not support continuous gesture recognition. Figure \ref{fig:gestures} shows a list of all supported gestures and their meaning including the activation gesture. 
+In order to recognize gestures, they first have to be trained to wiigee. For later use, the data for every gesture can be saved to a file afterwards. \cite{Schlomer:2008:GRW:1347390.1347395} claims that a training session with five to ten repetitions is sufficient for Wiigee to learn a new gesture. The gestures for controlling the music player are kept short and simple as \cite{kuhnel2011m} suggest. However, to avoid unintentional commands and to save battery life, an activation gesture has to be performed beforehand. Also, Wiigee does not support continuous gesture recognition. Figure \ref{fig:gestures} shows a list of all supported gestures and their meaning including the activation gesture.
 
-The activation gesture is performed by rotating the watch with its face down reaching a pitch of at least 70\textdegree. For this, the rotation of the watch is constantly measured with android's software-based \textit{Game Rotation Vector Sensor}\footnote{Documentation can be found here: \url{https://developer.android.com/guide/topics/sensors/sensors_position.html}}. When gesture recognition gets activated, the user receives a sequence of three vibrations as feedback from the watch.
+\newpage
 
-Because it can not be assumed that users wear their watch in the same position and certainly have different wrist anatomies, a suited pitch value for the activation gesture has to be determined. An informal experiment involving x participants has been conducted, where each participant had the task to turn their wrist five times as much as possible without getting uncomfortable. The minimum values from each participant series are plotted in figure \ref{fig:pitchPlot}.
+\begin{figure}[Hbt]
+	\myfloatalign
+	\subfloat[Activation gesture]
+	{\label{fig:gesturesActivation}
+	\includegraphics[width=.3\linewidth]{img/activationgesture.png}} \quad
+	\subfloat[swipe arm from left to right: skip to next song]
+	{\label{fig:gesturesNext}
+	\includegraphics[width=.3\linewidth]{img/next.png}} \quad
+	\subfloat[swing arm upwards: increase volume]
+	{\label{fig:gesturesVolumeup}
+	\includegraphics[width=.3\linewidth]{img/volumeup.png}} \\
+	\subfloat[punch forward: play and pause]
+	{\label{fig:gesturesPlaypause}
+	\includegraphics[width=.3\linewidth]{img/playpause.png}} \quad
+	\subfloat[swipe arm from right to left: back to previous song]
+	{\label{fig:gesturesPrevious}
+	\includegraphics[width=.3\linewidth]{img/previous.png}} \quad
+	\subfloat[swing arm downwards: decrease volume]
+	{\label{fig:gesturesVolumedown}
+	\includegraphics[width=.3\linewidth]{img/volumedown.png}}
+	\caption{\ref{fig:gesturesActivation} depicts the activation gesture where the arm is bent and the watch face is turned down until the pitch threshold is reached. When the vibration countdown is over, one of the other five gestures can be performed to issue a command to the music player.}
+	\label{fig:gestures}
+\end{figure}
+
+The activation gesture is performed by rotating the watch with its face down reaching a pitch of at least -70\textdegree or lower. For this, the rotation of the watch is constantly measured with android's software-based \textit{Game Rotation Vector Sensor}\footnote{Documentation can be found here: \url{https://developer.android.com/guide/topics/sensors/sensors_position.html}}. When the gesture recognition gets activated, the user receives a sequence of three vibrations as feedback from the watch after which a gesture can be performed.
+
+Because it can not be assumed that users wear their watch in the same position and certainly have different wrist anatomies, a suited pitch value for the activation gesture has to be determined. An informal experiment involving 26 participants has been conducted, where each participant had the task to turn their wrist five times as much as possible without getting uncomfortable. The minimum values from each participant series are plotted in figure \ref{fig:pitchPlot}.
+
+\begin{figure}
+	\myfloatalign
+	\begin{tikzpicture}
+		\begin{axis}[
+			width=\linewidth,
+			xlabel=Participant No.,
+			ylabel=Pitch in degree,
+			ybar,
+		]
+		\addplot
+		table[x=number,y=pitch, col sep=comma]{data/minPitchValues.csv};
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Minimum absolute pitch values for each participant. The minimum absolute pitch value that every participant reached is 70.3}
+	\label{fig:pitchPlot}
+\end{figure}
 
 %Chapter \ref{ch:implementation} 
 
