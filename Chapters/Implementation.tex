@@ -204,7 +204,7 @@ The following commands are examples from every group executed on the music libra
 \subsection{Gesture Control}
 The third interaction technique supported by the implemented music player involves acceleration based gesture recognition. With this the user is able to issue commands to the player without looking at or touching the screen with the other hand.
 
-For this, a pre-built gesture recognition library called \textit{Wiigee}\footnote{Official Wiigee site: \url{www.wiigee.org}} is used. Wiigee accepts three dimensional acceleration vectors as input for pattern training and recognition. The vectors are sent through a four-level recognition pipeline which is shown in Figure \ref{fig:wiigeePipeline}. \cite{Schlomer:2008:GRW:1347390.1347395} describe the four stages of the pipeline in detail.
+For this, a pre-built event-driven gesture recognition library called \textit{Wiigee}\footnote{Official Wiigee site: \url{www.wiigee.org}} is used. Wiigee accepts three dimensional acceleration vectors as input for pattern training and recognition. The vectors are sent through a four-level recognition pipeline which is shown in Figure \ref{fig:wiigeePipeline}. \cite{Schlomer:2008:GRW:1347390.1347395} describe the four stages of the pipeline in detail.
 
 \begin{figure}[bth]
 	\myfloatalign
@@ -213,7 +213,11 @@ For this, a pre-built gesture recognition library called \textit{Wiigee}\footnot
 	\label{fig:wiigeePipeline}
 \end{figure}
 
+In order to recognize gestures, they first have to be trained to wiigee. For later use, the data for every gesture can be saved to a file afterwards. \cite{Schlomer:2008:GRW:1347390.1347395} claims that a training session with five to ten repetitions is sufficient for Wiigee to learn a new gesture. The gestures for controlling the music player are kept short and simple as \cite{kuhnel2011m} suggest. However, to avoid unintentional commands and to save battery life, an activation gesture has to be performed beforehand. Also, Wiigee does not support continuous gesture recognition. Figure \ref{fig:gestures} shows a list of all supported gestures and their meaning including the activation gesture. 
 
+The activation gesture is performed by rotating the watch with its face down reaching a pitch of at least 70\textdegree. For this, the rotation of the watch is constantly measured with android's software-based \textit{Game Rotation Vector Sensor}\footnote{Documentation can be found here: \url{https://developer.android.com/guide/topics/sensors/sensors_position.html}}. When gesture recognition gets activated, the user receives a sequence of three vibrations as feedback from the watch.
+
+Because it can not be assumed that users wear their watch in the same position and certainly have different wrist anatomies, a suited pitch value for the activation gesture has to be determined. An informal experiment involving x participants has been conducted, where each participant had the task to turn their wrist five times as much as possible without getting uncomfortable. The minimum values from each participant series are plotted in figure \ref{fig:pitchPlot}.
 
 %Chapter \ref{ch:implementation} 
 
