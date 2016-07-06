@@ -194,8 +194,26 @@ The following commands are examples from every group executed on the music libra
 \end{description}
 
 % http://venturebeat.com/2015/05/28/google-says-its-speech-recognition-technology-now-has-only-an-8-word-error-rate/ use in evaluation chapter!
+% how to bibtex webpages:
+% @misc{WinNT,
+%  title = {{MS Windows NT} Kernel Description},
+%  howpublished = {\url{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}},
+%  note = {Accessed: 2010-09-30}
+%}
 
 \subsection{Gesture Control}
+The third interaction technique supported by the implemented music player involves acceleration based gesture recognition. With this the user is able to issue commands to the player without looking at or touching the screen with the other hand.
+
+For this, a pre-built gesture recognition library called \textit{Wiigee}\footnote{Official Wiigee site: \url{www.wiigee.org}} is used. Wiigee accepts three dimensional acceleration vectors as input for pattern training and recognition. The vectors are sent through a four-level recognition pipeline which is shown in Figure \ref{fig:wiigeePipeline}. \cite{Schlomer:2008:GRW:1347390.1347395} describe the four stages of the pipeline in detail.
+
+\begin{figure}[bth]
+	\myfloatalign
+	\includegraphics[width=.99\linewidth]{img/wiigeePipeline.png}
+	\caption{Original from \cite{Schlomer:2008:GRW:1347390.1347395}. Four-level recognition pipeline that first filters vector data und clusters it using a k-means algorithm. Subsequently a hidden markov model is fed with the clustered data and classified by a Bayesian classifier.}
+	\label{fig:wiigeePipeline}
+\end{figure}
+
+
 
 %Chapter \ref{ch:implementation} 
 

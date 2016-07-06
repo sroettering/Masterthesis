@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{11}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -69,6 +69,17 @@ Henning Pohl and Michael Rohs.
 \newblock In \emph{Proceedings of the 16th international conference on
   Human-computer interaction with mobile devices \& services}, pages 81--90.
   ACM, 2014.
+
+\bibitem[Schl\"{o}mer et~al.(2008)Schl\"{o}mer, Poppinga, Henze, and
+  Boll]{Schlomer:2008:GRW:1347390.1347395}
+Thomas Schl\"{o}mer, Benjamin Poppinga, Niels Henze, and Susanne Boll.
+\newblock Gesture recognition with a wii controller.
+\newblock In \emph{Proceedings of the 2Nd International Conference on Tangible
+  and Embedded Interaction}, TEI '08, pages 11--14, New York, NY, USA, 2008.
+  ACM.
+\newblock ISBN 978-1-60558-004-3.
+\newblock \doi{10.1145/1347390.1347395}.
+\newblock URL \url{http://doi.acm.org/10.1145/1347390.1347395}.
 
 \bibitem[Wobbrock et~al.(2009)Wobbrock, Morris, and Wilson]{wobbrock2009user}
 Jacob~O Wobbrock, Meredith~Ringel Morris, and Andrew~D Wilson.
