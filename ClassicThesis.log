@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  5 JUL 2016 22:26
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  6 JUL 2016 12:09
 entering extended mode
 **ClassicThesis.tex
 
@@ -1173,52 +1173,68 @@ home/Uni/Masterarbeit/Masterthesis/img/wearGUIambient.png>] [13 <D:/Users/Sven/
 Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/SpeechActivityDiagram.
 png>]
 Package acronym Info: Label `acro:BPM' newly defined as it shall be overridden
-although it is yet undefined on input line 121.
+although it is yet undefined on input line 120.
 
-Overfull \hbox (3.8985pt too wide) in paragraph at lines 121--122
+Overfull \hbox (3.8985pt too wide) in paragraph at lines 120--121
 []\T1/pplj/m/n/10.95 The es-ti-mated tempo of a track mea-sured in [][][]Beats 
 per Minute
  []
 
 [14]
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 144.
+(Font)              scaled to size 8.50006pt on input line 143.
  <img/calcAudioFeatureExample.png, id=397, 405.01312pt x 210.7875pt>
 File: img/calcAudioFeatureExample.png Graphic file (type png)
 
 <use img/calcAudioFeatureExample.png>
-Package pdftex.def Info: img/calcAudioFeatureExample.png used on input line 159
+Package pdftex.def Info: img/calcAudioFeatureExample.png used on input line 158
 .
 (pdftex.def)             Requested size: 332.64185pt x 173.1267pt.
-) [15] [16 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/
-img/calcAudioFeatureExample.png>]
+ [15] [16 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/i
+mg/calcAudioFeatureExample.png>]
+
+Package Listings Warning: Text dropped after begin of listing on input line 169
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+
+Overfull \hbox (8.74768pt too wide) in paragraph at lines 192--193
+[]\T1/pplj/m/n/10.95 enqueues and plays all tracks by Hard-
+ []
+
+) [17] [18
+
+
+
+]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
 apter01.tex
 Chapter 4.
 
-Package natbib Warning: Citation `bringhurst:2002' on page 17 undefined on inpu
+Package natbib Warning: Citation `bringhurst:2002' on page 19 undefined on inpu
 t line 12.
 
 
-Package natbib Warning: Citation `bringhurst:2002' on page 17 undefined on inpu
+Package natbib Warning: Citation `bringhurst:2002' on page 19 undefined on inpu
 t line 13.
 
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 9.30756pt on input line 25.
-[17
+[19
 
 
 
-
-
-
-] [18]
+] [20]
 Overfull \hbox (2.23529pt too wide) in paragraph at lines 114--118
 []\T1/fvm/m/n/10.95 classicthesis-config.tex\T1/pplj/m/n/10.95 : a cen-tral pla
 ce to load all nifty pack-
  []
 
-[19]
+[21]
 Overfull \hbox (9.23082pt too wide) in paragraph at lines 171--173
 []\T1/fvm/m/n/10.95 eulermath\T1/pplj/m/n/10.95 : loads the awe-some Eu-ler fon
 ts for math. (Palatino
@@ -1242,7 +1258,7 @@ Overfull \hbox (11.02849pt too wide) in paragraph at lines 240--242
 1/fvm/m/n/10.95 classicthesis
  []
 
-[20]
+[22]
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
 (Font)              scaled to size 7.65005pt on input line 252.
 
@@ -1275,7 +1291,7 @@ LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10.95> not available
 (Font)              Font shape `T1/fvm/m/sl' tried instead on input line 302.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
 (Font)              scaled to size 9.30756pt on input line 302.
-[21]
+[23]
 
 LaTeX Font Warning: Font shape `T1/fvm/m/sc' undefined
 (Font)              using `T1/fvm/m/n' instead on input line 319.
@@ -1292,28 +1308,28 @@ Overfull \hbox (25.9616pt too wide) in paragraph at lines 346--346
 babel}[] 
  []
 
-[22]
+[24]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Examples/cl
-assicthesis-article.tex [23])
+assicthesis-article.tex [25])
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Examples/cl
-assicthesis-book.tex [24])
+assicthesis-book.tex [26])
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Examples/cl
-assicthesis-cv.tex [25])
+assicthesis-cv.tex [27])
 Overfull \hbox (7.80904pt too wide) in paragraph at lines 406--411
 \T1/pplj/m/it/10.95 with-out any war-ranty\T1/pplj/m/n/10.95 ; with-out even th
 e im-plied war-ranty of \T1/pplj/m/it/10.95 mer-chantabil-
  []
 
-) [26]
+) [28]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
 apter02.tex
 Chapter 5.
 
-Package natbib Warning: Citation `dueck:trio' on page 27 undefined on input lin
+Package natbib Warning: Citation `dueck:trio' on page 29 undefined on input lin
 e 7.
 
 
-Package natbib Warning: Citation `dueck:trio' on page 27 undefined on input lin
+Package natbib Warning: Citation `dueck:trio' on page 29 undefined on input lin
 e 7.
 
 
@@ -1332,90 +1348,90 @@ Package acronym Warning: Acronym `UML' is not defined on input line 30.
 
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 30.
-[27
+[29
 
 
 
 
 ]
 
-Package natbib Warning: Citation `bentley:1999' on page 28 undefined on input l
+Package natbib Warning: Citation `bentley:1999' on page 30 undefined on input l
 ine 65.
 
 
-Package natbib Warning: Citation `bentley:1999' on page 28 undefined on input l
+Package natbib Warning: Citation `bentley:1999' on page 30 undefined on input l
 ine 66.
 
 
-Package natbib Warning: Citation `cormen:2001' on page 28 undefined on input li
+Package natbib Warning: Citation `cormen:2001' on page 30 undefined on input li
 ne 82.
 
 
-Package natbib Warning: Citation `cormen:2001' on page 28 undefined on input li
+Package natbib Warning: Citation `cormen:2001' on page 30 undefined on input li
 ne 82.
 
 
-Package natbib Warning: Citation `knuth:1976' on page 28 undefined on input lin
+Package natbib Warning: Citation `knuth:1976' on page 30 undefined on input lin
 e 98.
 
 
-Package natbib Warning: Citation `knuth:1976' on page 28 undefined on input lin
+Package natbib Warning: Citation `knuth:1976' on page 30 undefined on input lin
 e 99.
 
 
-Package natbib Warning: Citation `sommerville:1992' on page 28 undefined on inp
+Package natbib Warning: Citation `sommerville:1992' on page 30 undefined on inp
 ut line 110.
 
 
-Package natbib Warning: Citation `sommerville:1992' on page 28 undefined on inp
+Package natbib Warning: Citation `sommerville:1992' on page 30 undefined on inp
 ut line 111.
 
-[28]
+[30]
 
-Package natbib Warning: Citation `knuth:1976' on page 29 undefined on input lin
+Package natbib Warning: Citation `knuth:1976' on page 31 undefined on input lin
 e 140.
 
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 142.
 
-Package natbib Warning: Citation `knuth:1976' on page 29 undefined on input lin
+Package natbib Warning: Citation `knuth:1976' on page 31 undefined on input lin
 e 142.
 
 
-Package natbib Warning: Citation `knuth:1976' on page 29 undefined on input lin
+Package natbib Warning: Citation `knuth:1976' on page 31 undefined on input lin
 e 142.
 
-<gfx/example_1.jpg, id=646, 240.9pt x 180.675pt>
+<gfx/example_1.jpg, id=674, 240.9pt x 180.675pt>
 File: gfx/example_1.jpg Graphic file (type jpg)
  <use gfx/example_1.jpg>
 Package pdftex.def Info: gfx/example_1.jpg used on input line 160.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 
-<gfx/example_2.jpg, id=647, 240.9pt x 180.675pt>
+<gfx/example_2.jpg, id=675, 240.9pt x 180.675pt>
 File: gfx/example_2.jpg Graphic file (type jpg)
  <use gfx/example_2.jpg>
 Package pdftex.def Info: gfx/example_2.jpg used on input line 163.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 
-<gfx/example_3.jpg, id=648, 240.9pt x 180.675pt>
+<gfx/example_3.jpg, id=676, 240.9pt x 180.675pt>
 File: gfx/example_3.jpg Graphic file (type jpg)
  <use gfx/example_3.jpg>
 Package pdftex.def Info: gfx/example_3.jpg used on input line 165.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 
-<gfx/example_4.jpg, id=649, 240.9pt x 180.675pt>
+<gfx/example_4.jpg, id=677, 240.9pt x 180.675pt>
 File: gfx/example_4.jpg Graphic file (type jpg)
  <use gfx/example_4.jpg>
 Package pdftex.def Info: gfx/example_4.jpg used on input line 167.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 )
-[29 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/gfx/exa
+[31 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/gfx/exa
 mple_1.jpg> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis
 /gfx/example_2.jpg> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Mast
 erthesis/gfx/example_3.jpg> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarb
 eit/Masterthesis/gfx/example_4.jpg>]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
-apter03.tex [30
+apter03.tex [32
 
 
 
@@ -1423,7 +1439,7 @@ apter03.tex [30
 ]
 Chapter 6.
 
-Package natbib Warning: Citation `knuth:1974' on page 31 undefined on input lin
+Package natbib Warning: Citation `knuth:1974' on page 33 undefined on input lin
 e 7.
 
 
@@ -1432,7 +1448,7 @@ Overfull \hbox (1.89992pt too wide) in paragraph at lines 4--8
  no decore
  []
 
-[31]) [32]
+[33]) [34]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/FiguresTables.tex
 Package tocbasic Info: character protrusion at lof deactivated on input line 17
@@ -1460,11 +1476,6 @@ Overfull \hbox (39.39131pt too wide) in paragraph at lines 8--8
  []  
  []
 
-
-Overfull \hbox (5.56685pt too wide) in paragraph at lines 14--14
- \T1/pplj/m/n/10.95 ra-dius for which new tracks are searched.[] []  
- []
-
 )
 \tf@lof=\write6
 Package tocbasic Info: character protrusion at lot deactivated on input line 28
@@ -1486,7 +1497,7 @@ Overfull \hbox (3.90799pt too wide) in paragraph at lines 8--8
  [][] [][]\T1/pplj/m/n/10.95 Building blocks (key-words) for com-mands from 
  []
 
-[33
+[35
 
 
 
@@ -1508,7 +1519,7 @@ Overfull \hbox (1.84389pt too wide) in paragraph at lines 7--7
 
 )
 \tf@lol=\write8
- [34])
+ [36])
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
 apter0A.tex
 Appendix A.
@@ -1524,7 +1535,7 @@ Overfull \hbox (1.89992pt too wide) in paragraph at lines 22--25
  no decore
  []
 
-[35
+[37
 
 
 
@@ -1533,18 +1544,18 @@ Overfull \hbox (1.89992pt too wide) in paragraph at lines 22--25
 
 
 
-]) [36]
+]) [38]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/Bibliography.tex
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\ClassicThes
-is.bbl [37
+is.bbl [39
 
 
 
 
 
 
-])) [38]
+])) [40]
 
 Package natbib Warning: There were undefined citations.
 
@@ -1746,19 +1757,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 16447 strings out of 494045
- 256721 string characters out of 3148390
- 703824 words of memory out of 3000000
- 18936 multiletter control sequences out of 15000+200000
+ 16487 strings out of 494045
+ 257221 string characters out of 3148390
+ 705020 words of memory out of 3000000
+ 18958 multiletter control sequences out of 15000+200000
  100681 words of font info for 160 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 51i,14n,49p,1356b,1907s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,14n,49p,1380b,1907s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Program Files/MiKTeX 2.9/
@@ -1772,9 +1780,9 @@ X 2.9/fonts/type1/bera/fvmro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/latxfont/lcircle1.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (46 pages, 1030396 bytes).
+Output written on ClassicThesis.pdf (48 pages, 1040199 bytes).
 PDF statistics:
- 888 PDF objects out of 1000 (max. 8388607)
- 323 named destinations out of 1000 (max. 500000)
+ 924 PDF objects out of 1000 (max. 8388607)
+ 341 named destinations out of 1000 (max. 500000)
  21861 words of extra memory for PDF output out of 24883 (max. 10000000)
 

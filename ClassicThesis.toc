@@ -7,32 +7,32 @@
 \contentsline {section}{\numberline {3.1}User Interface}{10}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Touch Input - \ac {GUI}}{10}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Speech Control}{12}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Gesture Control}{16}{subsection.3.1.3}
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Introduction}}{17}{chapter.4}
-\contentsline {paragraph}{Important Note:}{18}{Item.2}
-\contentsline {section}{\numberline {4.1}Organization}{18}{section.4.1}
-\contentsline {section}{\numberline {4.2}Style Options}{19}{section.4.2}
-\contentsline {section}{\numberline {4.3}Customization}{20}{section.4.3}
-\contentsline {section}{\numberline {4.4}Issues}{21}{section.4.4}
-\contentsline {paragraph}{Further information for using \texttt {classicthesis} with Spanish (in addition to the above)}{22}{section.4.4}
-\contentsline {section}{\numberline {4.5}Future Work}{23}{section.4.5}
-\contentsline {section}{\numberline {4.6}Beyond a Thesis}{23}{section.4.6}
-\contentsline {section}{\numberline {4.7}License}{26}{section.4.7}
-\contentsline {paragraph}{GNU General Public License:}{26}{section.4.7}
-\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Examples}}{27}{chapter.5}
-\contentsline {section}{\numberline {5.1}A New Section}{27}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Test for a Subsection}{27}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Autem Timeam}{27}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Another Section in This Chapter}{28}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Personas Initialmente}{28}{subsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.1.1}A Subsubsection}{28}{subsubsection.5.2.1.1}
-\contentsline {paragraph}{A Paragraph Example}{28}{subsubsection.5.2.1.1}
-\contentsline {subsection}{\numberline {5.2.2}Linguistic Registrate}{29}{subsection.5.2.2}
-\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Math Test Chapter}}{31}{chapter.6}
-\contentsline {section}{\numberline {6.1}Some Formulas}{31}{section.6.1}
-\contentsline {section}{\numberline {6.2}Various Mathematical Examples}{32}{section.6.2}
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{35}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Section Test}{35}{section.A.1}
-\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{35}{section.A.2}
+\contentsline {subsection}{\numberline {3.1.3}Gesture Control}{17}{subsection.3.1.3}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Introduction}}{19}{chapter.4}
+\contentsline {paragraph}{Important Note:}{20}{Item.2}
+\contentsline {section}{\numberline {4.1}Organization}{20}{section.4.1}
+\contentsline {section}{\numberline {4.2}Style Options}{21}{section.4.2}
+\contentsline {section}{\numberline {4.3}Customization}{22}{section.4.3}
+\contentsline {section}{\numberline {4.4}Issues}{23}{section.4.4}
+\contentsline {paragraph}{Further information for using \texttt {classicthesis} with Spanish (in addition to the above)}{24}{section.4.4}
+\contentsline {section}{\numberline {4.5}Future Work}{25}{section.4.5}
+\contentsline {section}{\numberline {4.6}Beyond a Thesis}{25}{section.4.6}
+\contentsline {section}{\numberline {4.7}License}{28}{section.4.7}
+\contentsline {paragraph}{GNU General Public License:}{28}{section.4.7}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Examples}}{29}{chapter.5}
+\contentsline {section}{\numberline {5.1}A New Section}{29}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Test for a Subsection}{29}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Autem Timeam}{29}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Another Section in This Chapter}{30}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Personas Initialmente}{30}{subsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1.1}A Subsubsection}{30}{subsubsection.5.2.1.1}
+\contentsline {paragraph}{A Paragraph Example}{30}{subsubsection.5.2.1.1}
+\contentsline {subsection}{\numberline {5.2.2}Linguistic Registrate}{31}{subsection.5.2.2}
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Math Test Chapter}}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Some Formulas}{33}{section.6.1}
+\contentsline {section}{\numberline {6.2}Various Mathematical Examples}{34}{section.6.2}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{37}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix Section Test}{37}{section.A.1}
+\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{37}{section.A.2}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{37}{dummy.7}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{39}{dummy.7}

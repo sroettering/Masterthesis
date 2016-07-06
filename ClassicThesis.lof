@@ -11,13 +11,13 @@
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {list of playlists}}}{12}{subfigure.2.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {control panel in ambient mode}}}{12}{subfigure.2.4}
 \contentsline {figure}{\numberline {3}{\ignorespaces Activity diagram of the speech interaction procedure. Actions to the left of the dashed line happen in the wear application and actions to the right of the dashed line happen in the mobile application. At stage (1) a preliminary decision is made whether the converted text resembles a command or not.\relax }}{13}{figure.caption.13}
-\contentsline {figure}{\numberline {4}{\ignorespaces Example calculation for changing tracks based on the audio's tempo. The big X's show the current and the new value, while the smaller ones depict values with a smaller scaling factor. The red rectangle around the new value illustrates the tolerance radius for which new tracks are searched.\relax }}{16}{figure.caption.17}
+\contentsline {figure}{\numberline {4}{\ignorespaces Example calculation for changing tracks based on the audio's tempo. The big X's show the current and the new value, while the smaller ones depict values with a smaller scaling factor. The red rectangle around the new value illustrates the tolerance radius in which new tracks are searched.\relax }}{16}{figure.caption.17}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5}{\ignorespaces Tu duo titulo debitas latente}}{29}{figure.caption.20}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Asia personas duo.}}}{29}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Pan ma signo.}}}{29}{subfigure.5.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Methodicamente o uno.}}}{29}{subfigure.5.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Titulo debitas.}}}{29}{subfigure.5.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Tu duo titulo debitas latente}}{31}{figure.caption.20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Asia personas duo.}}}{31}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Pan ma signo.}}}{31}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Methodicamente o uno.}}}{31}{subfigure.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Titulo debitas.}}}{31}{subfigure.5.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

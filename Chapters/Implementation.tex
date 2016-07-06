@@ -79,7 +79,7 @@ Figure \ref{fig:wearGUI-select} shows the page in the middle which is reached by
 The moto360 smartwatch is equipped with a battery saving mode called ambient mode. In this mode cpu processing is reduced and it is recommended\footnote{\url{https://developer.android.com/training/wearables/apps/always-on.html}} to reduce the \ac{UI} layout to a black background and white text color. Updates to the \ac{UI} should then happen on a several seconds up to a minute basis. Applications that run in both ambient and interactive mode are called \textit{always-on apps}. The transition from interactive to ambient mode happens either automatically after a short period of user inactivity or can be forced by covering the screen. Leaving ambient mode happens either by touching the screen or by bringing up the wrist as in looking at the time. Figure \ref{fig:wearGUI-ambient} depicts the control page of the wear application running in ambient mode with a black background and white text and icon color. \\
 
 \subsection{Speech Control}
-The wear application offers the possibility to control the music player via speech commands. In order to enter a speech command, the application must be in interactive mode which activates the continuous speech recognition (indicated by the green microphone seen in \ref{fig:wearGUI-controls} at the bottom of the screen). The user can then talk to the watch and issue a command. Speech data is recorded and converted to text by the android speech recognition service\footnote{\url{https://developer.android.com/reference/android/speech/SpeechRecognizer.html}}. Since the speech recognition happens continuously input must be recognized easily as a possible valid command. Therefor every command has to end with a special final keyword, the word \textit{``bitte''} \marginpar{``Bitte'' is the german word for ``please''}. As soon as the wear application detects this keyword, the converted text is send to the mobile application where it gets parsed, transformed into a command and finally executed. Figure \ref{fig:speechActivityDiagram} illustrates this procedure with an activity diagram. The wear-mobile communication process is described in more detail in section \ref{sec:Communication}.
+The wear application offers the possibility to control the music player via speech commands. In order to enter a speech command, the application must be in interactive mode which activates the continuous speech recognition (indicated by the green microphone seen in \ref{fig:wearGUI-controls} at the bottom of the screen). The user can then talk to the watch and issue a command. Speech data is recorded and converted to text by the android speech recognition service\footnote{\url{https://developer.android.com/reference/android/speech/SpeechRecognizer.html}}. Since the speech recognition happens continuously input must be recognized easily as a possible valid command. Therefor every command has to end with a special final keyword, the word \textit{``bitte''}\marginpar{``Bitte'' is the german word for ``please''}. As soon as the wear application detects this keyword, the converted text is send to the mobile application where it gets parsed, transformed into a command and finally executed. Figure \ref{fig:speechActivityDiagram} illustrates this procedure with an activity diagram. The wear-mobile communication process is described in more detail in section \ref{sec:Communication}.
 \begin{figure}[bth]
 	\myfloatalign
 	\includegraphics[width=.99\linewidth]{img/SpeechActivityDiagram.png}
@@ -117,7 +117,6 @@ Commands in the third group, which are built by chaining the keywords shown in t
 
 The four most intuitive audio features are supported by the music player to be used with speech commands, which are\footnote{A complete list of audio features and their meaning can be found at: \url{https://developer.spotify.com/web-api/get-several-audio-features/}}:
 \begin{description}
-
 	\item[Tempo:]The estimated tempo of a track measured in \ac{BPM}. It derives directly from the average beat duration.
 	\item[Energy:]A measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale.
 	\item[Loudness:]The overall loudness of a track in decibles (dB). Loudness values are averaged across the entire track. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values range between -60 and 0 db.
@@ -139,7 +138,7 @@ The four most intuitive audio features are supported by the music player to be u
 	\label{tab:speechCommandsAudioFeature}
 \end{table}
 
-Changing tracks based on the current track's audio features enables the user to specify what kind of music she wants to listen to in a situation, without deciding on the exact tracks to be played. The pseudo code in listing \ref{lst:audioFeature} is responsible for searching the corresponding tracks in the music library. The new value for the specified audio feature is calculated by first evaluating the direction keyword which determines whether to increase or decrease the current value. The scale keyword then determines the scaling factor which indicates by how much the current value is changed. Therefor the scaling factor is multiplied by the distance between the current value and either the global minimum or maximum value for the given audio feature depending on the direction keyword. Afterwards, tracks in  range of the new calculated value, determined by a tolerance radius, are searched. The tolerance radius is increased by a fix amount as long as no tracks are found. Figure \ref{fig:audioFeatureExample} explains this mechanism with example values.
+Changing tracks based on the current track's audio features enables the user to specify what kind of music she wants to listen to in a situation, without deciding on the exact tracks to be played. The pseudo code in listing \ref{lst:audioFeature} is responsible for searching the corresponding tracks in the music library. The new value for the specified audio feature is calculated in line 2 respectively 4 by first evaluating the direction keyword which determines whether to increase or decrease the current value. The scale keyword then determines the scaling factor which indicates by how much the current value is changed. Therefor the scaling factor is multiplied by the distance between the current value and either the global minimum or maximum value for the given audio feature depending on the direction keyword. Afterwards, tracks in  range of the new calculated value, determined by a tolerance radius, are searched (line 7 and forth). The tolerance radius is increased by a fix amount as long as no tracks are found. Figure \ref{fig:audioFeatureExample} explains this mechanism with example values.
 
 \begin{lstlisting}[caption=Pseudo code for calculating the new audio feature value and looking up respective tracks with a tolerance radius from the music library, label=lst:audioFeature]
 if(direction == negative) {
@@ -161,7 +160,40 @@ while(noTracksFound) {
 	\label{fig:audioFeatureExample}
 \end{figure}
 
-After sending a possible speech command to the mobile application, the text needs to be converted to an applicable command. For this, an algorithm first tries to find keywords %simple group 1 and 2. complex from group 3. decision diagram from note
+After sending a possible speech command to the mobile application, the text needs to be converted to an applicable command. For this, a conversion algorithm first searches the text for command keywords from the first two speech command groups (see table \ref{tab:speechCommands}) and creates a token of a respective type for it when found. Tokens that belong to the simple commands in the first group are directly mapped to their corresponding music player command and then executed. 
+
+In case the text contains a \textit{play} keyword which is followed by at least one word, an additional token is created for it, being the parameter of the command.\marginpar{Item names of songs and albums are a combination of their name and the artist} The algorithm then tries to find the desired music library item by comparing the item name with the parameter text. Because item names often contain additional artifacts, such as \textit{Radio Edit} or \textit{Original Mix}, and the speech to text conversion is not always accurate, comparison is not based on equality but rather on similarity. The pseudo code in listing \ref{lst:stringSimilarity} finds the item name with the highest similarity to the parameter text based on the \textit{Levensthein distance}\footnote{String metric for measuring the number of required edits in one string in order to match the other.}. An item name which equals the parameter text can be considered as most similar. However, in case the item name is longer than the command's parameter, the foreach loop starting in line 7 computes the minimum distance for every substring of the item name with the same length of the parameter. In the end, the item with the minimum distance which is equal to the highest similarity to the parameter is returned and played.
+
+\newpage
+
+\begin{lstlisting}[caption=Calculating parameter and music item name similarity, label=lst:stringSimilarity][Ht]
+var mostSimilarItem = null;
+foreach(item in library) {
+  if(parameter == item.name) { 
+    return item; // distance is already 0, so we found the item
+  }
+  var minDistance = Integer.MAX;
+  foreach(substring s of item.name with s.length == parameter.length) { // if the parameter is longer than the item name, only one iteration happens
+    distance = Levensthein(parameter, s);
+    if(distance < minDistance) { // less distance equals higher similarity
+      minDistance = distance;
+      mostSimilarItem = item;
+    }
+  }
+}
+return mostSimilarItem;
+\end{lstlisting}
+
+If no keywords for group 1 or 2 are found, the conversion algorithm checks for keywords belonging to the third group and creates a token for each one. The text is a valid command if at least a token for the direction and the audio feature is present. A scaling keyword can be omitted and the order of the tokens is not considered. The tokens are then used to directly set the parameters of the formula for calculating the new value for the specified audio feature (see listing \ref{lst:audioFeature}).\\
+
+The following commands are examples from every group executed on the music library from a private spotify account:
+\begin{description}
+	\item[1. ``n\"achstes, bitte'':] skips to the next song in the queue
+	\item[2. ``play Hardwell, bitte'':] enqueues and plays all tracks by Hardwell from the library
+	\item[3. ``viel mehr Tempo, bitte'':] plays tracks from the library with significantly increased tempo compared to the current
+\end{description}
+
+% http://venturebeat.com/2015/05/28/google-says-its-speech-recognition-technology-now-has-only-an-8-word-error-rate/ use in evaluation chapter!
 
 \subsection{Gesture Control}
 
