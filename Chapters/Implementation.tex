@@ -2,29 +2,6 @@
 \chapter{Implementation}\label{ch:implementation}
 %************************************************
 
-\begin{itemize}
-
-\item{
-	Intro text describing what is implemented, features, hardware
-}
-\item{
-	Show user interface and describe mechanics. how to speech and gesture. mention activation angle study and show plot. 
-}
-\item{
-	Mention Modules and communicationManager. show communication protocol. maybe uml diagram of whole application
-}
-\item{
-	Describe Handheld module. introduce spotify api + webapi wrapper.
-}
-\item{
-	Describe Wear module
-}
-\item{
-	possible improvements and restrictions to the program (like leaving out unneeded spotify features), input feedback
-}
-
-\end{itemize}
-
 This chapter describes the smartwatch controlled mobile music player implementation. It gives an insight into the chosen interaction techniques, the mobile-wear communication and the core music player functions.
 
 The essential music library is provided by a private Spotify\footnote{Music streaming service: \url{www.spotify.com}} premium account. The prototype is divided into two separate applications, i.e. mobile (handheld) and wear (smartwatch). Users are able to access all features of the mobile application via the smartwatch application. In order to make use of the focused-casual continuum \cite{pohl2013focused}, three interaction techniques, differing in the amount of control granted, are available for the user:
@@ -33,8 +10,9 @@ The essential music library is provided by a private Spotify\footnote{Music stre
 \item{Speech}
 \item{Gesture}
 \end{itemize}
-Each technique can be used for the simpler actions of the music player such as play and pause, skip to previous or next song and changing the volume. However, for the more complex interactions, e.g. choosing a playlist, only the touch and speech interaction methods suffice. Gesture and speech input can be performed casually while not even looking at the device (the smartwatch). The following section describes the functionality and the power of the different methods.
+Each technique can be used for the simpler actions of the music player such as play and pause, skip to previous or next song and changing the volume. However, for the more complex interactions, e.g. choosing a playlist, only the touch and speech interaction methods suffice. Gesture and speech input can be performed casually while not even looking at the device (the smartwatch). Section \ref{sec:UserInterface} describes the functionality and the power of the different methods.
 
+\section{Hardware Requirements}\label{sec:hardwarerequirements}
 Both applications are implemented for the android platform. The handheld device has no further hardware or software requirements other than supporting the android wearable \ac{API} so a Samsung Galaxy S6 is chosen. The smartwatch application certainly requires the device to be equipped with a acceleration sensor and a microphone. A moto360 from Motorola is well suited for this. Both devices need to support Bluetooth, too.
 
 \section{User Interface}\label{sec:UserInterface}
@@ -164,8 +142,6 @@ After sending a possible speech command to the mobile application, the text need
 
 In case the text contains a \textit{play} keyword which is followed by at least one word, an additional token is created for it, being the parameter of the command.\marginpar{Item names of songs and albums are a combination of their name and the artist} The algorithm then tries to find the desired music library item by comparing the item name with the parameter text. Because item names often contain additional artifacts, such as \textit{Radio Edit} or \textit{Original Mix}, and the speech to text conversion is not always accurate, comparison is not based on equality but rather on similarity. The pseudo code in listing \ref{lst:stringSimilarity} finds the item name with the highest similarity to the parameter text based on the \textit{Levensthein distance}\footnote{String metric for measuring the number of required edits in one string in order to match the other.}. An item name which equals the parameter text can be considered as most similar. However, in case the item name is longer than the command's parameter, the foreach loop starting in line 7 computes the minimum distance for every substring of the item name with the same length of the parameter. In the end, the item with the minimum distance which is equal to the highest similarity to the parameter is returned and played.
 
-\newpage
-
 \begin{lstlisting}[caption=Calculating parameter and music item name similarity, label=lst:stringSimilarity][Ht]
 var mostSimilarItem = null;
 foreach(item in library) {
@@ -201,10 +177,10 @@ The following commands are examples from every group executed on the music libra
 %  note = {Accessed: 2010-09-30}
 %}
 
-\subsection{Gesture Control}
+\subsection{Gesture Control}\label{sub:gestureControl}
 The third interaction technique supported by the implemented music player involves acceleration based gesture recognition. With this the user is able to issue commands to the player without looking at or touching the screen with the other hand. Gesture commands on the contrary are not as powerful as touch input or speech commands. They only offer control for pause and resume, skip to next song, back to previous song as well as increase and decrease volume. The other commands that speech input offers would result in gestures too complex to perform and remember for a user.
 
-For this, a pre-built event-driven gesture recognition library called \textit{Wiigee}\footnote{Official Wiigee site: \url{www.wiigee.org}} is used. Wiigee accepts three dimensional acceleration vectors as input for pattern training and recognition. The vectors are sent through a four-level recognition pipeline which is shown in Figure \ref{fig:wiigeePipeline}. \cite{Schlomer:2008:GRW:1347390.1347395} describe the four stages of the pipeline in detail.
+For this, a pre-built event-driven gesture recognition library called \textit{Wiigee}\footnote{Official Wiigee site: \url{www.wiigee.org}} is used. Wiigee accepts three dimensional acceleration vectors as input for pattern training and recognition. The vectors are sent through a four-level recognition pipeline which is shown in Figure \ref{fig:wiigeePipeline}. \cite{Schlomer:2008:GRW:1347390.1347395} describe the four stages of the pipeline in detail. They observed an average rate of correctly recognized gestures of 90\%. 
 
 \begin{figure}[bth]
 	\myfloatalign
@@ -213,37 +189,37 @@ For this, a pre-built event-driven gesture recognition library called \textit{Wi
 	\label{fig:wiigeePipeline}
 \end{figure}
 
-In order to recognize gestures, they first have to be trained to wiigee. For later use, the data for every gesture can be saved to a file afterwards. \cite{Schlomer:2008:GRW:1347390.1347395} claims that a training session with five to ten repetitions is sufficient for Wiigee to learn a new gesture. The gestures for controlling the music player are kept short and simple as \cite{kuhnel2011m} suggest. However, to avoid unintentional commands and to save battery life, an activation gesture has to be performed beforehand. Also, Wiigee does not support continuous gesture recognition. Figure \ref{fig:gestures} shows a list of all supported gestures and their meaning including the activation gesture.
+In order to recognize gestures, they first have to be trained to wiigee. For later use, the data for every gesture can be saved to a file afterwards. \cite{Schlomer:2008:GRW:1347390.1347395} claims that a training session with five to ten repetitions is sufficient for Wiigee to learn a new gesture. The gestures for controlling the music player are kept short and simple as \cite{kuhnel2011m} suggest. However, to avoid unintentional commands and to save battery life, an activation gesture has to be performed beforehand. Also, Wiigee does not support continuous gesture recognition. Figure \ref{fig:gestures} shows a list of all supported gestures and their meaning including the activation gesture. 
 
-\newpage
+Once Wiigee recognized a gesture it notifies the registered listeners sending the recognized gesture id and a confidence score between 0 and 1. In order to filter out false positives, the confidence score has to exceed 0.97 before the gesture is accepted by mapping its id to a music player command.
 
 \begin{figure}[Hbt]
 	\myfloatalign
 	\subfloat[Activation gesture]
 	{\label{fig:gesturesActivation}
-	\includegraphics[width=.3\linewidth]{img/activationgesture.png}} \quad
+	\includegraphics[width=.25\linewidth]{img/activationgesture.png}} \quad
 	\subfloat[swipe arm from left to right: skip to next song]
 	{\label{fig:gesturesNext}
-	\includegraphics[width=.3\linewidth]{img/next.png}} \quad
+	\includegraphics[width=.25\linewidth]{img/next.png}} \quad
 	\subfloat[swing arm upwards: increase volume]
 	{\label{fig:gesturesVolumeup}
-	\includegraphics[width=.3\linewidth]{img/volumeup.png}} \\
+	\includegraphics[width=.25\linewidth]{img/volumeup.png}} \\
 	\subfloat[punch forward: play and pause]
 	{\label{fig:gesturesPlaypause}
-	\includegraphics[width=.3\linewidth]{img/playpause.png}} \quad
+	\includegraphics[width=.25\linewidth]{img/playpause.png}} \quad
 	\subfloat[swipe arm from right to left: back to previous song]
 	{\label{fig:gesturesPrevious}
-	\includegraphics[width=.3\linewidth]{img/previous.png}} \quad
+	\includegraphics[width=.25\linewidth]{img/previous.png}} \quad
 	\subfloat[swing arm downwards: decrease volume]
 	{\label{fig:gesturesVolumedown}
-	\includegraphics[width=.3\linewidth]{img/volumedown.png}}
+	\includegraphics[width=.25\linewidth]{img/volumedown.png}}
 	\caption{\ref{fig:gesturesActivation} depicts the activation gesture where the arm is bent and the watch face is turned down until the pitch threshold is reached. When the vibration countdown is over, one of the other five gestures can be performed to issue a command to the music player.}
 	\label{fig:gestures}
 \end{figure}
 
-The activation gesture is performed by rotating the watch with its face down reaching a pitch of at least -70\textdegree or lower. For this, the rotation of the watch is constantly measured with android's software-based \textit{Game Rotation Vector Sensor}\footnote{Documentation can be found here: \url{https://developer.android.com/guide/topics/sensors/sensors_position.html}}. When the gesture recognition gets activated, the user receives a sequence of three vibrations as feedback from the watch after which a gesture can be performed.
+The activation gesture is performed by rotating the watch with its face down reaching a pitch of at least -70\textdegree or lower. For this, the rotation of the watch is constantly measured with android's software-based \textit{Game Rotation Vector Sensor}\footnote{Documentation can be found here: \url{https://developer.android.com/guide/topics/sensors/sensors_position.html}}. When the gesture recognition gets activated, the user receives a sequence of three vibrations as feedback from the watch after which a gesture can be performed. Wiigee's recognition algorithm is sensitive to the device rotation, hence the device orientation during recognition should be approximately the same as it was during the training in order to be recognized correctly.
 
-Because it can not be assumed that users wear their watch in the same position and certainly have different wrist anatomies, a suited pitch value for the activation gesture has to be determined. An informal experiment involving 26 participants has been conducted, where each participant had the task to turn their wrist five times as much as possible without getting uncomfortable. The minimum values from each participant series are plotted in figure \ref{fig:pitchPlot}.
+Since it can not be assumed that users wear their watch in the same position and certainly have different wrist anatomies, a suited pitch value for the activation gesture has to be determined. An informal experiment involving 26 participants has been conducted, where each participant had the task to turn their wrist five times as much as possible without getting uncomfortable. The minimum values from each participant series are plotted in figure \ref{fig:pitchPlot}.
 
 \begin{figure}
 	\myfloatalign
@@ -261,6 +237,63 @@ Because it can not be assumed that users wear their watch in the same position a
 	\caption{Minimum absolute pitch values for each participant. The minimum absolute pitch value that every participant reached is 70.3}
 	\label{fig:pitchPlot}
 \end{figure}
+
+Wiigee is an event-based library where the training and recognition process is started by virtual button presses and completed by virtual button releases. In case of the Wiimote\footnote{Wiimote is a remote controller for the Nintendo Wii}, for which wiigee was originally designed, users were able to press real buttons. Gesture recognition on the smartwatch, however, can not be activated by real buttons, therefor training and recognition are activated by a virtual button press which is send to wiigee after the vibration countdown from the activation gesture. The virtual button release for finishing the training or recognition process is send automatically to wiigee after 750ms, which is enough time to perform each gesture. Deactivating the recognition process as soon as the device stops moving could not be used in this case, since this event can not be reliably detected.\\
+
+\section{Mobile-Wear Communication}\label{sec:Communication}
+Controlling the music player with the smartwatch requires some communication to happen between the watch and the mobile device. Android provides a solution for this which is called the Wearable Data Layer \ac{API}\footnote{\url{https://developer.android.com/training/wearables/data-layer/index.html}} that is part of Google Play Services. It offers a communication channel for smartphone and wearable applications. In particular, the \textit{MessageApi} class which is responsibule for sending text messages back and forth suffices for the music player. A message can have different types determined by a string that has to be attached to the message. Table \ref{tab:messageTypes} lists all types that can be attached to a message in both the wearable and mobile application as well as their purpose and when they are sent. Figure \ref{fig:communicationoverview} illustrates in which direction the messages are sent.
+
+A communication manager class in both applications is responsible for sending and receiving these messsages. When a message is received, the communication manager forwards the message to the application parts concerned which then execute a corresponding action.
+
+\begin{table}[h]
+	\myfloatalign
+	\begin{tabularx}{\textwidth}{XXX} \toprule
+		\tableheadline{Message Type} & \tableheadline{When Sent} & \tableheadline{Purpose} \\ 
+		\midrule
+		data request & wear app start. & Indicates the mobile app that music library data is needed. \\
+		list data & mobile app start or when a data request was received. & Contains a list of display names for all music items in the library. \\
+		update & on music player's state change, i.e. when the track is changed, a play or pause command ocurred or shuffle was toggled. & Contains all information to keep mobile and wear \ac{UI} synchronized. \\
+		touch command & on touch or gesture input on the wear app. & Contains a string representation of the issued command. A gesture id is mapped to the same string as its respective touch command is (see \ref{sub:gestureControl}). \\
+		spech command & after user completed a speech command & Recorded text is sent to the mobile app to convert it into a command \\
+		\bottomrule
+	\end{tabularx}
+	\caption{List of the different message types, when they are sent and what their content or purpose is.}
+	\label{tab:messageTypes}
+\end{table}
+
+\begin{figure}[bth]
+	\myfloatalign
+	\includegraphics[width=.99\linewidth]{img/CommunicationOverview.png}
+	\caption{A Message can be of five different types: a data request type, list data type containing information about the music library, an update type containing the current music player state, a touch command type and a speech command type which both are sent from the wearable application and answered by the mobile application afterwards. The two greyed out message types on the right are included for the sake of completeness and are only used for the user study.}
+	\label{fig:communicationoverview}
+\end{figure}
+
+
+
+%%%%%%%%%%%%%% TODO
+
+\begin{itemize}
+
+\item{
+	Intro text describing what is implemented, features, hardware
+}
+\item{
+	Show user interface and describe mechanics. how to speech and gesture. mention activation angle study and show plot. 
+}
+\item{
+	Mention Modules and communicationManager. show communication protocol. maybe uml diagram of whole application
+}
+\item{
+	Describe Handheld module. introduce spotify api + webapi wrapper.
+}
+\item{
+	Describe Wear module
+}
+\item{
+	possible improvements and restrictions to the program (like leaving out unneeded spotify features), input feedback
+}
+
+\end{itemize}
 
 %Chapter \ref{ch:implementation} 
 

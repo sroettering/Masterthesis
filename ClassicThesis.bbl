@@ -1,9 +1,16 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[sma()]{smartphoneSurvey}
+Smartphone ownership and internet usage continues to climb in emerging
+  economies.
+\newblock
+  \url{http://www.pewglobal.org/2016/02/22/smartphone-ownership-and-internet-usage-continues-to-climb-in-emerging-economies/}.
+\newblock Accessed: 2016-04-16.
 
 \bibitem[Bailly et~al.(2012)Bailly, M{\"u}ller, Rohs, Wigdor, and
   Kratz]{bailly2012shoesense}
