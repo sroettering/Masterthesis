@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  7 JUL 2016 19:48
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  8 JUL 2016 16:55
 entering extended mode
 **ClassicThesis.tex
 
@@ -1278,7 +1278,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
-tter/Titlepage.tex <gfx/welfenschloss.pdf, id=162, 1530.71875pt x 439.6425pt>
+tter/Titlepage.tex <gfx/welfenschloss.pdf, id=166, 1530.71875pt x 439.6425pt>
 File: gfx/welfenschloss.pdf Graphic file (type pdf)
 
 <use gfx/welfenschloss.pdf>
@@ -1375,9 +1375,9 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package acronym Info: Label `acro:GUI' newly defined as it shall be overridden
-although it is yet undefined on input line 9.
+although it is yet undefined on input line 10.
 
-Overfull \hbox (12.57477pt too wide) in paragraph at lines 9--9
+Overfull \hbox (12.57477pt too wide) in paragraph at lines 10--10
  [][] [][]\T1/pplj/m/n/10.95 Touch In-put - [][][]Graphical User In-ter-face ([
 ])[][] []  
  []
@@ -1476,183 +1476,182 @@ although it is yet undefined on input line 16.
 
 ]
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 24.
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 27.
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <9> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 24.
- <img/mobileGUIlabeled.png, id=333, 677.53125pt x 1160.08406pt>
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 27.
+ <img/mobileGUIlabeled.png, id=338, 677.53125pt x 1160.08406pt>
 File: img/mobileGUIlabeled.png Graphic file (type png)
 
 <use img/mobileGUIlabeled.png>
-Package pdftex.def Info: img/mobileGUIlabeled.png used on input line 27.
+Package pdftex.def Info: img/mobileGUIlabeled.png used on input line 30.
 (pdftex.def)             Requested size: 151.19897pt x 258.88348pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--32
+Underfull \hbox (badness 10000) in paragraph at lines 27--35
 
  []
 
-[10 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/mob
-ileGUIlabeled.png>]
-<img/wearGUIcontrolsPage.png, id=345, 271.0125pt x 248.42813pt>
+<img/wearGUIcontrolsPage.png, id=344, 271.0125pt x 248.42813pt>
 File: img/wearGUIcontrolsPage.png Graphic file (type png)
 
 <use img/wearGUIcontrolsPage.png>
-Package pdftex.def Info: img/wearGUIcontrolsPage.png used on input line 39.
+Package pdftex.def Info: img/wearGUIcontrolsPage.png used on input line 42.
 (pdftex.def)             Requested size: 100.80103pt x 92.40218pt.
 
-<img/wearGUIselect.png, id=346, 268.75406pt x 248.42813pt>
+<img/wearGUIselect.png, id=345, 268.75406pt x 248.42813pt>
 File: img/wearGUIselect.png Graphic file (type png)
 
 <use img/wearGUIselect.png>
-Package pdftex.def Info: img/wearGUIselect.png used on input line 42.
+Package pdftex.def Info: img/wearGUIselect.png used on input line 45.
 (pdftex.def)             Requested size: 100.80103pt x 93.17548pt.
 
-<img/wearGUIitems.png, id=347, 268.75406pt x 247.67531pt>
+<img/wearGUIitems.png, id=346, 268.75406pt x 247.67531pt>
 File: img/wearGUIitems.png Graphic file (type png)
 
 <use img/wearGUIitems.png>
-Package pdftex.def Info: img/wearGUIitems.png used on input line 45.
+Package pdftex.def Info: img/wearGUIitems.png used on input line 48.
 (pdftex.def)             Requested size: 100.80103pt x 92.89313pt.
 
-<img/wearGUIambient.png, id=348, 270.25969pt x 247.67531pt>
+<img/wearGUIambient.png, id=347, 270.25969pt x 247.67531pt>
 File: img/wearGUIambient.png Graphic file (type png)
 
 <use img/wearGUIambient.png>
-Package pdftex.def Info: img/wearGUIambient.png used on input line 48.
+Package pdftex.def Info: img/wearGUIambient.png used on input line 51.
 (pdftex.def)             Requested size: 100.80103pt x 92.37537pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-[11 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/wea
-rGUIcontrolsPage.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Ma
-sterthesis/img/wearGUIselect.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/Mas
-terarbeit/Masterthesis/img/wearGUIitems.png> <D:/Users/Sven/Documents/Dropbox/h
-ome/Uni/Masterarbeit/Masterthesis/img/wearGUIambient.png>]
 Package acronym Info: Label `acro:UI' newly defined as it shall be overridden
-although it is yet undefined on input line 57.
+although it is yet undefined on input line 60.
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 [][][]$\T1/fvm/m/n/9 https : / / developer . android . com / reference / androi
 d / speech / SpeechRecognizer .$
  []
 
-<img/SpeechActivityDiagram.png, id=383, 475.7775pt x 362.10281pt>
+<img/SpeechActivityDiagram.png, id=375, 475.7775pt x 362.10281pt>
 File: img/SpeechActivityDiagram.png Graphic file (type png)
 
 <use img/SpeechActivityDiagram.png>
-Package pdftex.def Info: img/SpeechActivityDiagram.png used on input line 63.
+Package pdftex.def Info: img/SpeechActivityDiagram.png used on input line 66.
 (pdftex.def)             Requested size: 332.64185pt x 253.17738pt.
- [12] [13 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/i
-mg/SpeechActivityDiagram.png>]
+ [11 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/mo
+bileGUIlabeled.png>] [12 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit
+/Masterthesis/img/wearGUIcontrolsPage.png> <D:/Users/Sven/Documents/Dropbox/hom
+e/Uni/Masterarbeit/Masterthesis/img/wearGUIselect.png> <D:/Users/Sven/Documents
+/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/wearGUIitems.png> <D:/Users/Sve
+n/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/wearGUIambient.png>]
+ [13 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/Sp
+eechActivityDiagram.png>]
 Package acronym Info: Label `acro:BPM' newly defined as it shall be overridden
-although it is yet undefined on input line 98.
+although it is yet undefined on input line 101.
 
-Overfull \hbox (3.8985pt too wide) in paragraph at lines 98--99
+Overfull \hbox (3.8985pt too wide) in paragraph at lines 101--102
 []\T1/pplj/m/n/10.95 The es-ti-mated tempo of a track mea-sured in [][][]Beats 
 per Minute
  []
 
 [14]
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 121.
- <img/calcAudioFeatureExample.png, id=412, 405.01312pt x 210.7875pt>
+(Font)              scaled to size 8.50006pt on input line 124.
+ <img/calcAudioFeatureExample.png, id=417, 405.01312pt x 210.7875pt>
 File: img/calcAudioFeatureExample.png Graphic file (type png)
 
 <use img/calcAudioFeatureExample.png>
-Package pdftex.def Info: img/calcAudioFeatureExample.png used on input line 136
+Package pdftex.def Info: img/calcAudioFeatureExample.png used on input line 139
 .
 (pdftex.def)             Requested size: 332.64185pt x 173.1267pt.
  [15]
 
-Package Listings Warning: Text dropped after begin of listing on input line 145
+Package Listings Warning: Text dropped after begin of listing on input line 148
 .
 
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 147.
+(Font)              scaled to size 9.30756pt on input line 150.
 [16 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/cal
 cAudioFeatureExample.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
 
-Overfull \hbox (8.74768pt too wide) in paragraph at lines 168--169
+Overfull \hbox (8.74768pt too wide) in paragraph at lines 171--172
 []\T1/pplj/m/n/10.95 enqueues and plays all tracks by Hard-
  []
 
-[17] <img/wiigeePipeline.png, id=462, 397.485pt x 94.3525pt>
+[17] <img/wiigeePipeline.png, id=467, 397.485pt x 94.3525pt>
 File: img/wiigeePipeline.png Graphic file (type png)
 
 <use img/wiigeePipeline.png>
-Package pdftex.def Info: img/wiigeePipeline.png used on input line 187.
+Package pdftex.def Info: img/wiigeePipeline.png used on input line 190.
 (pdftex.def)             Requested size: 332.64185pt x 78.96327pt.
 
-<img/activationgesture.png, id=468, 101.62968pt x 81.30376pt>
+<img/activationgesture.png, id=473, 101.62968pt x 81.30376pt>
 File: img/activationgesture.png Graphic file (type png)
 
 <use img/activationgesture.png>
-Package pdftex.def Info: img/activationgesture.png used on input line 200.
+Package pdftex.def Info: img/activationgesture.png used on input line 203.
 (pdftex.def)             Requested size: 84.0pt x 67.2017pt.
 
-<img/next.png, id=469, 90.3375pt x 118.19156pt>
+<img/next.png, id=474, 90.3375pt x 118.19156pt>
 File: img/next.png Graphic file (type png)
  <use img/next.png>
-Package pdftex.def Info: img/next.png used on input line 203.
+Package pdftex.def Info: img/next.png used on input line 206.
 (pdftex.def)             Requested size: 84.0pt x 109.90077pt.
 
-Underfull \hbox (badness 2744) in paragraph at lines 203--203
+Underfull \hbox (badness 2744) in paragraph at lines 206--206
 [][]|\T1/pplj/m/n/9 swipe arm from
  []
 
-<img/volumeup.png, id=470, 89.58469pt x 100.12407pt>
+<img/volumeup.png, id=475, 89.58469pt x 100.12407pt>
 File: img/volumeup.png Graphic file (type png)
  <use img/volumeup.png>
-Package pdftex.def Info: img/volumeup.png used on input line 206.
+Package pdftex.def Info: img/volumeup.png used on input line 209.
 (pdftex.def)             Requested size: 84.0pt x 93.88898pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
 [][]|\T1/pplj/m/n/9 swing arm up-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
 \T1/pplj/m/n/9 wards: in-crease
  []
 
-<img/playpause.png, id=471, 60.225pt x 135.50626pt>
+<img/playpause.png, id=476, 60.225pt x 135.50626pt>
 File: img/playpause.png Graphic file (type png)
  <use img/playpause.png>
-Package pdftex.def Info: img/playpause.png used on input line 209.
+Package pdftex.def Info: img/playpause.png used on input line 212.
 (pdftex.def)             Requested size: 84.0pt x 189.0189pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
 [][]|\T1/pplj/m/n/9 punch for-ward:
  []
 
-<img/previous.png, id=472, 90.3375pt x 118.19156pt>
+<img/previous.png, id=477, 90.3375pt x 118.19156pt>
 File: img/previous.png Graphic file (type png)
  <use img/previous.png>
-Package pdftex.def Info: img/previous.png used on input line 212.
+Package pdftex.def Info: img/previous.png used on input line 215.
 (pdftex.def)             Requested size: 84.0pt x 109.90077pt.
 
-Underfull \hbox (badness 3364) in paragraph at lines 212--212
+Underfull \hbox (badness 3364) in paragraph at lines 215--215
 [][]|\T1/pplj/m/n/9 swipe arm from
  []
 
-<img/volumedown.png, id=473, 81.30376pt x 101.62968pt>
+<img/volumedown.png, id=478, 81.30376pt x 101.62968pt>
 File: img/volumedown.png Graphic file (type png)
 
 <use img/volumedown.png>
-Package pdftex.def Info: img/volumedown.png used on input line 215.
+Package pdftex.def Info: img/volumedown.png used on input line 218.
 (pdftex.def)             Requested size: 84.0pt x 105.00848pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 \T1/pplj/m/n/9 wards: de-crease
  []
 
@@ -1660,7 +1659,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--215
 geePipeline.png>]
 PGFPlots: reading {data/minPitchValues.csv}
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
@@ -1671,90 +1670,90 @@ asterthesis/img/volumeup.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/Mastera
 rbeit/Masterthesis/img/playpause.png> <D:/Users/Sven/Documents/Dropbox/home/Uni
 /Masterarbeit/Masterthesis/img/previous.png> <D:/Users/Sven/Documents/Dropbox/h
 ome/Uni/Masterarbeit/Masterthesis/img/volumedown.png>] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 \T1/pplj/m/n/10.95 app that mu-sic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 \T1/pplj/m/n/10.95 li-brary data is
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 259--259
+Underfull \hbox (badness 1067) in paragraph at lines 262--262
 \T1/pplj/m/n/10.95 play names for all
  []
 
 
-Underfull \hbox (badness 4582) in paragraph at lines 259--259
+Underfull \hbox (badness 4582) in paragraph at lines 262--262
 []|\T1/pplj/m/n/10.95 on mu-sic player's
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 \T1/pplj/m/n/10.95 state change, i.e.
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 259--259
+Underfull \hbox (badness 2334) in paragraph at lines 262--262
 \T1/pplj/m/n/10.95 when the track is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 \T1/pplj/m/n/10.95 pause com-mand
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 259--259
+Underfull \hbox (badness 3364) in paragraph at lines 262--262
 \T1/pplj/m/n/10.95 ocurred or shuf-fle
  []
 
 
-Underfull \hbox (badness 4144) in paragraph at lines 259--259
+Underfull \hbox (badness 4144) in paragraph at lines 262--262
 []|\T1/pplj/m/n/10.95 Contains all in-for-
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 259--259
+Underfull \hbox (badness 1178) in paragraph at lines 262--262
 \T1/pplj/m/n/10.95 in-put on the wear
  []
 
 
-Underfull \hbox (badness 8113) in paragraph at lines 259--259
+Underfull \hbox (badness 8113) in paragraph at lines 262--262
 []|\T1/pplj/m/n/10.95 Contains a string
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 \T1/pplj/m/n/10.95 rep-re-sen-ta-tion of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 \T1/pplj/m/n/10.95 the is-sued com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 \T1/pplj/m/n/10.95 mand. A ges-ture
  []
 
 
-Underfull \hbox (badness 6348) in paragraph at lines 259--259
+Underfull \hbox (badness 6348) in paragraph at lines 262--262
 \T1/pplj/m/n/10.95 id is mapped to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 \T1/pplj/m/n/10.95 com-mand is (see
  []
 
-<img/CommunicationOverview.png, id=518, 602.25pt x 451.6875pt>
+<img/CommunicationOverview.png, id=523, 602.25pt x 451.6875pt>
 File: img/CommunicationOverview.png Graphic file (type png)
 
 <use img/CommunicationOverview.png>
-Package pdftex.def Info: img/CommunicationOverview.png used on input line 266.
+Package pdftex.def Info: img/CommunicationOverview.png used on input line 269.
 (pdftex.def)             Requested size: 332.64185pt x 249.49028pt.
 ) [21] [22 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/
 img/CommunicationOverview.png>]
@@ -1949,25 +1948,25 @@ e 142.
 Package natbib Warning: Citation `knuth:1976' on page 35 undefined on input lin
 e 142.
 
-<gfx/example_1.jpg, id=754, 240.9pt x 180.675pt>
+<gfx/example_1.jpg, id=759, 240.9pt x 180.675pt>
 File: gfx/example_1.jpg Graphic file (type jpg)
  <use gfx/example_1.jpg>
 Package pdftex.def Info: gfx/example_1.jpg used on input line 160.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 
-<gfx/example_2.jpg, id=755, 240.9pt x 180.675pt>
+<gfx/example_2.jpg, id=760, 240.9pt x 180.675pt>
 File: gfx/example_2.jpg Graphic file (type jpg)
  <use gfx/example_2.jpg>
 Package pdftex.def Info: gfx/example_2.jpg used on input line 163.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 
-<gfx/example_3.jpg, id=756, 240.9pt x 180.675pt>
+<gfx/example_3.jpg, id=761, 240.9pt x 180.675pt>
 File: gfx/example_3.jpg Graphic file (type jpg)
  <use gfx/example_3.jpg>
 Package pdftex.def Info: gfx/example_3.jpg used on input line 165.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 
-<gfx/example_4.jpg, id=757, 240.9pt x 180.675pt>
+<gfx/example_4.jpg, id=762, 240.9pt x 180.675pt>
 File: gfx/example_4.jpg Graphic file (type jpg)
  <use gfx/example_4.jpg>
 Package pdftex.def Info: gfx/example_4.jpg used on input line 167.
@@ -2352,7 +2351,7 @@ ClassicThesis.bbl
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 615733E20CE2FAC3A9209F24C2EB329A;2512.
+(rerunfilecheck)             Checksum: 5942B76FB6B1EFD775E098E55C12653C;2583.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2362,10 +2361,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 32988 strings out of 494045
- 696534 string characters out of 3148390
- 1181639 words of memory out of 3000000
- 35085 multiletter control sequences out of 15000+200000
+ 32992 strings out of 494045
+ 696606 string characters out of 3148390
+ 1181687 words of memory out of 3000000
+ 35088 multiletter control sequences out of 15000+200000
  100681 words of font info for 160 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  68i,14n,86p,1380b,2020s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2382,9 +2381,9 @@ X 2.9/fonts/type1/bera/fvmro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/latxfont/lcircle1.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (54 pages, 1109668 bytes).
+Output written on ClassicThesis.pdf (54 pages, 1110697 bytes).
 PDF statistics:
- 1051 PDF objects out of 1200 (max. 8388607)
- 362 named destinations out of 1000 (max. 500000)
- 21929 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 1056 PDF objects out of 1200 (max. 8388607)
+ 363 named destinations out of 1000 (max. 500000)
+ 21937 words of extra memory for PDF output out of 24883 (max. 10000000)
 

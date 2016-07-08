@@ -5,11 +5,12 @@
 \contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Related Work}}{5}{chapter.2}
 \contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Implementation}}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Hardware Requirements}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}User Interface}{9}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Touch Input - \ac {GUI}}{10}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Speech Control}{12}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Gesture Control}{17}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Mobile-Wear Communication}{20}{section.3.3}
+\contentsline {section}{\numberline {3.2}Prototype Structure}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}User Interface}{10}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Touch Input - \ac {GUI}}{10}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Speech Control}{12}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Gesture Control}{17}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Mobile-Wear Communication}{20}{section.3.4}
 \contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Introduction}}{23}{chapter.4}
 \contentsline {paragraph}{Important Note:}{24}{Item.2}
 \contentsline {section}{\numberline {4.1}Organization}{24}{section.4.1}
