@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {3.3.2}Speech Control}{14}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Gesture Control}{19}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Mobile-Wear Communication}{22}{section.3.4}
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Related Work}}{25}{chapter.4}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {User Study}}{25}{chapter.4}
 \contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{31}{appendix.A}
 \contentsline {section}{\numberline {A.1}Appendix Section Test}{31}{section.A.1}
 \contentsline {section}{\numberline {A.2}Another Appendix Section Test}{31}{section.A.2}
