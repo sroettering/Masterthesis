@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  9 JUL 2016 14:37
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  9 JUL 2016 19:45
 entering extended mode
 **ClassicThesis.tex
 
@@ -1186,12 +1186,14 @@ tivation.aux)
 latedWork.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Im
 plementation.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
-apter01.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
-apter02.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
-apter03.aux)
+(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Us
+erStudy.aux
+
+LaTeX Warning: Label `ch:relatedwork' multiply defined.
+
+)
+(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\multiToC.au
+x)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/FiguresTables.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
@@ -1278,7 +1280,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
-tter/Titlepage.tex <gfx/welfenschloss.pdf, id=166, 1530.71875pt x 439.6425pt>
+tter/Titlepage.tex <gfx/welfenschloss.pdf, id=98, 1530.71875pt x 439.6425pt>
 File: gfx/welfenschloss.pdf Graphic file (type pdf)
 
 <use gfx/welfenschloss.pdf>
@@ -1474,7 +1476,7 @@ although it is yet undefined on input line 16.
 
 
 
-] <img/PackageDiagramCombined.png, id=348, 495.35063pt x 476.53032pt>
+] <img/PackageDiagramCombined.png, id=263, 495.35063pt x 476.53032pt>
 File: img/PackageDiagramCombined.png Graphic file (type png)
 
 <use img/PackageDiagramCombined.png>
@@ -1486,7 +1488,7 @@ LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10.95> not available
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <9> not available
 (Font)              Font shape `T1/pplj/m/it' tried instead on input line 41.
 
-<img/mobileGUIlabeled.png, id=360, 677.53125pt x 1160.08406pt>
+<img/mobileGUIlabeled.png, id=275, 677.53125pt x 1160.08406pt>
 File: img/mobileGUIlabeled.png Graphic file (type png)
 
 <use img/mobileGUIlabeled.png>
@@ -1499,28 +1501,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--49
 
 [11 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/Pac
 kageDiagramCombined.png>]
-<img/wearGUIcontrolsPage.png, id=372, 271.0125pt x 248.42813pt>
+<img/wearGUIcontrolsPage.png, id=287, 271.0125pt x 248.42813pt>
 File: img/wearGUIcontrolsPage.png Graphic file (type png)
 
 <use img/wearGUIcontrolsPage.png>
 Package pdftex.def Info: img/wearGUIcontrolsPage.png used on input line 56.
 (pdftex.def)             Requested size: 100.80103pt x 92.40218pt.
 
-<img/wearGUIselect.png, id=373, 268.75406pt x 248.42813pt>
+<img/wearGUIselect.png, id=288, 268.75406pt x 248.42813pt>
 File: img/wearGUIselect.png Graphic file (type png)
 
 <use img/wearGUIselect.png>
 Package pdftex.def Info: img/wearGUIselect.png used on input line 59.
 (pdftex.def)             Requested size: 100.80103pt x 93.17548pt.
 
-<img/wearGUIitems.png, id=374, 268.75406pt x 247.67531pt>
+<img/wearGUIitems.png, id=289, 268.75406pt x 247.67531pt>
 File: img/wearGUIitems.png Graphic file (type png)
 
 <use img/wearGUIitems.png>
 Package pdftex.def Info: img/wearGUIitems.png used on input line 62.
 (pdftex.def)             Requested size: 100.80103pt x 92.89313pt.
 
-<img/wearGUIambient.png, id=375, 270.25969pt x 247.67531pt>
+<img/wearGUIambient.png, id=290, 270.25969pt x 247.67531pt>
 File: img/wearGUIambient.png Graphic file (type png)
 
 <use img/wearGUIambient.png>
@@ -1549,7 +1551,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--77
 d / speech / SpeechRecognizer .$
  []
 
-<img/SpeechActivityDiagram.png, id=415, 475.7775pt x 362.10281pt>
+<img/SpeechActivityDiagram.png, id=330, 475.7775pt x 362.10281pt>
 File: img/SpeechActivityDiagram.png Graphic file (type png)
 
 <use img/SpeechActivityDiagram.png>
@@ -1569,7 +1571,7 @@ echActivityDiagram.png>] [16]
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 138.
 
-<img/calcAudioFeatureExample.png, id=445, 405.01312pt x 210.7875pt>
+<img/calcAudioFeatureExample.png, id=360, 405.01312pt x 210.7875pt>
 File: img/calcAudioFeatureExample.png Graphic file (type png)
 
 <use img/calcAudioFeatureExample.png>
@@ -1592,7 +1594,7 @@ Overfull \hbox (8.74768pt too wide) in paragraph at lines 185--186
 []\T1/pplj/m/n/10.95 enqueues and plays all tracks by Hard-
  []
 
-<img/wiigeePipeline.png, id=490, 397.485pt x 94.3525pt>
+<img/wiigeePipeline.png, id=405, 397.485pt x 94.3525pt>
 File: img/wiigeePipeline.png Graphic file (type png)
 
 <use img/wiigeePipeline.png>
@@ -1600,14 +1602,14 @@ Package pdftex.def Info: img/wiigeePipeline.png used on input line 204.
 (pdftex.def)             Requested size: 332.64185pt x 78.96327pt.
  [19 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/wi
 igeePipeline.png>]
-<img/activationgesture.png, id=502, 101.62968pt x 81.30376pt>
+<img/activationgesture.png, id=417, 101.62968pt x 81.30376pt>
 File: img/activationgesture.png Graphic file (type png)
 
 <use img/activationgesture.png>
 Package pdftex.def Info: img/activationgesture.png used on input line 217.
 (pdftex.def)             Requested size: 84.0pt x 67.2017pt.
 
-<img/next.png, id=503, 90.3375pt x 118.19156pt>
+<img/next.png, id=418, 90.3375pt x 118.19156pt>
 File: img/next.png Graphic file (type png)
  <use img/next.png>
 Package pdftex.def Info: img/next.png used on input line 220.
@@ -1617,7 +1619,7 @@ Underfull \hbox (badness 2744) in paragraph at lines 220--220
 [][]|\T1/pplj/m/n/9 swipe arm from
  []
 
-<img/volumeup.png, id=504, 89.58469pt x 100.12407pt>
+<img/volumeup.png, id=419, 89.58469pt x 100.12407pt>
 File: img/volumeup.png Graphic file (type png)
  <use img/volumeup.png>
 Package pdftex.def Info: img/volumeup.png used on input line 223.
@@ -1632,7 +1634,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--223
 \T1/pplj/m/n/9 wards: in-crease
  []
 
-<img/playpause.png, id=505, 60.225pt x 135.50626pt>
+<img/playpause.png, id=420, 60.225pt x 135.50626pt>
 File: img/playpause.png Graphic file (type png)
  <use img/playpause.png>
 Package pdftex.def Info: img/playpause.png used on input line 226.
@@ -1642,7 +1644,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--226
 [][]|\T1/pplj/m/n/9 punch for-ward:
  []
 
-<img/previous.png, id=506, 90.3375pt x 118.19156pt>
+<img/previous.png, id=421, 90.3375pt x 118.19156pt>
 File: img/previous.png Graphic file (type png)
  <use img/previous.png>
 Package pdftex.def Info: img/previous.png used on input line 229.
@@ -1652,7 +1654,7 @@ Underfull \hbox (badness 3364) in paragraph at lines 229--229
 [][]|\T1/pplj/m/n/9 swipe arm from
  []
 
-<img/volumedown.png, id=507, 81.30376pt x 101.62968pt>
+<img/volumedown.png, id=422, 81.30376pt x 101.62968pt>
 File: img/volumedown.png Graphic file (type png)
 
 <use img/volumedown.png>
@@ -1676,7 +1678,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
-[21] <img/CommunicationOverview.png, id=539, 602.25pt x 451.6875pt>
+[21] <img/CommunicationOverview.png, id=454, 602.25pt x 451.6875pt>
 File: img/CommunicationOverview.png Graphic file (type png)
 
 <use img/CommunicationOverview.png>
@@ -1768,244 +1770,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--283
 
 
 ]
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
-apter01.tex
+(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Us
+erStudy.tex
 Chapter 4.
-
-Package natbib Warning: Citation `bringhurst:2002' on page 25 undefined on inpu
-t line 12.
-
-
-Package natbib Warning: Citation `bringhurst:2002' on page 25 undefined on inpu
-t line 13.
-
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 25.
-[25
+) [25
 
 
 
-] [26]
-Overfull \hbox (2.23529pt too wide) in paragraph at lines 114--118
-[]\T1/fvm/m/n/10.95 classicthesis-config.tex\T1/pplj/m/n/10.95 : a cen-tral pla
-ce to load all nifty pack-
- []
-
-[27]
-Overfull \hbox (9.23082pt too wide) in paragraph at lines 171--173
-[]\T1/fvm/m/n/10.95 eulermath\T1/pplj/m/n/10.95 : loads the awe-some Eu-ler fon
-ts for math. (Palatino
- []
-
-
-Overfull \hbox (25.95596pt too wide) in paragraph at lines 180--184
-\T1/pplj/m/n/10.95 cally en-ables the \T1/fvm/m/n/10.95 minionpro \T1/pplj/m/n/
-10.95 op-tion and over-rides the \T1/fvm/m/n/10.95 pdfspacing
- []
-
-
-Overfull \hbox (7.53156pt too wide) in paragraph at lines 232--235
-[]\T1/pplj/m/n/10.95 In or-der to make things eas-ier in gen-eral, \T1/fvm/m/n/
-10.95 classicthesis-config.tex
- []
-
-
-Overfull \hbox (11.02849pt too wide) in paragraph at lines 240--242
-\T1/pplj/m/n/10.95 This sec-tion will give you some hints about how to adapt \T
-1/fvm/m/n/10.95 classicthesis
- []
-
-[28]
-LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 7.65005pt on input line 252.
-
-Overfull \hbox (2.07549pt too wide) in paragraph at lines 252--252
- \T1/fvm/m/sl/9 thesis-config.tex
- []
-
-
-Overfull \hbox (2.07549pt too wide) in paragraph at lines 252--252
-\T1/fvm/m/sl/9 thesis-config.tex  
- []
-
-
-Overfull \hbox (2.07549pt too wide) in paragraph at lines 286--286
- \T1/fvm/m/sl/9 classicthesis.sty
- []
-
-
-Overfull \hbox (2.07549pt too wide) in paragraph at lines 286--286
-\T1/fvm/m/sl/9 classicthesis.sty  
- []
-
-
-Overfull \hbox (5.48045pt too wide) in paragraph at lines 295--297
-[]\T1/pplj/m/n/10.95 Beta ver-sions of \T1/fvm/m/n/10.95 classicthesis \T1/pplj
-/m/n/10.95 can be found at the fol-low-ing Google
- []
-
-LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10.95> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 302.
-LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 9.30756pt on input line 302.
-[29]
-
-LaTeX Font Warning: Font shape `T1/fvm/m/sc' undefined
-(Font)              using `T1/fvm/m/n' instead on input line 319.
-
-
-Overfull \hbox (4.76982pt too wide) in paragraph at lines 320--321
-[] []\T1/pplj/m/sc/10.95/80ls fur-ther in-for-ma-tion for us-ing \T1/fvm/m/n/10
-.95/80ls clas-sic-the-sis \T1/pplj/m/sc/10.95/80ls with span-
- []
-
-
-Overfull \hbox (25.9616pt too wide) in paragraph at lines 346--346
-[]\T1/fvm/m/n/10.95 \PassOptionsToPackage{es-tabla,spanish,es-lcroman,english}{
-babel}[] 
- []
-
-[30]
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Examples/cl
-assicthesis-article.tex [31])
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Examples/cl
-assicthesis-book.tex [32])
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Examples/cl
-assicthesis-cv.tex [33])
-Overfull \hbox (7.80904pt too wide) in paragraph at lines 406--411
-\T1/pplj/m/it/10.95 with-out any war-ranty\T1/pplj/m/n/10.95 ; with-out even th
-e im-plied war-ranty of \T1/pplj/m/it/10.95 mer-chantabil-
- []
-
-) [34]
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
-apter02.tex
-Chapter 5.
-
-Package natbib Warning: Citation `dueck:trio' on page 35 undefined on input lin
-e 7.
-
-
-Package natbib Warning: Citation `dueck:trio' on page 35 undefined on input lin
-e 7.
-
-
-Overfull \hbox (1.02399pt too wide) in paragraph at lines 24--29
-\T1/pplj/m/n/10.95 clu-daturque. Al-bu-cius ap-pel-lan-tur de-ter-ruis-set id e
-am, viven-dum par-
- []
-
-Package acronym Info: Label `acro:UML' newly defined as it shall be overridden
-although it is yet undefined on input line 30.
-
-Package acronym Warning: Acronym `UML' is not defined on input line 30.
-
-
-Package acronym Warning: Acronym `UML' is not defined on input line 30.
-
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 30.
-[35
-
+] [26
 
 
 
 ]
-
-Package natbib Warning: Citation `bentley:1999' on page 36 undefined on input l
-ine 65.
-
-
-Package natbib Warning: Citation `bentley:1999' on page 36 undefined on input l
-ine 66.
-
-
-Package natbib Warning: Citation `cormen:2001' on page 36 undefined on input li
-ne 82.
-
-
-Package natbib Warning: Citation `cormen:2001' on page 36 undefined on input li
-ne 82.
-
-
-Package natbib Warning: Citation `knuth:1976' on page 36 undefined on input lin
-e 98.
-
-
-Package natbib Warning: Citation `knuth:1976' on page 36 undefined on input lin
-e 99.
-
-
-Package natbib Warning: Citation `sommerville:1992' on page 36 undefined on inp
-ut line 110.
-
-
-Package natbib Warning: Citation `sommerville:1992' on page 36 undefined on inp
-ut line 111.
-
-[36]
-
-Package natbib Warning: Citation `knuth:1976' on page 37 undefined on input lin
-e 140.
-
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 142.
-
-Package natbib Warning: Citation `knuth:1976' on page 37 undefined on input lin
-e 142.
-
-
-Package natbib Warning: Citation `knuth:1976' on page 37 undefined on input lin
-e 142.
-
-<gfx/example_1.jpg, id=787, 240.9pt x 180.675pt>
-File: gfx/example_1.jpg Graphic file (type jpg)
- <use gfx/example_1.jpg>
-Package pdftex.def Info: gfx/example_1.jpg used on input line 160.
-(pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
-
-<gfx/example_2.jpg, id=788, 240.9pt x 180.675pt>
-File: gfx/example_2.jpg Graphic file (type jpg)
- <use gfx/example_2.jpg>
-Package pdftex.def Info: gfx/example_2.jpg used on input line 163.
-(pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
-
-<gfx/example_3.jpg, id=789, 240.9pt x 180.675pt>
-File: gfx/example_3.jpg Graphic file (type jpg)
- <use gfx/example_3.jpg>
-Package pdftex.def Info: gfx/example_3.jpg used on input line 165.
-(pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
-
-<gfx/example_4.jpg, id=790, 240.9pt x 180.675pt>
-File: gfx/example_4.jpg Graphic file (type jpg)
- <use gfx/example_4.jpg>
-Package pdftex.def Info: gfx/example_4.jpg used on input line 167.
-(pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
-)
-[37 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/gfx/exa
-mple_1.jpg> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis
-/gfx/example_2.jpg> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Mast
-erthesis/gfx/example_3.jpg> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarb
-eit/Masterthesis/gfx/example_4.jpg>]
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
-apter03.tex [38
-
-
-
-
-]
-Chapter 6.
-
-Package natbib Warning: Citation `knuth:1974' on page 39 undefined on input lin
-e 7.
-
-
-Overfull \hbox (1.89992pt too wide) in paragraph at lines 4--8
-\T1/pplj/m/n/10.95 Ei choro aeterno an-tiopam mea, labitur bono-rum pri no. His
- no decore
- []
-
-[39]) [40]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/FiguresTables.tex
 Package tocbasic Info: character protrusion at lof deactivated on input line 17
@@ -2044,8 +1820,7 @@ Overfull \hbox (4.84335pt too wide) in paragraph at lines 24--24
  \T1/pplj/m/n/10.95 tic-i-pant. The min-i-mum ab-so-lute pitch value that 
  []
 
-[41
-
+[27
 
 
 
@@ -2095,9 +1870,11 @@ Overfull \hbox (1.57014pt too wide) in paragraph at lines 7--7
  \T1/pplj/m/n/10.95 a tol-er-ance ra-dius from the mu-sic li-brary[] []  
  []
 
-[42])
+[28])
 \tf@lol=\write9
- [43] [44
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 52.
+ [29] [30
 
 
 ])
@@ -2116,36 +1893,36 @@ Overfull \hbox (1.89992pt too wide) in paragraph at lines 22--25
  no decore
  []
 
-[45
+[31
 
 
 
 
 
 
-]) [46]
+]) [32]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/Bibliography.tex
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\ClassicThes
 is.bbl
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.30756pt on input line 12.
+
 Underfull \hbox (badness 10000) in paragraph at lines 9--14
 $\T1/fvm/m/n/10.95 smartphone -[] ownership -[] and -[] internet -[] usage -[] 
 continues -[] to -[]$
  []
 
-[47
+[33
 
 
 
 
 
 
-])) [48]
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
+])) [34]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
 
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\ClassicThes
 is.aux
@@ -2165,19 +1942,15 @@ tivation.aux)
 latedWork.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Im
 plementation.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
-apter01.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
-apter02.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
-apter03.aux)
+(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Us
+erStudy.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/FiguresTables.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
 apter0A.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/Bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
 
 
  *File List*
@@ -2344,57 +2117,44 @@ img/playpause.png
 img/previous.png
 img/volumedown.png
 img/CommunicationOverview.png
-Chapters/Chapter01.tex
-Examples/classicthesis-article.tex
-Examples/classicthesis-book.tex
-Examples/classicthesis-cv.tex
-Chapters/Chapter02.tex
-gfx/example_1.jpg
-gfx/example_2.jpg
-gfx/example_3.jpg
-gfx/example_4.jpg
-Chapters/Chapter03.tex
+Chapters/UserStudy.tex
 FrontBackmatter/FiguresTables.tex
 Chapters/Chapter0A.tex
 FrontBackmatter/Bibliography.tex
 ClassicThesis.bbl
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: FAE0FB4DDE7BC8874D21FFCAF241F05E;2585.
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
+(rerunfilecheck)             Checksum: 8019B9BCC83A063FA5E46B28087DA4B5;1430.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 33006 strings out of 494045
- 696930 string characters out of 3148390
- 1179552 words of memory out of 3000000
- 35098 multiletter control sequences out of 15000+200000
- 100681 words of font info for 160 fonts, out of 3000000 for 9000
+ 32426 strings out of 494045
+ 687651 string characters out of 3148390
+ 1084377 words of memory out of 3000000
+ 34779 multiletter control sequences out of 15000+200000
+ 89005 words of font info for 127 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  68i,14n,86p,1558b,2020s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/euler/eufm7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/euler/eurb10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/euler/eurm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/euler/eurm7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl
-/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl/fplrij8a.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/bera/fvmro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/latxfont/lcircle1.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
-/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
-8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (56 pages, 1140824 bytes).
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurb10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/fpl/fplrij8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lcircle1.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on ClassicThesis.pdf (42 pages, 976454 bytes).
 PDF statistics:
- 1086 PDF objects out of 1200 (max. 8388607)
- 366 named destinations out of 1000 (max. 500000)
- 21942 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 689 PDF objects out of 1000 (max. 8388607)
+ 163 named destinations out of 1000 (max. 500000)
+ 19738 words of extra memory for PDF output out of 20736 (max. 10000000)
 
