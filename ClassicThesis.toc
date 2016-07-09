@@ -5,37 +5,39 @@
 \contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Related Work}}{5}{chapter.2}
 \contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Implementation}}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Hardware Requirements}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Prototype Structure}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}User Interface}{10}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Touch Input - \ac {GUI}}{10}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Speech Control}{12}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Gesture Control}{17}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Mobile-Wear Communication}{20}{section.3.4}
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Introduction}}{23}{chapter.4}
-\contentsline {paragraph}{Important Note:}{24}{Item.2}
-\contentsline {section}{\numberline {4.1}Organization}{24}{section.4.1}
-\contentsline {section}{\numberline {4.2}Style Options}{25}{section.4.2}
-\contentsline {section}{\numberline {4.3}Customization}{26}{section.4.3}
-\contentsline {section}{\numberline {4.4}Issues}{27}{section.4.4}
-\contentsline {paragraph}{Further information for using \texttt {classicthesis} with Spanish (in addition to the above)}{28}{section.4.4}
-\contentsline {section}{\numberline {4.5}Future Work}{29}{section.4.5}
-\contentsline {section}{\numberline {4.6}Beyond a Thesis}{29}{section.4.6}
-\contentsline {section}{\numberline {4.7}License}{32}{section.4.7}
-\contentsline {paragraph}{GNU General Public License:}{32}{section.4.7}
-\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Examples}}{33}{chapter.5}
-\contentsline {section}{\numberline {5.1}A New Section}{33}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Test for a Subsection}{33}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Autem Timeam}{33}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Another Section in This Chapter}{34}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Personas Initialmente}{34}{subsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.1.1}A Subsubsection}{34}{subsubsection.5.2.1.1}
-\contentsline {paragraph}{A Paragraph Example}{34}{subsubsection.5.2.1.1}
-\contentsline {subsection}{\numberline {5.2.2}Linguistic Registrate}{35}{subsection.5.2.2}
-\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Math Test Chapter}}{37}{chapter.6}
-\contentsline {section}{\numberline {6.1}Some Formulas}{37}{section.6.1}
-\contentsline {section}{\numberline {6.2}Various Mathematical Examples}{38}{section.6.2}
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{43}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Section Test}{43}{section.A.1}
-\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{43}{section.A.2}
+\contentsline {section}{\numberline {3.2}Application Structure}{9}{section.3.2}
+\contentsline {paragraph}{Mobile Application}{10}{section.3.2}
+\contentsline {paragraph}{Wearable Application}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}User Interface}{11}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Touch Input - \ac {GUI}}{12}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Speech Control}{14}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Gesture Control}{19}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Mobile-Wear Communication}{22}{section.3.4}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Introduction}}{25}{chapter.4}
+\contentsline {paragraph}{Important Note:}{26}{Item.2}
+\contentsline {section}{\numberline {4.1}Organization}{26}{section.4.1}
+\contentsline {section}{\numberline {4.2}Style Options}{27}{section.4.2}
+\contentsline {section}{\numberline {4.3}Customization}{28}{section.4.3}
+\contentsline {section}{\numberline {4.4}Issues}{29}{section.4.4}
+\contentsline {paragraph}{Further information for using \texttt {classicthesis} with Spanish (in addition to the above)}{30}{section.4.4}
+\contentsline {section}{\numberline {4.5}Future Work}{31}{section.4.5}
+\contentsline {section}{\numberline {4.6}Beyond a Thesis}{31}{section.4.6}
+\contentsline {section}{\numberline {4.7}License}{34}{section.4.7}
+\contentsline {paragraph}{GNU General Public License:}{34}{section.4.7}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Examples}}{35}{chapter.5}
+\contentsline {section}{\numberline {5.1}A New Section}{35}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Test for a Subsection}{35}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Autem Timeam}{35}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Another Section in This Chapter}{36}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Personas Initialmente}{36}{subsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1.1}A Subsubsection}{36}{subsubsection.5.2.1.1}
+\contentsline {paragraph}{A Paragraph Example}{36}{subsubsection.5.2.1.1}
+\contentsline {subsection}{\numberline {5.2.2}Linguistic Registrate}{37}{subsection.5.2.2}
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Math Test Chapter}}{39}{chapter.6}
+\contentsline {section}{\numberline {6.1}Some Formulas}{39}{section.6.1}
+\contentsline {section}{\numberline {6.2}Various Mathematical Examples}{40}{section.6.2}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{45}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix Section Test}{45}{section.A.1}
+\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{45}{section.A.2}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{45}{dummy.7}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{47}{dummy.7}
