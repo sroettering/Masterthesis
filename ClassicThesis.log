@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  10 JUL 2016 00:40
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  10 JUL 2016 11:49
 entering extended mode
 **ClassicThesis.tex
 
@@ -1187,11 +1187,7 @@ latedWork.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Im
 plementation.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Us
-erStudy.aux
-
-LaTeX Warning: Label `ch:relatedwork' multiply defined.
-
-)
+erStudy.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/FiguresTables.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Ch
@@ -2123,26 +2119,17 @@ ClassicThesis.bbl
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
-
-Package rerunfilecheck Warning: File `ClassicThesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ClassicThesis.out':
-(rerunfilecheck)             Before: 8019B9BCC83A063FA5E46B28087DA4B5;1430
-(rerunfilecheck)             After:  A10975330833F3D581FC529A12B33B5B;1428.
+Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
+(rerunfilecheck)             Checksum: A10975330833F3D581FC529A12B33B5B;1428.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
  32424 strings out of 494045
  687502 string characters out of 3148390
- 1083803 words of memory out of 3000000
+ 1083818 words of memory out of 3000000
  34780 multiletter control sequences out of 15000+200000
  89005 words of font info for 127 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -2156,9 +2143,9 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lcircle1.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (42 pages, 976431 bytes).
+Output written on ClassicThesis.pdf (42 pages, 977243 bytes).
 PDF statistics:
- 689 PDF objects out of 1000 (max. 8388607)
+ 691 PDF objects out of 1000 (max. 8388607)
  163 named destinations out of 1000 (max. 500000)
  19738 words of extra memory for PDF output out of 20736 (max. 10000000)
 
