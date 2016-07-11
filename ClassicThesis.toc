@@ -14,8 +14,10 @@
 \contentsline {subsection}{\numberline {3.3.3}Gesture Control}{19}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Mobile-Wear Communication}{22}{section.3.4}
 \contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {User Study}}{25}{chapter.4}
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{31}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Section Test}{31}{section.A.1}
-\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{31}{section.A.2}
+\contentsline {section}{\numberline {4.1}Procedure}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Results}{26}{section.4.2}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{33}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix Section Test}{33}{section.A.1}
+\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{33}{section.A.2}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{33}{dummy.7}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{35}{dummy.7}

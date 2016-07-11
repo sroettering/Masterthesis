@@ -18,9 +18,59 @@
 
 % plot 0-10 scale data
 
-The purpose of the music player described in chapter \ref{ch:implementation} is to examine user behaviour regarding the focused-casual continuum. The idea behind this concept is that users can vary their level of engagement for a certain action while not being bound to interact strictly focused or casual with the device. The three interaction techniques introduced in section \ref{sec:UserInterface} and the variable amount of control they offer to the user create different levels in the focused-casual continuum. 
+The purpose of the music player described in chapter \ref{ch:implementation} is to examine user behaviour regarding the focused-casual continuum. The idea behind this concept is that users can vary their level of engagement for a certain action while not being bound to interact strictly focused or casual with the device. The three interaction techniques introduced in section \ref{sec:UserInterface} and the variable amount of control they offer to the user create different levels in the focused-casual continuum. \\
 
-However, the viability and beneficing of the system needs to be confirmed by users in form of a study. Ten participants, eight male and two female, with ages from 21 to 29 (avg. mean.) were invited to use the music player in six different scenarios. In each scenario the participants were sometimes more, sometimes less either physically or mentally distracted. To force interaction with the music player, the participants were tasked with the same eight coarsely formulated player interactions in each scenario.
+\section{Procedure}\label{sec:studyProcedure}
+However, the viability and beneficing of the system needs to be confirmed by users in form of a study. Ten participants (2 female, age 21-29 $\overline{x}$=26, $\sigma$=2.47) with different backgrounds were invited. All participants own a smartphone, but only one person owns a smartwatch. Eight participants already had some experience with gesture controlled devices such as the Nintendo Wii or Microsoft's Kinect. Nobody used speech controlled devices beforehand. Every participant was observed while using the music player in six different scenarios that were both private and in public. In each scenario the participants wore the smartwatch on their left wrist and were sometimes more, sometimes less either physically or mentally distracted. Bicycle and headphones were provided but one could bring her own to feel more comfortable. \\
+
+Scenarios and their settings:
+\begin{description}
+	\item[Office Work]{The participants are seated at a desk in an office. Their task is to copy a text from a sheet of paper to a file on a laptop thus being mentally and physically distracting. This scenario is in a private surrounding.}
+	\item[reading on couch]{The participants are seated on a couch in a private living room. Their task is to read a chapter from a book and summarise the content afterwards.}
+	\item[Riding a Bicycle]{The participants are riding a bike on a public parking area. Their task is to follow a pre-defined route. The distraction is both mental and physical.}
+	\item[joggin]{The participants are jogging the same route as they ride on the bicycle thus being in public and physically distracted.}
+	\item[Walking mentally distracted]{The participants are walking a pre-defined public route playing a memory game on a mobile phone. This is mentally distracting. Touch is still possible.}
+	\item[Walking physically distracted]{The participants are walking the aforementioned pre-defined public route carrying a bag in their right hand. This is physically distracting.}
+\end{description}
+
+To force the participants to interact with the music player, they were tasked with eight coarsely formulated player interactions in each scenario. For every forced interaction the participant could always choose between at least two interaction techniques to use, however, scenario constraints made using some techniques more difficult, e.g. using touch on bicycle. Table \ref{tab:scenarioTasks} lists these interactions and the possible interaction techniques that generally could have been used.
+
+\begin{table}[h]
+	\myfloatalign
+	\begin{tabularx}{\textwidth}{XX} \toprule
+		\tableheadline{Forced Interaction} & \tableheadline{Possible techniques} \\ 
+		\midrule
+		1. start a playlist & touch, speech \\
+		2. adjust the volume & touch, speech, gesture \\
+		3. toggle shuffle & touch, speech \\
+		4. \& 6. skip one or more songs & touch, speech, gesture \\
+		5. change song relative to a chosen audio feature & touch, speech \\
+		6. skip one or more songs & touch, speech, gesture \\
+		7. play song from different genre & touch, speech \\
+		8. pause current song & touch, speech, gesture \\
+		\bottomrule
+	\end{tabularx}
+	\caption{Interaction tasks for each scenario instructed in this specific order. The skip to next song task was instructed twice in each scenario.}
+	\label{tab:scenarioTasks}
+\end{table}
+
+
+\section{Results}\label{sec:studyResults}
+In addition to the experiment every participant answered a questionnaire about the experiences they made.
+
+
+\begin{figure}[bth]
+	\myfloatalign
+	\subfloat[Distribution of music listener types. \newline 1 = I choose every song; \newline 5 = I don't care about which song plays.]
+	{\label{fig:listenerTypes}
+	\includegraphics[width=.5\linewidth]{img/listenerTypesPlot.png}} \\
+	\subfloat[Answers were made on a five point Likert scale from strongly disagree to strongly agree.]
+	{\label{fig:scenarioQuestions}
+	\includegraphics[width=1.2\linewidth]{img/generalQuestionsPlot.png}}
+	\caption{General questions about the scenarios and smartwatch controlled systems. Most participants agreed or strongly agreed on all four questions. There were only 3 neutral and 1 disagreeing vote.}
+	\label{fig:generalQuestions}
+\end{figure}
+
 
 %Chapter \ref{ch:relatedwork} 
 
