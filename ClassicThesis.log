@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  11 JUL 2016 22:46
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  12 JUL 2016 11:48
 entering extended mode
 **ClassicThesis.tex
 
@@ -1786,27 +1786,27 @@ Underfull \hbox (badness 3815) in paragraph at lines 52--52
 []|\T1/pplj/m/n/10.95 7. play song from dif-fer-ent
  []
 
-<img/listenerTypesPlot.png, id=494, 228.10219pt x 264.99pt>
+[26] <img/listenerTypesPlot.png, id=503, 228.10219pt x 264.99pt>
 File: img/listenerTypesPlot.png Graphic file (type png)
 
 <use img/listenerTypesPlot.png>
 Package pdftex.def Info: img/listenerTypesPlot.png used on input line 66.
 (pdftex.def)             Requested size: 168.0pt x 195.17166pt.
 
-<img/generalQuestionsPlot.png, id=495, 566.86781pt x 201.75375pt>
+<img/generalQuestionsPlot.png, id=504, 566.86781pt x 201.75375pt>
 File: img/generalQuestionsPlot.png Graphic file (type png)
 
 <use img/generalQuestionsPlot.png>
-Package pdftex.def Info: img/generalQuestionsPlot.png used on input line 69.
+Package pdftex.def Info: img/generalQuestionsPlot.png used on input line 73.
 (pdftex.def)             Requested size: 403.19897pt x 143.50783pt.
 
-Overfull \hbox (70.38542pt too wide) in paragraph at lines 69--70
+Overfull \hbox (67.19897pt too wide) in paragraph at lines 73--74
  [][] 
  []
 
-) [26] [27 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/
-img/listenerTypesPlot.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbe
-it/Masterthesis/img/generalQuestionsPlot.png>] [28
+) [27 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/l
+istenerTypesPlot.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Ma
+sterthesis/img/generalQuestionsPlot.png>] [28
 
 
 
@@ -1868,6 +1868,11 @@ Overfull \hbox (9.9962pt too wide) in paragraph at lines 27--27
 
 Overfull \hbox (20.52364pt too wide) in paragraph at lines 27--27
  \T1/pplj/m/n/10.95 watch con-trolled sys-tems. Most par-tic-i-pants agreed 
+ []
+
+
+Overfull \hbox (12.2244pt too wide) in paragraph at lines 27--27
+ \T1/pplj/m/n/10.95 were only 3 neu-tral and 1 dis-agree-ing vote.[] []  
  []
 
 )
@@ -2178,25 +2183,34 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 32464 strings out of 494045
- 688343 string characters out of 3148390
- 1085479 words of memory out of 3000000
- 34810 multiletter control sequences out of 15000+200000
+ 32463 strings out of 494045
+ 688304 string characters out of 3148390
+ 1085482 words of memory out of 3000000
+ 34807 multiletter control sequences out of 15000+200000
  89005 words of font info for 127 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  68i,14n,86p,1558b,2020s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurb10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/fpl/fplrij8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lcircle1.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (44 pages, 1005446 bytes).
+pdfTeX warning (dest): name{table.caption.30} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subfigure.10.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subfigure.10.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurb10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/fpl/fplrij8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on ClassicThesis.pdf (44 pages, 1006839 bytes).
 PDF statistics:
- 727 PDF objects out of 1000 (max. 8388607)
- 171 named destinations out of 1000 (max. 500000)
+ 731 PDF objects out of 1000 (max. 8388607)
+ 173 named destinations out of 1000 (max. 500000)
  19764 words of extra memory for PDF output out of 20736 (max. 10000000)
 
