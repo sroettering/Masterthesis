@@ -24,6 +24,18 @@
 \contentsline {figure}{\numberline {8}{\ignorespaces Minimum absolute pitch values for each participant. The minimum absolute pitch value that every participant reached is 70.3\relax }}{21}{figure.caption.21}
 \contentsline {figure}{\numberline {9}{\ignorespaces A Message can be of five different types: a data request type, list data type containing information about the music library, an update type containing the current music player state, a touch command type and a speech command type which both are sent from the wearable application and answered by the mobile application afterwards. The two greyed out message types on the right are included for the sake of completeness and are only used for the user study.\relax }}{22}{figure.caption.22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10}{\ignorespaces Distribution of music listener types. \newline 1 = I choose every song; \newline 5 = I don't care about which song plays.\relax }}{27}{figure.caption.25}
-\contentsline {figure}{\numberline {11}{\ignorespaces General questions about the scenarios and smartwatch controlled systems. Answers were made on a five point Likert scale from strongly disagree to strongly agree. Most participants agreed or strongly agreed on all four questions. There were only 3 neutral and 1 disagreeing vote.\relax }}{27}{figure.caption.26}
+\contentsline {figure}{\numberline {10}{\ignorespaces Z-shaped route for both of the walking scenarios. During the day this route is much-used by students and other people.\relax }}{26}{figure.caption.24}
+\contentsline {figure}{\numberline {11}{\ignorespaces Zigzag route completely on a parking area for the bicycle and jogging scenario. Participants had to mind arriving and leaving cars and other cyclists.\relax }}{27}{figure.caption.25}
+\contentsline {figure}{\numberline {12}{\ignorespaces Distribution of music listener types. \newline 1 = I choose every song; \newline 5 = I don't care about which song plays.\relax }}{28}{figure.caption.27}
+\contentsline {figure}{\numberline {13}{\ignorespaces General questions about the scenarios and smartwatch controlled systems. Answers were made on a five point Likert scale from strongly disagree to strongly agree. Most participants agreed or strongly agreed on all four questions. There were only 3 neutral and 1 disagreeing vote.\relax }}{28}{figure.caption.28}
+\contentsline {figure}{\numberline {14}{\ignorespaces The participants prioritized the three input techniques from 1 (highest priority) to 3 (lowest priority). The values are averaged over all participants.\relax }}{30}{figure.caption.29}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Averaged priority rating for the input techniques in every scenario}}}{30}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Averaged priority rating for the input techniques for every task}}}{30}{subfigure.14.2}
+\contentsline {figure}{\numberline {15}{\ignorespaces Plot of how often an input technique was the most used during a scenario or a task respectivley. Speech input clearly dominates in the bicycle scenario and the complex music player tasks.\relax }}{31}{figure.caption.30}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Amount of most made choices for each scenario.}}}{31}{subfigure.15.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Amount of most made choices for each task.}}}{31}{subfigure.15.2}
+\contentsline {figure}{\numberline {16}{\ignorespaces Overall usage numbers of each input technique for all participants.\relax }}{32}{figure.caption.31}
+\contentsline {figure}{\numberline {17}{\ignorespaces Participant rating of required ressources namely physical or time-wise effort and attention for each input technique. Values range from 0 (almost none needed) to 10 (current task has to be interrupted).\relax }}{33}{figure.caption.32}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Required amount of physical effort in each scenario.}}}{33}{subfigure.17.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Required amount of attention in each scenario.}}}{33}{subfigure.17.2}
 \addvspace {10\p@ }

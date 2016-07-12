@@ -18,22 +18,37 @@
 
 % plot 0-10 scale data
 
-The purpose of the music player described in chapter \ref{ch:implementation} is to examine user behaviour regarding the focused-casual continuum. The idea behind this concept is that users can vary their level of engagement for a certain action while not being bound to interact strictly focused or casual with the device. The three interaction techniques introduced in section \ref{sec:UserInterface} and the variable amount of control they offer to the user create different levels in the focused-casual continuum. \\
+The purpose of the music player described in chapter \ref{ch:implementation} is to examine user behaviour regarding the focused-casual continuum. The idea behind this concept is that users can vary their level of engagement for a certain action while not being bound to interact strictly focused or casual with the device. The three interaction techniques introduced in section \ref{sec:UserInterface} and the variable amount of control they offer to the user create different levels in the focused-casual continuum. It is interesting to see whether users recognize and use the different levels of engagement. \\
 
 \section{Procedure}\label{sec:studyProcedure}
-However, the viability and beneficing of the system needs to be confirmed by users in form of a study. Ten participants (2 female, age 21-29 $\overline{x}$=26, $\sigma$=2.47) with different backgrounds were invited. All participants own a smartphone, but only one person owns a smartwatch. Eight participants already had some experience with gesture controlled devices such as the Nintendo Wii or Microsoft's Kinect. Nobody used speech controlled devices beforehand. Every participant was observed while using the music player in six different scenarios that were both private and in public. In each scenario the participants wore the smartwatch on their left wrist and were sometimes more, sometimes less either physically or mentally distracted. Bicycle and headphones were provided but one could bring her own to feel more comfortable. \\
+However, the viability and beneficing of the system also needs to be confirmed by users in form of a study. Ten participants (2 female, age 21-29 $\overline{x}$=26, $\sigma$=2.47) with different backgrounds were invited. All participants own a smartphone, but only one person owns a smartwatch. Eight participants already had some experience with gesture controlled devices such as the Nintendo Wii or Microsoft's Kinect. Nobody used speech controlled devices beforehand. Every participant was observed while using the music player in six different scenarios that were both private and in public. In each scenario the participants wore the smartwatch on their left wrist and were sometimes more, sometimes less either physically or mentally distracted. The order of the scenarios for each participant was determined using a 6x6 latin square in order to prevent learning effects. \\
 
 Scenarios and their settings:
+\marginpar{Bicycle and headphones were provided but one could bring her own to feel more comfortable.}
 \begin{description}
 	\item[Office Work]{The participants are seated at a desk in an office. Their task is to copy a text from a sheet of paper to a file on a laptop thus being mentally and physically distracting. This scenario is in a private surrounding.}
 	\item[reading on couch]{The participants are seated on a couch in a private living room. Their task is to read a chapter from a book and summarise the content afterwards.}
-	\item[Riding a Bicycle]{The participants are riding a bike on a public parking area. Their task is to follow a pre-defined route. The distraction is both mental and physical.}
-	\item[joggin]{The participants are jogging the same route as they ride on the bicycle thus being in public and physically distracted.}
-	\item[Walking mentally distracted]{The participants are walking a pre-defined public route playing a memory game on a mobile phone. This is mentally distracting. Touch is still possible.}
-	\item[Walking physically distracted]{The participants are walking the aforementioned pre-defined public route carrying a bag in their right hand. This is physically distracting.}
+	\item[Riding a Bicycle]{The participants are riding a bike on a public parking area. Their task is to follow a pre-defined route (depicted in figure \ref{fig:parkingRoute}). The distraction is both mental and physical.}
+	\item[joggin]{The participants are jogging the same route on the parking area (depicted in figure \ref{fig:parkingRoute}), thus being in public and physically distracted.}
+	\item[Walking mentally distracted]{The participants are walking a pre-defined public route (depicted in figure \ref{fig:walkingRoute}) playing a memory game on a mobile phone. This is mentally distracting. Touch is still possible.}
+	\item[Walking physically distracted]{The participants are walking the aforementioned pre-defined public route (depicted in figure \ref{fig:walkingRoute}) carrying a bag in their right hand. This is physically distracting.}
 \end{description}
 
-To force the participants to interact with the music player, they were tasked with eight coarsely formulated player interactions in each scenario. For every forced interaction the participant could always freely choose between at least two interaction techniques to use, however, scenario constraints made using some techniques more difficult, e.g. using touch on bicycle. The use of each interaction technique was recorded during the experiment session. Table \ref{tab:scenarioTasks} lists the interaction tasks and the possible interaction techniques that generally could have been used.
+\begin{figure}[bth]
+	\myfloatalign
+	\label{fig:walkingRoute}
+	\includegraphics[width=.7\linewidth]{img/walkingRoute.png}
+	\caption{Z-shaped route for both of the walking scenarios. During the day this route is much-used by students and other people.}
+\end{figure}
+
+\begin{figure}[bth]
+	\myfloatalign
+	\label{fig:parkingRoute}
+	\includegraphics[width=.8\linewidth]{img/parkplatzRoute.png}
+	\caption{Zigzag route completely on a parking area for the bicycle and jogging scenario. Participants had to mind arriving and leaving cars and other cyclists.}
+\end{figure}
+
+To force the participants to interact with the music player, they were tasked with eight coarsely formulated player interactions in each scenario. For every forced interaction the participant could always freely choose between at least two interaction techniques to use, however, scenario constraints made using some techniques more difficult, e.g. using touch on bicycle. The use of each interaction technique was recorded during the experiment session ignoring interactions with recognition errors. Table \ref{tab:scenarioTasks} lists the interaction tasks and the possible interaction techniques that generally could have been used.
 
 \begin{table}[h]
 	\myfloatalign
@@ -43,7 +58,7 @@ To force the participants to interact with the music player, they were tasked wi
 		1. start a playlist & touch, speech \\
 		2. adjust the volume & touch, speech, gesture \\
 		3. toggle shuffle & touch, speech \\
-		4. \& 6. skip one or more songs & touch, speech, gesture \\
+		4. skip one or more songs & touch, speech, gesture \\
 		5. change song relative to a chosen audio feature & touch, speech \\
 		6. skip one or more songs & touch, speech, gesture \\
 		7. play song from different genre & touch, speech \\
@@ -74,6 +89,58 @@ The answers to the general questions about the experiment (seen in figure \ref{f
 	\caption{General questions about the scenarios and smartwatch controlled systems. Answers were made on a five point Likert scale from strongly disagree to strongly agree. Most participants agreed or strongly agreed on all four questions. There were only 3 neutral and 1 disagreeing vote.}
 \end{figure}
 
+Subsequently, the participants were asked to prioritize the three input techniques in general for every scenario and every interaction task they were given. Values range from 1 (highest priority) to 3 (lowest priority). Since some techniques were not possible to use in certain scenarios or for certain tasks, they were automatically prioritized as the lowest. Figure \ref{fig:priorityRating} plots the respective results. It is striking that gesture input was least prioritized for each task. Also, gesture input was least prioritized in most scenarios, except where touch was not very suitable (e.g. the bicycle scenario). Overall the speech input technique was prioritzed the most which can be approved by the input technique choice during the experiment. Figure \ref{fig:inputUsage} plots the amount of input choices that were made most in every scenario and for every task. In the bicycle scenario for example eight participants used the speech input for most of the tasks. However, gestures could only be used for half of the tasks in contrast to touch and speech input. Nonetheless, gestures were, next to speech input, the most chosen technique in the \textit{walking while mentally distracted} scenario. In general gestures were not used where the participant was physically distracted. Touch input was most of the time prioritized as the alternative to speech input which can also be approved by the observations. The total usage numbers are depicted in figure \ref{fig:overallUsage}.
+
+\begin{figure}[bth]
+	\myfloatalign
+	\subfloat[Averaged priority rating for the input techniques in every scenario]
+	{\label{fig:priorityScenarios}
+	\includegraphics[width=1.2\linewidth]{img/priorityScenarios.png}} \\
+	\subfloat[Averaged priority rating for the input techniques for every task]
+	{\label{fig:priorityTasks}
+	\includegraphics[width=1.2\linewidth]{img/priorityTasks.png}}
+	\caption{The participants prioritized the three input techniques from 1 (highest priority) to 3 (lowest priority). The values are averaged over all participants.}
+	\label{fig:priorityRating}
+\end{figure}
+
+\begin{figure}[bth]
+	\myfloatalign
+	\subfloat[Amount of most made choices for each scenario.]
+	{\label{fig:scenarioUsage}
+	\includegraphics[width=1.2\linewidth]{img/scenarioUsage.png}} \\
+	\subfloat[Amount of most made choices for each task.]
+	{\label{fig:taskUsage}
+	\includegraphics[width=1.2\linewidth]{img/taskUsage.png}}
+	\caption{Plot of how often an input technique was the most used during a scenario or a task respectivley. Speech input clearly dominates in the bicycle scenario and the complex music player tasks.}
+	\label{fig:inputUsage}
+\end{figure}
+
+\begin{figure}[bth]
+	\myfloatalign
+	\label{fig:overallUsage}
+	\includegraphics[width=.8\linewidth]{img/overallUsage.png}
+	\caption{Overall usage numbers of each input technique for all participants.}
+\end{figure}
+
+The participants were also asked to rate the amount of physical or time-wise effort (figure \ref{fig:requiredPhysicalEffort}) and the amount of required attention (figure \ref{fig:requiredAttention}) for each input technique regarding each scenario. Values range from 0 (almost no effort/attention) to 10 (high effort/attention such that current task has to be interrupted). It again stands out that speech input was rated the best in each scenario. Gestures were often times rated better than touch input, though, but since speech input was apparently much more convenient, gestures were still not used.
+
+\begin{figure}[bth]
+	\myfloatalign
+	\subfloat[Required amount of physical effort in each scenario.]
+	{\label{fig:requiredPhysicalEffort}
+	\includegraphics[width=1.2\linewidth]{img/requiredPhysicalEffort.png}} \\
+	\subfloat[Required amount of attention in each scenario.]
+	{\label{fig:requiredAttention}
+	\includegraphics[width=1.2\linewidth]{img/requiredAttention.png}}
+	\caption{Participant rating of required ressources namely physical or time-wise effort and attention for each input technique. Values range from 0 (almost none needed) to 10 (current task has to be interrupted).}
+	\label{fig:requiredRessources}
+\end{figure}
+
+
+% touch highest priority in private scenarios. Speech highest in public scenarios.
+% speech prefered during the complex tasks. touch second place.
+% speech physical and time-wise effort lowest in every scenario. 
+% physical distraction: speech prefered to gesture
 
 
 
