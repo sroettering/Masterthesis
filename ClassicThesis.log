@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  13 JUL 2016 19:03
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  13 JUL 2016 19:14
 entering extended mode
 **ClassicThesis.tex
 
@@ -1344,15 +1344,15 @@ tter/Declaration.tex) [3
 ]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/Abstract.tex
-Overfull \hbox (23.75084pt too wide) in paragraph at lines 21--22
-\T1/pplj/m/n/10.95 Diese Ar-beit un-ter-sucht welche und auf welche Weise Nutze
-r-schnittstellen,
+Overfull \hbox (1.97133pt too wide) in paragraph at lines 21--22
+\T1/pplj/m/n/10.95 Diese Ar-beit un-ter-sucht welche und auf welche Weise Benut
+zerschnitt-
  []
 
 
-Overfull \hbox (22.38731pt too wide) in paragraph at lines 21--22
-\T1/pplj/m/n/10.95 die \T1/pplj/m/it/10.95 Ca-sual In-ter-ac-tion \T1/pplj/m/n/
-10.95 nutzen, im-ple-men-tiert wer-den soll-ten. Als Beispielan-
+Overfull \hbox (3.41103pt too wide) in paragraph at lines 21--22
+\T1/pplj/m/n/10.95 ges-teuert wer-den kann. Touch-Eingabe, Sprach-be-fehle und 
+Ar-mgesten
  []
 
 ) [5
@@ -2285,7 +2285,7 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lcircle1.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (48 pages, 1248731 bytes).
+Output written on ClassicThesis.pdf (48 pages, 1248947 bytes).
 PDF statistics:
  791 PDF objects out of 1000 (max. 8388607)
  179 named destinations out of 1000 (max. 500000)
