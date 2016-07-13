@@ -1,5 +1,5 @@
 \select@language {american}
-\vspace {-\cftbeforepartskip }
+\vspace {-\cftbeforechapskip }
 \select@language {american}
 \contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Motivation}}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Related Work}}{5}{chapter.2}
@@ -15,9 +15,6 @@
 \contentsline {section}{\numberline {3.4}Mobile-Wear Communication}{22}{section.3.4}
 \contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {User Study}}{25}{chapter.4}
 \contentsline {section}{\numberline {4.1}Procedure}{25}{section.4.1}
-\contentsline {section}{\numberline {4.2}Results}{27}{section.4.2}
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{39}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Section Test}{39}{section.A.1}
-\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{39}{section.A.2}
+\contentsline {section}{\numberline {4.2}Results}{28}{section.4.2}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{41}{dummy.7}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{39}{dummy.7}
