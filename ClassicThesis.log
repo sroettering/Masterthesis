@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  13 JUL 2016 19:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  13 JUL 2016 19:16
 entering extended mode
 **ClassicThesis.tex
 
@@ -1169,33 +1169,7 @@ Package: scrtime 2012/07/29 v3.11b KOMA-Script package (time of LaTeX run)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\remreset.sty")))
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\ClassicThes
-is.aux
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
-tter/Titlepage.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
-tter/Titleback.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
-tter/Declaration.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
-tter/Abstract.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
-tter/Contents.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Mo
-tivation.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Re
-latedWork.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Im
-plementation.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Us
-erStudy.aux
-
-LaTeX Warning: Label `fig:overallUsage' multiply defined.
-
-)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
-tter/FiguresTables.aux)
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
-tter/Bibliography.aux))
+is.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
@@ -1217,7 +1191,8 @@ LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Try loading font information for T1+pplj on input line 60.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pplj.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pplj.fd"
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -1276,7 +1251,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
-tter/Titlepage.tex <gfx/welfenschloss.pdf, id=94, 1530.71875pt x 439.6425pt>
+tter/Titlepage.tex <gfx/welfenschloss.pdf, id=6, 1530.71875pt x 439.6425pt>
 File: gfx/welfenschloss.pdf Graphic file (type pdf)
 
 <use gfx/welfenschloss.pdf>
@@ -1367,18 +1342,11 @@ tter/Contents.tex
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
 .
 
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\ClassicThes
-is.toc
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/pplj/m/sc/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 4.
-Package acronym Info: Label `acro:GUI' newly defined as it shall be overridden
-although it is yet undefined on input line 12.
-)
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write6
- [7
+[7
 
 
 
@@ -1389,6 +1357,20 @@ although it is yet undefined on input line 12.
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Mo
 tivation.tex
 Chapter 1.
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 5.
+
+Package natbib Warning: Citation `smartphoneSurvey' on page 1 undefined on inpu
+t line 5.
+
+
+Package natbib Warning: Citation `pohl2013focused' on page 1 undefined on input
+ line 7.
+
+
+Package natbib Warning: Citation `flemisch2003h' on page 1 undefined on input l
+ine 7.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
@@ -1406,11 +1388,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
 
 
-] [2]
+]
+
+Package natbib Warning: Citation `Busse2014Thesis' on page 2 undefined on input
+ line 23.
+
+
+Package natbib Warning: Citation `Busse2014Thesis' on page 2 undefined on input
+ line 25.
+
+[2]
 Package acronym Info: Label `acro:SDK' newly defined as it shall be overridden
 although it is yet undefined on input line 27.
+
+
+Package acronym Warning: Acronym `SDK' is not defined on input line 27.
+
+
+Package acronym Warning: Acronym `SDK' is not defined on input line 27.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 27.
 LaTeX Font Info:    Try loading font information for T1+fvm on input line 27.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\bera\t1fvm.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\bera\t1fvm.fd"
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
@@ -1419,6 +1419,14 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+
+LaTeX Warning: Reference `ch:relatedwork' on page 3 undefined on input line 29.
+
+
+
+LaTeX Warning: Reference `ch:implementation' on page 3 undefined on input line 
+29.
 
 
 LaTeX Warning: Reference `ch:user-study' on page 3 undefined on input line 29.
@@ -1440,19 +1448,61 @@ Chapter 2.
 Package acronym Info: Label `acro:HCI' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
 
-Overfull \hbox (4.23792pt too wide) in paragraph at lines 5--6
-\T1/pplj/m/n/10.95 Casual in-ter-ac-tion has be-come a big re-search topic in [
-][][]human-computer
- []
+Package acronym Warning: Acronym `HCI' is not defined on input line 5.
+
+
+Package acronym Warning: Acronym `HCI' is not defined on input line 5.
+
+
+Package natbib Warning: Citation `pohl2013focused' on page 5 undefined on input
+ line 7.
+
+
+Package natbib Warning: Citation `Busse2014Thesis' on page 5 undefined on input
+ line 9.
+
+
+Package natbib Warning: Citation `bailly2012shoesense' on page 5 undefined on i
+nput line 11.
+
+
+Package natbib Warning: Citation `pohl2014around' on page 5 undefined on input 
+line 13.
+
+
+Package natbib Warning: Citation `boland2015engaging' on page 5 undefined on in
+put line 15.
 
 [5
 
 
 
 ]
+
+Package natbib Warning: Citation `kuhnel2011m' on page 6 undefined on input lin
+e 17.
+
 Package acronym Info: Label `acro:EPG' newly defined as it shall be overridden
 although it is yet undefined on input line 17.
- [6]) [7] [8
+
+Package acronym Warning: Acronym `EPG' is not defined on input line 17.
+
+
+Package acronym Warning: Acronym `EPG' is not defined on input line 17.
+
+
+Package natbib Warning: Citation `wobbrock2009user' on page 6 undefined on inpu
+t line 17.
+
+
+Package natbib Warning: Citation `choi2012can' on page 6 undefined on input lin
+e 19.
+
+
+Package natbib Warning: Citation `blumendorf2008multimodal' on page 6 undefined
+ on input line 21.
+
+[6]) [7] [8
 
 
 
@@ -1460,30 +1510,133 @@ although it is yet undefined on input line 17.
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Im
 plementation.tex
 Chapter 3.
+
+Package natbib Warning: Citation `pohl2013focused' on page 9 undefined on input
+ line 7.
+
+
+LaTeX Warning: Reference `sec:UserInterface' on page 9 undefined on input line 
+13.
+
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplj/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
 although it is yet undefined on input line 16.
+
+Package acronym Warning: Acronym `API' is not defined on input line 16.
+
+
+Package acronym Warning: Acronym `API' is not defined on input line 16.
+
+
+Package acronym Warning: Acronym `SDK' is not defined on input line 19.
+
+
+Package acronym Warning: Acronym `API' is not defined on input line 19.
+
+Package acronym Info: Label `acro:GUI' newly defined as it shall be overridden
+although it is yet undefined on input line 19.
+
+Package acronym Warning: Acronym `GUI' is not defined on input line 19.
+
+
+Package acronym Warning: Acronym `GUI' is not defined on input line 19.
+
+
+Package acronym Warning: Acronym `GUI' is not defined on input line 19.
+
+
+LaTeX Warning: Reference `fig:packageDiagram' on page 9 undefined on input line
+ 19.
+
 [9
 
 
 
-] <img/PackageDiagramCombined.png, id=258, 495.35063pt x 476.53032pt>
+]
+
+Package acronym Warning: Acronym `GUI' is not defined on input line 22.
+
+
+LaTeX Warning: Reference `sec:UserInterface' on page 10 undefined on input line
+ 22.
+
+
+LaTeX Warning: Reference `sub:speechControl' on page 10 undefined on input line
+ 22.
+
+
+Package acronym Warning: Acronym `SDK' is not defined on input line 22.
+
+
+Package acronym Warning: Acronym `API' is not defined on input line 22.
+
+
+Package acronym Warning: Acronym `GUI' is not defined on input line 22.
+
+
+LaTeX Warning: Reference `sub:speechControl' on page 10 undefined on input line
+ 22.
+
+
+Package acronym Warning: Acronym `GUI' is not defined on input line 25.
+
+
+LaTeX Warning: Reference `sub:gestureControl' on page 10 undefined on input lin
+e 25.
+
+
+LaTeX Warning: Reference `sub:speechControl' on page 10 undefined on input line
+ 25.
+
+<img/PackageDiagramCombined.png, id=110, 495.35063pt x 476.53032pt>
 File: img/PackageDiagramCombined.png Graphic file (type png)
 
 <use img/PackageDiagramCombined.png>
 Package pdftex.def Info: img/PackageDiagramCombined.png used on input line 30.
 (pdftex.def)             Requested size: 336.0pt x 323.2365pt.
  [10]
+
+Package acronym Warning: Acronym `GUI' is not defined on input line 36.
+
+
+Package acronym Warning: Acronym `GUI' is not defined on input line 36.
+
+
+Package acronym Warning: Acronym `SDK' is not defined on input line 38.
+
+
+Package acronym Warning: Acronym `GUI' is not defined on input line 40.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <9> not available
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 40.
+
+Package acronym Warning: Acronym `GUI' is not defined on input line 41.
+
+
+LaTeX Warning: Reference `fig:mobileGUI' on page 11 undefined on input line 41.
+
+
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10.95> not available
 (Font)              Font shape `T1/pplj/m/it' tried instead on input line 41.
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <9> not available
 (Font)              Font shape `T1/pplj/m/it' tried instead on input line 41.
-
-<img/mobileGUIlabeled.png, id=270, 677.53125pt x 1160.08406pt>
+<img/mobileGUIlabeled.png, id=116, 677.53125pt x 1160.08406pt>
 File: img/mobileGUIlabeled.png Graphic file (type png)
 
 <use img/mobileGUIlabeled.png>
 Package pdftex.def Info: img/mobileGUIlabeled.png used on input line 44.
 (pdftex.def)             Requested size: 151.19897pt x 258.88348pt.
+
+
+Package acronym Warning: Acronym `GUI' is not defined on input line 45.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 45.
+
+Package acronym Warning: Acronym `GUI' is not defined on input line 45.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--49
 
@@ -1491,41 +1644,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--49
 
 [11 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/Pac
 kageDiagramCombined.png>]
-<img/wearGUIcontrolsPage.png, id=282, 271.0125pt x 248.42813pt>
+
+Package acronym Warning: Acronym `GUI' is not defined on input line 50.
+
+
+LaTeX Warning: Reference `fig:wearGUI' on page 12 undefined on input line 50.
+
+<img/wearGUIcontrolsPage.png, id=127, 271.0125pt x 248.42813pt>
 File: img/wearGUIcontrolsPage.png Graphic file (type png)
 
 <use img/wearGUIcontrolsPage.png>
 Package pdftex.def Info: img/wearGUIcontrolsPage.png used on input line 56.
 (pdftex.def)             Requested size: 100.80103pt x 92.40218pt.
 
-<img/wearGUIselect.png, id=283, 268.75406pt x 248.42813pt>
+<img/wearGUIselect.png, id=128, 268.75406pt x 248.42813pt>
 File: img/wearGUIselect.png Graphic file (type png)
 
 <use img/wearGUIselect.png>
 Package pdftex.def Info: img/wearGUIselect.png used on input line 59.
 (pdftex.def)             Requested size: 100.80103pt x 93.17548pt.
 
-<img/wearGUIitems.png, id=284, 268.75406pt x 247.67531pt>
+<img/wearGUIitems.png, id=129, 268.75406pt x 247.67531pt>
 File: img/wearGUIitems.png Graphic file (type png)
 
 <use img/wearGUIitems.png>
 Package pdftex.def Info: img/wearGUIitems.png used on input line 62.
 (pdftex.def)             Requested size: 100.80103pt x 92.89313pt.
 
-<img/wearGUIambient.png, id=285, 270.25969pt x 247.67531pt>
+<img/wearGUIambient.png, id=130, 270.25969pt x 247.67531pt>
 File: img/wearGUIambient.png Graphic file (type png)
 
 <use img/wearGUIambient.png>
 Package pdftex.def Info: img/wearGUIambient.png used on input line 65.
 (pdftex.def)             Requested size: 100.80103pt x 92.37537pt.
- [12 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/mo
-bileGUIlabeled.png>]
+
+
+Package acronym Warning: Acronym `GUI' is not defined on input line 66.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 66.
+
+LaTeX Warning: Reference `fig:wearGUI-ambient' on page 12 undefined on input li
+ne 66.
+
+
+LaTeX Warning: Reference `fig:wearGUI-controls' on page 12 undefined on input l
+ine 66.
+
+
+LaTeX Warning: Reference `fig:wearGUI-select' on page 12 undefined on input lin
+e 66.
+
+
+LaTeX Warning: Reference `fig:wearGUI-items' on page 12 undefined on input line
+ 66.
+
+
+Package acronym Warning: Acronym `GUI' is not defined on input line 66.
+
+
+LaTeX Warning: Reference `fig:wearGUI-ambient' on page 12 undefined on input li
+ne 66.
+
+
+LaTeX Warning: Reference `fig:wearGUI-controls' on page 12 undefined on input l
+ine 66.
+
+
+LaTeX Warning: Reference `fig:wearGUI-select' on page 12 undefined on input lin
+e 66.
+
+
+LaTeX Warning: Reference `fig:wearGUI-items' on page 12 undefined on input line
+ 66.
+
+
+LaTeX Warning: Reference `fig:wearGUI-controls' on page 12 undefined on input l
+ine 70.
+
+[12 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/mob
+ileGUIlabeled.png>]
+
+LaTeX Warning: Reference `fig:wearGUI-select' on page 13 undefined on input lin
+e 72.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 Package acronym Info: Label `acro:UI' newly defined as it shall be overridden
 although it is yet undefined on input line 74.
+
+Package acronym Warning: Acronym `UI' is not defined on input line 74.
+
+
+Package acronym Warning: Acronym `UI' is not defined on input line 74.
+
+
+Package acronym Warning: Acronym `UI' is not defined on input line 74.
+
+
+LaTeX Warning: Reference `fig:wearGUI-ambient' on page 13 undefined on input li
+ne 74.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
@@ -1536,43 +1758,86 @@ rGUIcontrolsPage.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Ma
 sterthesis/img/wearGUIselect.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/Mas
 terarbeit/Masterthesis/img/wearGUIitems.png> <D:/Users/Sven/Documents/Dropbox/h
 ome/Uni/Masterarbeit/Masterthesis/img/wearGUIambient.png>]
+
+LaTeX Warning: Reference `fig:wearGUI-controls' on page 14 undefined on input l
+ine 77.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 77--77
 [][][]$\T1/fvm/m/n/9 https : / / developer . android . com / reference / androi
 d / speech / SpeechRecognizer .$
  []
 
-<img/SpeechActivityDiagram.png, id=325, 475.7775pt x 362.10281pt>
+
+LaTeX Warning: Reference `fig:speechActivityDiagram' on page 14 undefined on in
+put line 77.
+
+
+LaTeX Warning: Reference `sec:Communication' on page 14 undefined on input line
+ 77.
+
+<img/SpeechActivityDiagram.png, id=153, 475.7775pt x 362.10281pt>
 File: img/SpeechActivityDiagram.png Graphic file (type png)
 
 <use img/SpeechActivityDiagram.png>
 Package pdftex.def Info: img/SpeechActivityDiagram.png used on input line 80.
 (pdftex.def)             Requested size: 336.0pt x 255.73558pt.
- [14]
+
+
+LaTeX Warning: Reference `tab:speechCommands' on page 14 undefined on input lin
+e 87.
+
+[14]
+
+LaTeX Warning: Reference `tab:speechCommandsAudioFeature' on page 15 undefined 
+on input line 108.
+
 Package acronym Info: Label `acro:BPM' newly defined as it shall be overridden
 although it is yet undefined on input line 115.
 
-Overfull \hbox (3.8985pt too wide) in paragraph at lines 115--116
-[]\T1/pplj/m/n/10.95 The es-ti-mated tempo of a track mea-sured in [][][]Beats 
-per Minute
- []
+Package acronym Warning: Acronym `BPM' is not defined on input line 115.
+
+
+Package acronym Warning: Acronym `BPM' is not defined on input line 115.
 
 [15 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/Spe
-echActivityDiagram.png>] [16]
+echActivityDiagram.png>]
+
+LaTeX Warning: Reference `lst:audioFeature' on page 16 undefined on input line 
+136.
+
+
+LaTeX Warning: Reference `fig:audioFeatureExample' on page 16 undefined on inpu
+t line 136.
+
+[16]
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 138.
-
-<img/calcAudioFeatureExample.png, id=355, 405.01312pt x 210.7875pt>
+ <img/calcAudioFeatureExample.png, id=176, 405.01312pt x 210.7875pt>
 File: img/calcAudioFeatureExample.png Graphic file (type png)
 
 <use img/calcAudioFeatureExample.png>
 Package pdftex.def Info: img/calcAudioFeatureExample.png used on input line 153
 .
 (pdftex.def)             Requested size: 332.64185pt x 173.1267pt.
- [17 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/ca
-lcAudioFeatureExample.png>]
+
+
+LaTeX Warning: Reference `tab:speechCommands' on page 17 undefined on input lin
+e 158.
+
+[17 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/cal
+cAudioFeatureExample.png>]
+
+LaTeX Warning: Reference `lst:stringSimilarity' on page 18 undefined on input l
+ine 160.
+
 
 Package Listings Warning: Text dropped after begin of listing on input line 162
 .
+
+
+LaTeX Warning: Reference `lst:audioFeature' on page 18 undefined on input line 
+180.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 180--181
@@ -1584,22 +1849,51 @@ Overfull \hbox (8.74768pt too wide) in paragraph at lines 185--186
 []\T1/pplj/m/n/10.95 enqueues and plays all tracks by Hard-
  []
 
-<img/wiigeePipeline.png, id=400, 397.485pt x 94.3525pt>
+
+LaTeX Warning: Reference `fig:wiigeePipeline' on page 19 undefined on input lin
+e 200.
+
+
+Package natbib Warning: Citation `Schlomer:2008:GRW:1347390.1347395' on page 19
+ undefined on input line 200.
+
+<img/wiigeePipeline.png, id=217, 397.485pt x 94.3525pt>
 File: img/wiigeePipeline.png Graphic file (type png)
 
 <use img/wiigeePipeline.png>
 Package pdftex.def Info: img/wiigeePipeline.png used on input line 204.
 (pdftex.def)             Requested size: 332.64185pt x 78.96327pt.
- [19 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/wi
-igeePipeline.png>]
-<img/activationgesture.png, id=412, 101.62968pt x 81.30376pt>
+
+
+Package natbib Warning: Citation `Schlomer:2008:GRW:1347390.1347395' on page 19
+ undefined on input line 205.
+
+
+Package natbib Warning: Citation `Schlomer:2008:GRW:1347390.1347395' on page 19
+ undefined on input line 205.
+
+
+Package natbib Warning: Citation `Schlomer:2008:GRW:1347390.1347395' on page 19
+ undefined on input line 209.
+
+
+Package natbib Warning: Citation `kuhnel2011m' on page 19 undefined on input li
+ne 209.
+
+
+LaTeX Warning: Reference `fig:gestures' on page 19 undefined on input line 209.
+
+
+[19 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/wii
+geePipeline.png>]
+<img/activationgesture.png, id=224, 101.62968pt x 81.30376pt>
 File: img/activationgesture.png Graphic file (type png)
 
 <use img/activationgesture.png>
 Package pdftex.def Info: img/activationgesture.png used on input line 217.
 (pdftex.def)             Requested size: 84.0pt x 67.2017pt.
 
-<img/next.png, id=413, 90.3375pt x 118.19156pt>
+<img/next.png, id=225, 90.3375pt x 118.19156pt>
 File: img/next.png Graphic file (type png)
  <use img/next.png>
 Package pdftex.def Info: img/next.png used on input line 220.
@@ -1609,7 +1903,7 @@ Underfull \hbox (badness 2744) in paragraph at lines 220--220
 [][]|\T1/pplj/m/n/9 swipe arm from
  []
 
-<img/volumeup.png, id=414, 89.58469pt x 100.12407pt>
+<img/volumeup.png, id=226, 89.58469pt x 100.12407pt>
 File: img/volumeup.png Graphic file (type png)
  <use img/volumeup.png>
 Package pdftex.def Info: img/volumeup.png used on input line 223.
@@ -1624,7 +1918,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--223
 \T1/pplj/m/n/9 wards: in-crease
  []
 
-<img/playpause.png, id=415, 60.225pt x 135.50626pt>
+<img/playpause.png, id=227, 60.225pt x 135.50626pt>
 File: img/playpause.png Graphic file (type png)
  <use img/playpause.png>
 Package pdftex.def Info: img/playpause.png used on input line 226.
@@ -1634,7 +1928,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--226
 [][]|\T1/pplj/m/n/9 punch for-ward:
  []
 
-<img/previous.png, id=416, 90.3375pt x 118.19156pt>
+<img/previous.png, id=228, 90.3375pt x 118.19156pt>
 File: img/previous.png Graphic file (type png)
  <use img/previous.png>
 Package pdftex.def Info: img/previous.png used on input line 229.
@@ -1644,7 +1938,7 @@ Underfull \hbox (badness 3364) in paragraph at lines 229--229
 [][]|\T1/pplj/m/n/9 swipe arm from
  []
 
-<img/volumedown.png, id=417, 81.30376pt x 101.62968pt>
+<img/volumedown.png, id=229, 81.30376pt x 101.62968pt>
 File: img/volumedown.png Graphic file (type png)
 
 <use img/volumedown.png>
@@ -1655,6 +1949,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--232
 \T1/pplj/m/n/9 wards: de-crease
  []
 
+
+LaTeX Warning: Reference `fig:gesturesActivation' on page 20 undefined on input
+ line 233.
+
+
+LaTeX Warning: Reference `fig:gesturesActivation' on page 20 undefined on input
+ line 233.
+
 [20 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/act
 ivationgesture.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Mast
 erthesis/img/next.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/M
@@ -1662,13 +1964,29 @@ asterthesis/img/volumeup.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/Mastera
 rbeit/Masterthesis/img/playpause.png> <D:/Users/Sven/Documents/Dropbox/home/Uni
 /Masterarbeit/Masterthesis/img/previous.png> <D:/Users/Sven/Documents/Dropbox/h
 ome/Uni/Masterarbeit/Masterthesis/img/volumedown.png>]
+
+LaTeX Warning: Reference `fig:pitchPlot' on page 21 undefined on input line 239
+.
+
 PGFPlots: reading {data/minPitchValues.csv}
 
 Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
-[21] <img/CommunicationOverview.png, id=449, 602.25pt x 451.6875pt>
+[21]
+
+Package acronym Warning: Acronym `API' is not defined on input line 261.
+
+
+LaTeX Warning: Reference `tab:messageTypes' on page 22 undefined on input line 
+261.
+
+
+LaTeX Warning: Reference `fig:communicationoverview' on page 22 undefined on in
+put line 261.
+
+<img/CommunicationOverview.png, id=255, 602.25pt x 451.6875pt>
 File: img/CommunicationOverview.png Graphic file (type png)
 
 <use img/CommunicationOverview.png>
@@ -1716,14 +2034,26 @@ Underfull \hbox (badness 3364) in paragraph at lines 283--283
  []
 
 
+Package acronym Warning: Acronym `UI' is not defined on input line 283.
+
+
 Underfull \hbox (badness 4144) in paragraph at lines 283--283
 []|\T1/pplj/m/n/10.95 Contains all in-for-
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 283--283
+\T1/pplj/m/n/10.95 bile and wear [][]
  []
 
 
 Underfull \hbox (badness 1178) in paragraph at lines 283--283
 \T1/pplj/m/n/10.95 in-put on the wear
  []
+
+
+LaTeX Warning: Reference `sub:gestureControl' on page 23 undefined on input lin
+e 283.
 
 
 Underfull \hbox (badness 8113) in paragraph at lines 283--283
@@ -1750,11 +2080,6 @@ Underfull \hbox (badness 6348) in paragraph at lines 283--283
 \T1/pplj/m/n/10.95 id is mapped to
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
-\T1/pplj/m/n/10.95 com-mand is (see
- []
-
 ) [23] [24
 
 
@@ -1763,6 +2088,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--283
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Us
 erStudy.tex
 Chapter 4.
+
+LaTeX Warning: Reference `ch:implementation' on page 25 undefined on input line
+ 5.
+
+
+LaTeX Warning: Reference `sec:UserInterface' on page 25 undefined on input line
+ 5.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
@@ -1777,34 +2110,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
 
 
-] <img/walkingRoute.png, id=482, 450.18187pt x 626.34pt>
+]
+
+LaTeX Warning: Reference `fig:parkingRoute' on page 26 undefined on input line 
+14.
+
+
+LaTeX Warning: Reference `fig:parkingRoute' on page 26 undefined on input line 
+15.
+
+
+LaTeX Warning: Reference `fig:walkingRoute' on page 26 undefined on input line 
+16.
+
+
+LaTeX Warning: Reference `fig:walkingRoute' on page 26 undefined on input line 
+17.
+
+<img/walkingRoute.png, id=279, 450.18187pt x 626.34pt>
 File: img/walkingRoute.png Graphic file (type png)
 
 <use img/walkingRoute.png>
 Package pdftex.def Info: img/walkingRoute.png used on input line 22.
 (pdftex.def)             Requested size: 235.19897pt x 327.23737pt.
 
-<img/parkplatzRoute.png, id=483, 875.52094pt x 571.38469pt>
+<img/parkplatzRoute.png, id=280, 875.52094pt x 571.38469pt>
 File: img/parkplatzRoute.png Graphic file (type png)
 
 <use img/parkplatzRoute.png>
 Package pdftex.def Info: img/parkplatzRoute.png used on input line 29.
 (pdftex.def)             Requested size: 268.80103pt x 175.42729pt.
- [26 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/wa
-lkingRoute.png>]
+
+
+LaTeX Warning: Reference `tab:scenarioTasks' on page 26 undefined on input line
+ 34.
+
+[26 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/wal
+kingRoute.png>]
 Underfull \hbox (badness 3815) in paragraph at lines 50--50
 []|\T1/pplj/m/n/10.95 7. play song from dif-fer-ent
  []
 
+
+LaTeX Warning: Reference `fig:listenerTypes' on page 27 undefined on input line
+ 56.
+
 [27 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/par
-kplatzRoute.png>] <img/listenerTypesPlot.png, id=498, 228.10219pt x 264.99pt>
+kplatzRoute.png>]
+
+LaTeX Warning: Reference `fig:scenarioQuestions' on page 28 undefined on input 
+line 58.
+
+<img/listenerTypesPlot.png, id=293, 228.10219pt x 264.99pt>
 File: img/listenerTypesPlot.png Graphic file (type png)
 
 <use img/listenerTypesPlot.png>
 Package pdftex.def Info: img/listenerTypesPlot.png used on input line 62.
 (pdftex.def)             Requested size: 168.0pt x 195.17166pt.
 
-<img/generalQuestionsPlot.png, id=499, 566.86781pt x 201.75375pt>
+<img/generalQuestionsPlot.png, id=294, 566.86781pt x 201.75375pt>
 File: img/generalQuestionsPlot.png Graphic file (type png)
 
 <use img/generalQuestionsPlot.png>
@@ -1816,14 +2180,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [28 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/lis
 tenerTypesPlot.png>]
-<img/priorityScenarios.png, id=512, 572.89032pt x 264.23718pt>
+
+LaTeX Warning: Reference `fig:priorityRating' on page 29 undefined on input lin
+e 80.
+
+
+LaTeX Warning: Reference `fig:overallUsage' on page 29 undefined on input line 
+82.
+
+
+LaTeX Warning: Reference `fig:inputUsage' on page 29 undefined on input line 83
+.
+
+
+LaTeX Warning: Reference `fig:taskUsage' on page 29 undefined on input line 89.
+
+
+
+LaTeX Warning: Reference `fig:perceivedControl' on page 29 undefined on input l
+ine 91.
+
+<img/priorityScenarios.png, id=301, 572.89032pt x 264.23718pt>
 File: img/priorityScenarios.png Graphic file (type png)
 
 <use img/priorityScenarios.png>
 Package pdftex.def Info: img/priorityScenarios.png used on input line 99.
 (pdftex.def)             Requested size: 319.19897pt x 147.22589pt.
 
-<img/priorityTasks.png, id=513, 575.90157pt x 265.74281pt>
+<img/priorityTasks.png, id=302, 575.90157pt x 265.74281pt>
 File: img/priorityTasks.png Graphic file (type png)
 
 <use img/priorityTasks.png>
@@ -1833,14 +2217,14 @@ Package pdftex.def Info: img/priorityTasks.png used on input line 102.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/scenarioUsage.png, id=514, 569.87906pt x 226.59656pt>
+<img/scenarioUsage.png, id=303, 569.87906pt x 226.59656pt>
 File: img/scenarioUsage.png Graphic file (type png)
 
 <use img/scenarioUsage.png>
 Package pdftex.def Info: img/scenarioUsage.png used on input line 111.
 (pdftex.def)             Requested size: 319.19897pt x 126.92085pt.
 
-<img/taskUsage.png, id=515, 569.12625pt x 232.61906pt>
+<img/taskUsage.png, id=304, 569.12625pt x 232.61906pt>
 File: img/taskUsage.png Graphic file (type png)
  <use img/taskUsage.png>
 Package pdftex.def Info: img/taskUsage.png used on input line 114.
@@ -1849,14 +2233,14 @@ Package pdftex.def Info: img/taskUsage.png used on input line 114.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/perceivedControl.png, id=516, 253.69781pt x 261.22594pt>
+<img/perceivedControl.png, id=305, 253.69781pt x 261.22594pt>
 File: img/perceivedControl.png Graphic file (type png)
 
 <use img/perceivedControl.png>
 Package pdftex.def Info: img/perceivedControl.png used on input line 123.
 (pdftex.def)             Requested size: 134.39795pt x 138.38928pt.
 
-<img/overallUsage.png, id=517, 285.31593pt x 275.52937pt>
+<img/overallUsage.png, id=306, 285.31593pt x 275.52937pt>
 File: img/overallUsage.png Graphic file (type png)
 
 <use img/overallUsage.png>
@@ -1876,7 +2260,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [29 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/gen
 eralQuestionsPlot.png>]
-<img/requiredPhysicalEffort.png, id=531, 567.62062pt x 261.22594pt>
+
+LaTeX Warning: Reference `fig:requiredPhysicalEffort' on page 30 undefined on i
+nput line 140.
+
+
+LaTeX Warning: Reference `fig:requiredAttention' on page 30 undefined on input 
+line 140.
+
+<img/requiredPhysicalEffort.png, id=314, 567.62062pt x 261.22594pt>
 File: img/requiredPhysicalEffort.png Graphic file (type png)
 
 <use img/requiredPhysicalEffort.png>
@@ -1888,7 +2280,7 @@ Overfull \hbox (3.18645pt too wide) in paragraph at lines 146--146
  [][] 
  []
 
-<img/requiredAttention.png, id=532, 571.38469pt x 246.9225pt>
+<img/requiredAttention.png, id=315, 571.38469pt x 246.9225pt>
 File: img/requiredAttention.png Graphic file (type png)
 
 <use img/requiredAttention.png>
@@ -1926,102 +2318,29 @@ tter/FiguresTables.tex
 Package tocbasic Info: character protrusion at lof deactivated on input line 17
 .
 
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\ClassicThes
-is.lof
-Overfull \hbox (15.0112pt too wide) in paragraph at lines 9--9
- \T1/pplj/m/n/10.95 Grid-View-Pager con-tain-ing three hor-i-zon-tal pages. 
- []
 
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
 
-Overfull \hbox (7.23195pt too wide) in paragraph at lines 9--9
- \T1/pplj/m/n/10.95 in am-bi-ent mode, i.e. bat-tery sav-ing mode, while 
- []
+\tf@lof=\write7
+Package tocbasic Info: character protrusion at lot deactivated on input line 28
+.
 
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
 
-Overfull \hbox (1.3722pt too wide) in paragraph at lines 9--9
- []\T1/pplj/m/n/10.95 3a[] is the same screen in in-ter-ac-tive mode. Swip- 
- []
+\tf@lot=\write8
 
+Package hyperref Warning: old lol file detected, not used; run LaTeX again.
 
-Overfull \hbox (14.06317pt too wide) in paragraph at lines 16--16
- [][] [][]\T1/pplj/m/n/10.95 Original from [[]]. Four-level recog-ni-tion pipel
-ine 
- []
-
-
-Overfull \hbox (4.84335pt too wide) in paragraph at lines 24--24
- \T1/pplj/m/n/10.95 tic-i-pant. The min-i-mum ab-so-lute pitch value that 
- []
-
+\tf@lol=\write9
 [35
 
 
 
 
-]
-Overfull \hbox (9.42757pt too wide) in paragraph at lines 25--25
- \T1/pplj/m/n/10.95 con-tain-ing the cur-rent mu-sic player state, a touch 
- []
+] [36
 
 
-Overfull \hbox (3.16344pt too wide) in paragraph at lines 28--28
- \T1/pplj/m/n/10.95 had to mind ar-riv-ing and leav-ing cars and other 
- []
-
-
-Overfull \hbox (9.9962pt too wide) in paragraph at lines 30--30
- [][] [][]\T1/pplj/m/n/10.95 General ques-tions about the sce-nar-ios and smart
-- 
- []
-
-
-Overfull \hbox (5.75853pt too wide) in paragraph at lines 31--31
- [][] [][]\T1/pplj/m/n/10.95 The par-tic-i-pants pri-or-i-tized the three in-pu
-t tech- 
- []
-
-
-Overfull \hbox (0.1522pt too wide) in paragraph at lines 40--40
- [][] [][]\T1/pplj/m/n/10.95 Overall us-age num-bers of each in-put tech-nique 
-
- []
-
-
-Overfull \hbox (5.41904pt too wide) in paragraph at lines 41--41
- [][] [][]\T1/pplj/m/n/10.95 Participant rat-ing of re-quired ressources namely
- 
- []
-
-)
-\tf@lof=\write7
-Package tocbasic Info: character protrusion at lot deactivated on input line 28
-.
-
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\ClassicThes
-is.lot
-Overfull \hbox (2.22629pt too wide) in paragraph at lines 7--7
- \T1/pplj/m/n/10.95 cept-ing pa-ram-e-ters. All other com-mands in this 
- []
-
-[36]
-Overfull \hbox (3.90799pt too wide) in paragraph at lines 8--8
- [][] [][]\T1/pplj/m/n/10.95 Building blocks (key-words) for com-mands from 
- []
-
-)
-\tf@lot=\write8
-
-(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\ClassicThes
-is.lol
-Overfull \hbox (4.80585pt too wide) in paragraph at lines 7--7
- \T1/pplj/m/n/10.95 ture value and look-ing up re-spec-tive tracks with 
- []
-
-)
-\tf@lol=\write9
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 52.
- [37] [38])
+])
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/Bibliography.tex
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\ClassicThes
@@ -2034,16 +2353,17 @@ $\T1/fvm/m/n/10.95 smartphone -[] ownership -[] and -[] internet -[] usage -[]
 continues -[] to -[]$
  []
 
-[39
+[37
 
 
 
 
 
 
+])) [38]
 
+Package natbib Warning: There were undefined citations.
 
-])) [40]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
 
@@ -2070,7 +2390,17 @@ erStudy.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/FiguresTables.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
-tter/Bibliography.aux))
+tter/Bibliography.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+Package mparhack Warning: Marginpars may have changed.
+(mparhack)                Rerun to get them right.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
 
 
@@ -2258,24 +2588,30 @@ ClassicThesis.bbl
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
-Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: EC2CEA55BC55CC1DF28437C7C4EF6E77;1340.
+
+Package rerunfilecheck Warning: File `ClassicThesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ClassicThesis.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  3BE49740DEDF6716D141FEEC63C251CB;1341.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 32552 strings out of 494045
- 690088 string characters out of 3148390
- 1086526 words of memory out of 3000000
- 34887 multiletter control sequences out of 15000+200000
- 89005 words of font info for 127 fonts, out of 3000000 for 9000
+ 32501 strings out of 494045
+ 686905 string characters out of 3148390
+ 1071146 words of memory out of 3000000
+ 34858 multiletter control sequences out of 15000+200000
+ 97645 words of font info for 139 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 68i,14n,86p,1558b,2020s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,14n,86p,1558b,2022s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurb10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Files/MiKTeX 2
@@ -2283,11 +2619,12 @@ TeX 2.9/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Files/MiKTeX 2
 public/fpl/fplrij8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lcircle1.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (48 pages, 1248947 bytes).
+Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/urw/palatino/uplri8a.pfb>
+Output written on ClassicThesis.pdf (46 pages, 1199762 bytes).
 PDF statistics:
- 791 PDF objects out of 1000 (max. 8388607)
- 179 named destinations out of 1000 (max. 500000)
- 19790 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 483 PDF objects out of 1000 (max. 8388607)
+ 177 named destinations out of 1000 (max. 500000)
+ 21150 words of extra memory for PDF output out of 24883 (max. 10000000)
 
