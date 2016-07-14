@@ -15,6 +15,7 @@
 \contentsline {section}{\numberline {3.4}Mobile-Wear Communication}{22}{section.3.4}
 \contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {User Study}}{25}{chapter.4}
 \contentsline {section}{\numberline {4.1}Procedure}{25}{section.4.1}
-\contentsline {section}{\numberline {4.2}Results}{28}{section.4.2}
+\contentsline {section}{\numberline {4.2}Evaluation}{28}{section.4.2}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Conclusion and future work}}{35}{chapter.5}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{39}{dummy.7}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{41}{dummy.7}

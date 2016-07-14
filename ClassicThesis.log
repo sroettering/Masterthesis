@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  14 JUL 2016 16:04
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  14 JUL 2016 17:33
 entering extended mode
 **ClassicThesis.tex
 
@@ -1187,11 +1187,9 @@ latedWork.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Im
 plementation.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Us
-erStudy.aux
-
-LaTeX Warning: Label `fig:overallUsage' multiply defined.
-
-)
+erStudy.aux)
+(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Co
+nclusion.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/FiguresTables.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
@@ -1276,7 +1274,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
-tter/Titlepage.tex <gfx/welfenschloss.pdf, id=94, 1530.71875pt x 439.6425pt>
+tter/Titlepage.tex <gfx/welfenschloss.pdf, id=98, 1530.71875pt x 439.6425pt>
 File: gfx/welfenschloss.pdf Graphic file (type pdf)
 
 <use gfx/welfenschloss.pdf>
@@ -1419,10 +1417,6 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 Package acronym Info: Label `acro:SDK' newly defined as it shall be overridden
 although it is yet undefined on input line 27.
-
-
-LaTeX Warning: Reference `ch:conclusion' on page 3 undefined on input line 31.
-
 ) [3] [4
 
 
@@ -1465,7 +1459,7 @@ although it is yet undefined on input line 7.
 
 
 
-] [10] <img/PackageDiagramCombined.png, id=267, 495.35063pt x 476.53032pt>
+] [10] <img/PackageDiagramCombined.png, id=272, 495.35063pt x 476.53032pt>
 File: img/PackageDiagramCombined.png Graphic file (type png)
 
 <use img/PackageDiagramCombined.png>
@@ -1478,7 +1472,7 @@ LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10.95> not available
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <9> not available
 (Font)              Font shape `T1/pplj/m/it' tried instead on input line 41.
 
-<img/mobileGUIlabeled.png, id=280, 677.53125pt x 1160.08406pt>
+<img/mobileGUIlabeled.png, id=285, 677.53125pt x 1160.08406pt>
 File: img/mobileGUIlabeled.png Graphic file (type png)
 
 <use img/mobileGUIlabeled.png>
@@ -1491,28 +1485,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--49
 
 [12 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/mob
 ileGUIlabeled.png>]
-<img/wearGUIcontrolsPage.png, id=292, 271.0125pt x 248.42813pt>
+<img/wearGUIcontrolsPage.png, id=297, 271.0125pt x 248.42813pt>
 File: img/wearGUIcontrolsPage.png Graphic file (type png)
 
 <use img/wearGUIcontrolsPage.png>
 Package pdftex.def Info: img/wearGUIcontrolsPage.png used on input line 56.
 (pdftex.def)             Requested size: 100.80103pt x 92.40218pt.
 
-<img/wearGUIselect.png, id=293, 268.75406pt x 248.42813pt>
+<img/wearGUIselect.png, id=298, 268.75406pt x 248.42813pt>
 File: img/wearGUIselect.png Graphic file (type png)
 
 <use img/wearGUIselect.png>
 Package pdftex.def Info: img/wearGUIselect.png used on input line 59.
 (pdftex.def)             Requested size: 100.80103pt x 93.17548pt.
 
-<img/wearGUIitems.png, id=294, 268.75406pt x 247.67531pt>
+<img/wearGUIitems.png, id=299, 268.75406pt x 247.67531pt>
 File: img/wearGUIitems.png Graphic file (type png)
 
 <use img/wearGUIitems.png>
 Package pdftex.def Info: img/wearGUIitems.png used on input line 62.
 (pdftex.def)             Requested size: 100.80103pt x 92.89313pt.
 
-<img/wearGUIambient.png, id=295, 270.25969pt x 247.67531pt>
+<img/wearGUIambient.png, id=300, 270.25969pt x 247.67531pt>
 File: img/wearGUIambient.png Graphic file (type png)
 
 <use img/wearGUIambient.png>
@@ -1541,7 +1535,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--77
 d / speech / SpeechRecognizer .$
  []
 
-<img/SpeechActivityDiagram.png, id=329, 475.7775pt x 362.10281pt>
+<img/SpeechActivityDiagram.png, id=334, 475.7775pt x 362.10281pt>
 File: img/SpeechActivityDiagram.png Graphic file (type png)
 
 <use img/SpeechActivityDiagram.png>
@@ -1563,7 +1557,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [16]
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 139.
- <img/calcAudioFeatureExample.png, id=359, 405.01312pt x 210.7875pt>
+ <img/calcAudioFeatureExample.png, id=364, 405.01312pt x 210.7875pt>
 File: img/calcAudioFeatureExample.png Graphic file (type png)
 
 <use img/calcAudioFeatureExample.png>
@@ -1586,21 +1580,21 @@ Overfull \hbox (8.74768pt too wide) in paragraph at lines 186--187
 []\T1/pplj/m/n/10.95 enqueues and plays all tracks by Hard-
  []
 
-<img/wiigeePipeline.png, id=405, 397.485pt x 94.3525pt>
+<img/wiigeePipeline.png, id=410, 397.485pt x 94.3525pt>
 File: img/wiigeePipeline.png Graphic file (type png)
 
 <use img/wiigeePipeline.png>
 Package pdftex.def Info: img/wiigeePipeline.png used on input line 205.
 (pdftex.def)             Requested size: 336.0pt x 79.75943pt.
  [19]
-<img/activationgesture.png, id=417, 101.62968pt x 81.30376pt>
+<img/activationgesture.png, id=422, 101.62968pt x 81.30376pt>
 File: img/activationgesture.png Graphic file (type png)
 
 <use img/activationgesture.png>
 Package pdftex.def Info: img/activationgesture.png used on input line 218.
 (pdftex.def)             Requested size: 84.0pt x 67.2017pt.
 
-<img/next.png, id=418, 90.3375pt x 118.19156pt>
+<img/next.png, id=423, 90.3375pt x 118.19156pt>
 File: img/next.png Graphic file (type png)
  <use img/next.png>
 Package pdftex.def Info: img/next.png used on input line 221.
@@ -1610,7 +1604,7 @@ Underfull \hbox (badness 2744) in paragraph at lines 221--221
 [][]|\T1/pplj/m/n/9 swipe arm from
  []
 
-<img/volumeup.png, id=419, 89.58469pt x 100.12407pt>
+<img/volumeup.png, id=424, 89.58469pt x 100.12407pt>
 File: img/volumeup.png Graphic file (type png)
  <use img/volumeup.png>
 Package pdftex.def Info: img/volumeup.png used on input line 224.
@@ -1625,7 +1619,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--224
 \T1/pplj/m/n/9 wards: in-crease
  []
 
-<img/playpause.png, id=420, 60.225pt x 135.50626pt>
+<img/playpause.png, id=425, 60.225pt x 135.50626pt>
 File: img/playpause.png Graphic file (type png)
  <use img/playpause.png>
 Package pdftex.def Info: img/playpause.png used on input line 227.
@@ -1635,7 +1629,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--227
 [][]|\T1/pplj/m/n/9 punch for-ward:
  []
 
-<img/previous.png, id=421, 90.3375pt x 118.19156pt>
+<img/previous.png, id=426, 90.3375pt x 118.19156pt>
 File: img/previous.png Graphic file (type png)
  <use img/previous.png>
 Package pdftex.def Info: img/previous.png used on input line 230.
@@ -1645,7 +1639,7 @@ Underfull \hbox (badness 3364) in paragraph at lines 230--230
 [][]|\T1/pplj/m/n/9 swipe arm from
  []
 
-<img/volumedown.png, id=422, 81.30376pt x 101.62968pt>
+<img/volumedown.png, id=427, 81.30376pt x 101.62968pt>
 File: img/volumedown.png Graphic file (type png)
 
 <use img/volumedown.png>
@@ -1668,7 +1662,7 @@ Uni/Masterarbeit/Masterthesis/img/volumeup.png> <D:/Users/Sven/Documents/Dropbo
 x/home/Uni/Masterarbeit/Masterthesis/img/playpause.png> <D:/Users/Sven/Document
 s/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/previous.png> <D:/Users/Sven/D
 ocuments/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/volumedown.png>]
-<img/CommunicationOverview.png, id=453, 602.25pt x 451.6875pt>
+<img/CommunicationOverview.png, id=458, 602.25pt x 451.6875pt>
 File: img/CommunicationOverview.png Graphic file (type png)
 
 <use img/CommunicationOverview.png>
@@ -1779,14 +1773,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
 
 
-] <img/walkingRoute.png, id=487, 450.18187pt x 626.34pt>
+] <img/walkingRoute.png, id=492, 450.18187pt x 626.34pt>
 File: img/walkingRoute.png Graphic file (type png)
 
 <use img/walkingRoute.png>
 Package pdftex.def Info: img/walkingRoute.png used on input line 22.
 (pdftex.def)             Requested size: 235.19897pt x 327.23737pt.
 
-<img/parkplatzRoute.png, id=488, 875.52094pt x 571.38469pt>
+<img/parkplatzRoute.png, id=493, 875.52094pt x 571.38469pt>
 File: img/parkplatzRoute.png Graphic file (type png)
 
 <use img/parkplatzRoute.png>
@@ -1799,14 +1793,14 @@ Underfull \hbox (badness 3815) in paragraph at lines 50--50
  []
 
 [27 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/par
-kplatzRoute.png>] <img/listenerTypesPlot.png, id=503, 228.10219pt x 264.99pt>
+kplatzRoute.png>] <img/listenerTypesPlot.png, id=508, 228.10219pt x 264.99pt>
 File: img/listenerTypesPlot.png Graphic file (type png)
 
 <use img/listenerTypesPlot.png>
 Package pdftex.def Info: img/listenerTypesPlot.png used on input line 62.
 (pdftex.def)             Requested size: 168.0pt x 195.17166pt.
 
-<img/generalQuestionsPlot.png, id=504, 566.86781pt x 201.75375pt>
+<img/generalQuestionsPlot.png, id=509, 566.86781pt x 201.75375pt>
 File: img/generalQuestionsPlot.png Graphic file (type png)
 
 <use img/generalQuestionsPlot.png>
@@ -1818,14 +1812,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [28 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/lis
 tenerTypesPlot.png>]
-<img/priorityScenarios.png, id=517, 572.89032pt x 264.23718pt>
+<img/priorityScenarios.png, id=522, 572.89032pt x 264.23718pt>
 File: img/priorityScenarios.png Graphic file (type png)
 
 <use img/priorityScenarios.png>
 Package pdftex.def Info: img/priorityScenarios.png used on input line 99.
 (pdftex.def)             Requested size: 319.19897pt x 147.22589pt.
 
-<img/priorityTasks.png, id=518, 575.90157pt x 265.74281pt>
+<img/priorityTasks.png, id=523, 575.90157pt x 265.74281pt>
 File: img/priorityTasks.png Graphic file (type png)
 
 <use img/priorityTasks.png>
@@ -1835,14 +1829,14 @@ Package pdftex.def Info: img/priorityTasks.png used on input line 102.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/scenarioUsage.png, id=519, 569.87906pt x 226.59656pt>
+<img/scenarioUsage.png, id=524, 569.87906pt x 226.59656pt>
 File: img/scenarioUsage.png Graphic file (type png)
 
 <use img/scenarioUsage.png>
 Package pdftex.def Info: img/scenarioUsage.png used on input line 111.
 (pdftex.def)             Requested size: 319.19897pt x 126.92085pt.
 
-<img/taskUsage.png, id=520, 569.12625pt x 232.61906pt>
+<img/taskUsage.png, id=525, 569.12625pt x 232.61906pt>
 File: img/taskUsage.png Graphic file (type png)
  <use img/taskUsage.png>
 Package pdftex.def Info: img/taskUsage.png used on input line 114.
@@ -1851,14 +1845,14 @@ Package pdftex.def Info: img/taskUsage.png used on input line 114.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/perceivedControl.png, id=521, 253.69781pt x 261.22594pt>
+<img/perceivedControl.png, id=526, 253.69781pt x 261.22594pt>
 File: img/perceivedControl.png Graphic file (type png)
 
 <use img/perceivedControl.png>
 Package pdftex.def Info: img/perceivedControl.png used on input line 123.
 (pdftex.def)             Requested size: 134.39795pt x 138.38928pt.
 
-<img/overallUsage.png, id=522, 285.31593pt x 275.52937pt>
+<img/overallUsage.png, id=527, 285.31593pt x 275.52937pt>
 File: img/overallUsage.png Graphic file (type png)
 
 <use img/overallUsage.png>
@@ -1868,36 +1862,28 @@ Package pdftex.def Info: img/overallUsage.png used on input line 126.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: img/overallUsage.png Graphic file (type png)
-<use img/overallUsage.png>
-Package pdftex.def Info: img/overallUsage.png used on input line 133.
-(pdftex.def)             Requested size: 201.60205pt x 194.68546pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [29 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/gen
 eralQuestionsPlot.png>]
-<img/requiredPhysicalEffort.png, id=536, 567.62062pt x 261.22594pt>
+<img/requiredPhysicalEffort.png, id=541, 567.62062pt x 261.22594pt>
 File: img/requiredPhysicalEffort.png Graphic file (type png)
 
 <use img/requiredPhysicalEffort.png>
-Package pdftex.def Info: img/requiredPhysicalEffort.png used on input line 146.
+Package pdftex.def Info: img/requiredPhysicalEffort.png used on input line 139.
 
 (pdftex.def)             Requested size: 336.0pt x 154.63614pt.
 
-Overfull \hbox (3.18645pt too wide) in paragraph at lines 146--146
+Overfull \hbox (3.18645pt too wide) in paragraph at lines 139--139
  [][] 
  []
 
-<img/requiredAttention.png, id=537, 571.38469pt x 246.9225pt>
+<img/requiredAttention.png, id=542, 571.38469pt x 246.9225pt>
 File: img/requiredAttention.png Graphic file (type png)
 
 <use img/requiredAttention.png>
-Package pdftex.def Info: img/requiredAttention.png used on input line 149.
+Package pdftex.def Info: img/requiredAttention.png used on input line 142.
 (pdftex.def)             Requested size: 336.0pt x 145.20073pt.
 
-Overfull \hbox (3.18645pt too wide) in paragraph at lines 149--150
+Overfull \hbox (3.18645pt too wide) in paragraph at lines 142--143
  [][] 
  []
 
@@ -1905,7 +1891,7 @@ Overfull \hbox (3.18645pt too wide) in paragraph at lines 149--150
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
@@ -1913,12 +1899,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
 orityScenarios.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Mast
 erthesis/img/priorityTasks.png>] [31 <D:/Users/Sven/Documents/Dropbox/home/Uni/
 Masterarbeit/Masterthesis/img/scenarioUsage.png> <D:/Users/Sven/Documents/Dropb
-ox/home/Uni/Masterarbeit/Masterthesis/img/taskUsage.png>] [32 <D:/Users/Sven/Do
-cuments/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/perceivedControl.png> <D
-:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/overallUs
-age.png>]) [33 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthe
+ox/home/Uni/Masterarbeit/Masterthesis/img/taskUsage.png>]) [32 <D:/Users/Sven/D
+ocuments/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/perceivedControl.png> <
+D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthesis/img/overallU
+sage.png>] [33 <D:/Users/Sven/Documents/Dropbox/home/Uni/Masterarbeit/Masterthe
 sis/img/requiredPhysicalEffort.png> <D:/Users/Sven/Documents/Dropbox/home/Uni/M
 asterarbeit/Masterthesis/img/requiredAttention.png>] [34
+
+
+
+]
+(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Co
+nclusion.tex
+Chapter 5.
+
+Overfull \hbox (1.52682pt too wide) in paragraph at lines 11--12
+\T1/pplj/m/n/10.95 in-tu-itive op-er-abil-ity and their lack of de-mand-ing at-
+ten-tion. They cover
+ []
+
+) [35
+
+
+
+] [36
 
 
 
@@ -1955,9 +1959,7 @@ Overfull \hbox (4.84335pt too wide) in paragraph at lines 24--24
  \T1/pplj/m/n/10.95 tic-i-pant. The min-i-mum ab-so-lute pitch value that 
  []
 
-[35
-
-
+[37
 
 
 ]
@@ -1983,13 +1985,7 @@ t tech-
  []
 
 
-Overfull \hbox (0.1522pt too wide) in paragraph at lines 40--40
- [][] [][]\T1/pplj/m/n/10.95 Overall us-age num-bers of each in-put tech-nique 
-
- []
-
-
-Overfull \hbox (5.41904pt too wide) in paragraph at lines 41--41
+Overfull \hbox (5.41904pt too wide) in paragraph at lines 40--40
  [][] [][]\T1/pplj/m/n/10.95 Participant rat-ing of re-quired ressources namely
  
  []
@@ -2005,7 +2001,7 @@ Overfull \hbox (2.22629pt too wide) in paragraph at lines 7--7
  \T1/pplj/m/n/10.95 cept-ing pa-ram-e-ters. All other com-mands in this 
  []
 
-[36]
+[38]
 Overfull \hbox (3.90799pt too wide) in paragraph at lines 8--8
  [][] [][]\T1/pplj/m/n/10.95 Building blocks (key-words) for com-mands from 
  []
@@ -2023,7 +2019,7 @@ Overfull \hbox (4.80585pt too wide) in paragraph at lines 7--7
 \tf@lol=\write9
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 52.
- [37] [38])
+ [39] [40])
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/Bibliography.tex
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\ClassicThes
@@ -2036,7 +2032,7 @@ $\T1/fvm/m/n/10.95 smartphone -[] ownership -[] and -[] internet -[] usage -[]
 continues -[] to -[]$
  []
 
-[39
+[41
 
 
 
@@ -2045,9 +2041,9 @@ continues -[] to -[]$
 
 
 
-])) [40]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
+])) [42]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
 
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\ClassicThes
 is.aux
@@ -2069,11 +2065,13 @@ latedWork.aux)
 plementation.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Us
 erStudy.aux)
+(D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\Chapters/Co
+nclusion.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/FiguresTables.aux)
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/Bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
 
 
  *File List*
@@ -2251,31 +2249,25 @@ img/scenarioUsage.png
 img/taskUsage.png
 img/perceivedControl.png
 img/overallUsage.png
-img/overallUsage.png
 img/requiredPhysicalEffort.png
 img/requiredAttention.png
+Chapters/Conclusion.tex
 FrontBackmatter/FiguresTables.tex
 FrontBackmatter/Bibliography.tex
 ClassicThesis.bbl
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: EC2CEA55BC55CC1DF28437C7C4EF6E77;1340.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
+(rerunfilecheck)             Checksum: 6267BB7683115270755A457C4B0DDCFA;1407.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
  ) 
 Here is how much of TeX's memory you used:
- 32548 strings out of 494045
- 690035 string characters out of 3148390
- 1088329 words of memory out of 3000000
- 34883 multiletter control sequences out of 15000+200000
- 89005 words of font info for 127 fonts, out of 3000000 for 9000
+ 32563 strings out of 494045
+ 690758 string characters out of 3148390
+ 1087922 words of memory out of 3000000
+ 34892 multiletter control sequences out of 15000+200000
+ 87549 words of font info for 124 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  68i,14n,86p,1567b,2020s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
@@ -2287,9 +2279,9 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lcircle1.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (48 pages, 1252558 bytes).
+Output written on ClassicThesis.pdf (50 pages, 1254145 bytes).
 PDF statistics:
- 796 PDF objects out of 1000 (max. 8388607)
- 179 named destinations out of 1000 (max. 500000)
- 19790 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 810 PDF objects out of 1000 (max. 8388607)
+ 181 named destinations out of 1000 (max. 500000)
+ 19798 words of extra memory for PDF output out of 20736 (max. 10000000)
 
