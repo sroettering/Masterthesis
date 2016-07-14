@@ -3,8 +3,8 @@
 %************************************************
 
 This chapter gives an overview of the implementation aspects of the smartwatch controlled mobile music player. It explains the application structure, the chosen interaction techniques and the mobile-wear communication system.
-%TODO: explain why spotify api
-The essential music library is provided by a private Spotify\footnote{Music streaming service: \url{www.spotify.com}} premium account. Spotify has a powerful and beneficial \ac{API} as well. The prototype is divided into two separate applications, i.e. mobile (handheld) and wear (smartwatch) application. Users are able to access all features of the mobile application via the smartwatch application. In order to cover a lot of different levels of the focused-casual continuum \cite{pohl2013focused}, three interaction techniques, differing in the amount of control granted, are available for the user:
+
+The essential music library is provided by a private Spotify\footnote{Music streaming service: \url{www.spotify.com}} premium account. Spotify has a powerful and beneficial \ac{API} which adds useful meta data such as audio features to each track. Audio features are high-level acoustic attributes like tempo or valence which are used in a system for coarse track selection. The prototype is divided into two separate applications, i.e. mobile (handheld) and wear (smartwatch) application. Users are able to access all features of the mobile application via the smartwatch application. In order to cover a lot of different levels of the focused-casual continuum \cite{pohl2013focused}, three interaction techniques, differing in the amount of control granted, are available for the user:
 \begin{itemize}
 \item{Touch}
 \item{Speech}
@@ -16,10 +16,10 @@ Each technique can be used for the simpler actions of the music player such as p
 Both applications are implemented for the android platform. The handheld device has no further hardware or software requirements other than supporting the android wearable \ac{API} for communicating with the smartwatch, thus a Samsung Galaxy S6 is chosen. The smartwatch application certainly requires the device to be equipped with a acceleration sensor and a microphone. A moto360 from Motorola is well suited for this. Both devices require Bluetooth functionality as well.
 
 \section{Application Structure}\label{sec:ApplicationStructure}
-The application is divided into two dedicated android applications, one for the mobile device and one for the smartwatch. All of the music players functionality is implemented in the mobile application where the Spotify Android \ac{SDK} and the Spotify Web \ac{API} for Android\footnote{\url{https://github.com/kaaes/spotify-web-api-android}} is used. Together they allow for every possible interaction with Spotify such as streaming music, creating playlists, searching for artists or tracks, etc. The wearable application provides an additional \ac{GUI} which contains the same information as the mobile application's \ac{GUI} with less overhead (e.g. images). It also is responsible for hosting the touch, speech and gesture input techniques. Figure \ref{fig:packageDiagram} shows each application's different components which are each separated by java packages.
+The application is divided into two dedicated android applications, one for the mobile device and one for the smartwatch. Since the smartwatch has less computing power and battery life than a mobile device, all of the music players functionality is implemented in the mobile application where the Spotify Android \ac{SDK} for streaming functionality and the Spotify Web \ac{API} for Android\footnote{\url{https://github.com/kaaes/spotify-web-api-android}} for accessing the music information is used. Together they allow for every possible interaction with Spotify such as streaming music, creating playlists, searching for artists or tracks, etc. The wearable application provides an additional \ac{GUI} which contains the same information about the music arrangements as the mobile application's \ac{GUI} but with less overhead (e.g. images are not shown). It also is responsible for hosting the touch, speech and gesture input techniques. Figure \ref{fig:packageDiagram} shows each application's different components which are separated by java packages. Both applications consist of four packages:
 
 \paragraph{Mobile Application}
-The \textit{view} package contains the MainActivity of the application. It is responsible for both maintaining the \ac{GUI} elements (see section \ref{sec:UserInterface}) and turning issued commands into music player actions which are then forwarded to the SpotifyManager class. The \textit{speechcontrol} package contains the tool which interprets a speech command sent from the wearable application. See section \ref{sub:speechControl} for a detailed description about speech commands. The \textit{core} package contains both the CommunicationManager class that handles messaging between wearable and mobile application and the SpotifyManager class which ties the Spotify Android \ac{SDK} and the Spotify Web \ac{API} for Android together. On the application start it downloads information about the music items that belong to the logged in Spotify account and serves it to the \ac{GUI}. Audio features are downloaded for each track in the user's library as well. They are stored in the AudioFeatureDatabase class in form of a Hashmap with the track's id as key and a list of the audio features as the value. The AudioFeatureDatabase class is also responsible for searching tracks from the library with a specified audio feature value (see \ref{sub:speechControl} for what this is useful and how it works). Audio features are also saved to the mobile phones disk by the SpotifyCache class to reduce the amount of data that has to be downloaded on the application start.
+The \textit{view} package contains the MainActivity of the application. It is responsible for both maintaining the \ac{GUI} elements (see section \ref{sec:UserInterface}) and turning issued commands into music player actions which are then forwarded to the SpotifyManager class. The \textit{speechcontrol} package contains the tool which interprets a speech command sent from the wearable application. See section \ref{sub:speechControl} for a detailed description about speech commands. The \textit{core} package contains both the CommunicationManager class that handles messaging between wearable and mobile application and the SpotifyManager class which ties the Spotify Android \ac{SDK} and the Spotify Web \ac{API} for Android together. On the application start it downloads information about the music items that belong to the logged in Spotify account and serves it to the \ac{GUI}. Audio features are downloaded for each track in the user's library as well. They are stored in the AudioFeatureDatabase class in form of a Hashmap with the track's id as key and a list of the audio features as the value. The AudioFeatureDatabase class is also responsible for searching tracks from the library with a specified audio feature value (section \ref{sub:speechControl} describes why this is useful and how it works). Audio features are also saved to the mobile phones disk by the SpotifyCache class to reduce the amount of data that has to be downloaded on the application start.
 
 \paragraph{Wearable Application}
 The wearable application's structure is similar to the mobile application. Classes responsible for maintaining the \ac{GUI} elements are located in the \textit{view} package. The \textit{wiigee} package contains a pre-built event driven library for acceleration based gesture recognition (see section \ref{sub:gestureControl} for further details). The \textit{core} package contains the CommunicationManager that again is responsible for messaging between wearable and mobile application. Also the system for recording speech and transforming it into text is located in the \textit{core} package. As soon as voice recognition is enabled (see section \ref{sub:speechControl}) the VoiceRecognitionListener class receives the recognized text from android's Speech Recognizer and waits until the final keyword is included. The text is then sent to the mobile application to be interpreted.
@@ -33,12 +33,12 @@ The wearable application's structure is similar to the mobile application. Class
 \end{figure}
 
 \section{User Interface}\label{sec:UserInterface}
-The \ac{GUI} from the mobile application only differs from the wear \ac{GUI} in terms of appearance. In terms of control over the music player, both versions offer the same possibilities and show the same information (when connected) at any given time. The wear application, however, additionally introduces speech and gesture interactions which the mobile application is not capable of.
+The \ac{GUI} from the mobile application only differs from the wear \ac{GUI} in terms of unimportant information such as images. In terms of control over the music player, both versions offer the same possibilities and show the synchronized player state (when connected) at any given time. The wear application, however, additionally introduces speech and gesture interactions which the mobile application is not capable of.
 
-It is noteworthy that the Spotify \ac{SDK} offers a lot more functionality than implemented, such as creating own playlists or searching the entire Spotify music library for keywords. The implemented music player, however, just offers the basic playback functionalities in order to keep the application simple and to not overload the experiment participants with information since they have to remember how to control the music player.
+It is noteworthy that the Spotify \ac{SDK} offers a lot more functionality than implemented, such as creating own playlists or searching the entire Spotify music library for keywords. The implemented music player, however, just offers the basic playback functionalities in order to keep the application simple and to not overload the participants in the experiment with information since they have to remember how to control the music player. Moreover, more music player functions would not have an impact on the experiment results.
 
 \subsection{Touch Input - \ac{GUI}}
-Both \ac{GUI}s are designed to be simple and straightforward. The mobile version mainly consists of two areas. Figure \ref{fig:mobileGUI} depicts a screenshot of this layout. A control panel is situated at the bottom of the screen. Above this is a left-right scrollable pager containing different kinds of lists. \marginpar{Categories are Spotify's extended version of genres} The scrollable list pager contains five lists, one for each music arrangement which are playlists, songs, albums, artists and categories.
+Both \ac{GUI}s are designed to be simple and straightforward. The mobile version mainly consists of two areas. Figure \ref{fig:mobileGUI} depicts a screenshot of this layout. A control panel is situated at the bottom of the screen. Above this is a left-right scrollable pager containing different kinds of lists. \marginpar{Categories are Spotify's extended version of genres} The scrollable list pager\footnote{A horizontal scrollable container holding vertical scrollable lists.} contains five lists, one for each music arrangement which are playlists, songs, albums, artists and categories.
 \begin{figure}[bth]
 	\myfloatalign
 	\includegraphics[width=.45\linewidth]{img/mobileGUIlabeled.png}
@@ -47,7 +47,7 @@ Both \ac{GUI}s are designed to be simple and straightforward. The mobile version
 \end{figure}
 The control panel located beneath the list pager contains four control buttons such as a shuffle button including on-off indicator, a skip to previous song button, a play-pause button and a skip to next song button. Unlike the wear application, the mobile version spares buttons for controlling the volume, because most devices own hardware buttons for this purpose. Information on the name of the current song and artist can be found above these buttons. The track's progress and total duration can be found at the very bottom of the screen. \\
 
-However, the intention of the wear application is, that the user does not need to bother reaching his mobile phone. For this reason, the wear application's \ac{GUI} offers the same amount of touch control over the music player. Figure \ref{fig:wearGUI} demonstrates the layout of the wear application. It consists of a GridViewPager with three horizontal pages. 
+However, the intention of the wear application is, that the user does not need to bother reaching his mobile phone. For this reason, the wear application's \ac{GUI} offers the same amount of control over the music player via its touch input. Figure \ref{fig:wearGUI} demonstrates the layout of the wear application. It consists of a GridViewPager\footnote{A grid based omni-directional scrollable container holding views} with one row and three horizontal pages (columns). 
 
 \begin{figure}[bth]
 	\myfloatalign
@@ -82,11 +82,11 @@ The wear application offers the possibility to control the music player via spee
 	\label{fig:speechActivityDiagram}
 \end{figure}
 
-Speech commands for this music player can be divided into three groups based on their complexity. The first group contains the simplest commands that just consist of one keyword. Commands in the second group start with a keyword and are followd by additional words, until the final keyword occurs, that are handled as the input parameters. Commands in the third group are built by chaining different keywords together forming a simple sentence.
+In order to cover the focused-casual continuum speech commands for this music player are divided into three groups based on their power and complexity. The first group contains the simplest commands that just consist of one keyword. Commands in the second group start with a keyword and are followd by additional words, until the final keyword occurs, that are handled as the input parameters. Commands in the third group are built by chaining different keywords together forming a simple sentence.
 
 Table \ref{tab:speechCommands} contains the respective keywords for commands in the first two groups. The first six simple keywords each represent a command by itself and thus belong to group 1. The \textit{play} command is the only command in group 2 meaning it requires a parameter to work as intended.
-\newpage
-\begin{table}[Hbt]
+
+\begin{table}[bt]
 	\myfloatalign
 	\begin{tabularx}{\textwidth}{XX} \toprule
 		\tableheadline{Speech Command Keywords} & \tableheadline{Actions in Music Player} \\ 
@@ -105,7 +105,8 @@ Table \ref{tab:speechCommands} contains the respective keywords for commands in 
 	\label{tab:speechCommands}
 \end{table}
 
-Commands in the third group, which are built by chaining the keywords shown in table \ref{tab:speechCommandsAudioFeature} together, offer a special kind of control over the music player. They allow for queuing and playing tracks that differ in terms of an audio feature from the current playing track.
+Commands in the third group, which are built by chaining the keywords shown in table \ref{tab:speechCommandsAudioFeature} together, offer a special kind of control over the music player. They allow for queuing and playing tracks that differ in terms of an audio feature from the current playing track. This enables users to change the type of music in contexts not allowing for high engagement.
+
 \begin{description}
 	\item[Audio Feature:] Spotify runs a suite of audio analysis algorithms on every track in their catalog. These extract about a dozen high-level acoustic attributes from the audio. Some are well-known musical features, like tempo and loudness. Others are more specialized, like valence and energy.
 \end{description}
@@ -133,7 +134,7 @@ The four most intuitive audio features are supported by the music player to be u
 	\label{tab:speechCommandsAudioFeature}
 \end{table}
 
-Changing tracks based on the current track's audio features enables the user to specify what kind of music she wants to listen to in a situation, without deciding on the exact tracks to be played. The pseudo code in listing \ref{lst:audioFeature} is responsible for searching the corresponding tracks in the music library. The new value for the specified audio feature is calculated in line 2 respectively 4 by first evaluating the direction keyword which determines whether to increase or decrease the current value. The scale keyword then determines the scaling factor which indicates by how much the current value is changed. Therefor the scaling factor is multiplied by the distance between the current value and either the global minimum or maximum value for the given audio feature depending on the direction keyword. Afterwards, tracks in  range of the new calculated value, determined by a tolerance radius, are searched (line 7 and forth). The tolerance radius is increased by a fix amount as long as no tracks are found. Figure \ref{fig:audioFeatureExample} explains this mechanism with example values.
+Changing tracks based on the current track's audio features enables the user to specify what kind of music she wants to listen to without deciding on the exact tracks to be played in a situation where high engagement is not possible. The pseudo code in listing \ref{lst:audioFeature} is responsible for searching the corresponding tracks in the music library. The new value for the specified audio feature is calculated in line 2 respectively 4 by first evaluating the direction keyword which determines whether to increase or decrease the current value. The scale keyword then determines the scaling factor which indicates by how much the current value is changed. Therefor the scaling factor is multiplied by the distance between the current value and either the global minimum or maximum value for the given audio feature depending on the direction keyword. Afterwards, tracks in  range of the new calculated value, determined by a tolerance radius, are searched (line 7 and forth). The tolerance radius is increased by a fix amount as long as no tracks are found. Figure \ref{fig:audioFeatureExample} explains this mechanism with example values.
 
 \begin{lstlisting}[caption=Pseudo code for calculating the new audio feature value and looking up respective tracks with a tolerance radius from the music library, label=lst:audioFeature]
 if(direction == negative) {
@@ -150,7 +151,7 @@ while(noTracksFound) {
 
 \begin{figure}[bth]
 	\myfloatalign
-	\includegraphics[width=.99\linewidth]{img/calcAudioFeatureExample.png}
+	\includegraphics[width=.7\linewidth]{img/calcAudioFeatureExample.png}
 	\caption{Example calculation for changing tracks based on the audio's tempo. The big X's show the current and the new value, while the smaller ones depict values with a smaller scaling factor. The red rectangle around the new value illustrates the tolerance radius in which new tracks are searched.}
 	\label{fig:audioFeatureExample}
 \end{figure}
@@ -163,13 +164,13 @@ In case the text contains a \textit{play} keyword which is followed by at least 
 var mostSimilarItem = null;
 foreach(item in library) {
   if(parameter == item.name) { 
-    return item; // distance is already 0, so we found the item
+    return item; //distance is already 0, so we found the item
   }
   var minDistance = Integer.MAX;
-  foreach(substring s of item.name with s.length == parameter.length) { // if the parameter is longer than the item name, only one iteration happens
+  foreach(substring s of item.name with s.length == parameter.length) { //if the parameter is longer than the item name, only one iteration happens
     distance = Levensthein(parameter, s);
-    if(distance < minDistance) { // less distance equals higher similarity
-      minDistance = distance;
+    if(distance < minDistance) { 
+      minDistance = distance; //less distance = higher similarity
       mostSimilarItem = item;
     }
   }
@@ -195,22 +196,22 @@ The following commands are examples from every group executed on the music libra
 %}
 
 \subsection{Gesture Control}\label{sub:gestureControl}
-The third interaction technique supported by the implemented music player involves acceleration based gesture recognition. With this the user is able to issue commands to the player without looking at or touching the screen with the other hand. Gesture commands on the contrary are not as powerful as touch input or speech commands. They only offer control for pause and resume, skip to next song, back to previous song as well as increase and decrease volume. The other commands that speech input offers would result in gestures too complex to perform and remember for a user.
+The third interaction technique supported by the implemented music player involves acceleration based gesture recognition. With this the user is able to issue commands to the player without looking at or touching the screen with the other hand. Gesture commands on the contrary are not as powerful as touch input or speech commands. They only offer control for pause and resume, skip to next song, back to previous song as well as increase and decrease volume. The other commands that speech input offers would result in gestures too complex to perform and remember for a user\cite{kuhnel2011m}.
 
-For this, a pre-built event-driven gesture recognition library called \textit{Wiigee}\footnote{Official Wiigee site: \url{www.wiigee.org}} is used. Wiigee accepts three dimensional acceleration vectors as input for pattern training and recognition. The vectors are sent through a four-level recognition pipeline which is shown in Figure \ref{fig:wiigeePipeline}. \cite{Schlomer:2008:GRW:1347390.1347395} describe the four stages of the pipeline in detail. They observed an average rate of correctly recognized gestures of 90\%. 
+For this, a pre-built event-driven gesture recognition library called \textit{Wiigee}\footnote{Official Wiigee site: \url{www.wiigee.org}} is used. Wiigee accepts three dimensional acceleration vectors as input for pattern training and recognition. The vectors are sent through a four-level recognition pipeline which is shown in Figure \ref{fig:wiigeePipeline}. \cite{Schlomer:2008:GRW:1347390.1347395} describe the four stages of this classical recognition pipeline in detail. They observed an average rate of correctly recognized gestures of 90\%. 
 
 \begin{figure}[bth]
 	\myfloatalign
-	\includegraphics[width=.99\linewidth]{img/wiigeePipeline.png}
+	\includegraphics[width=1\linewidth]{img/wiigeePipeline.png}
 	\caption{Original from \cite{Schlomer:2008:GRW:1347390.1347395}. Four-level recognition pipeline that first filters vector data und clusters it using a k-means algorithm. Subsequently a hidden markov model is fed with the clustered data and classified by a Bayesian classifier.}
 	\label{fig:wiigeePipeline}
 \end{figure}
 
-In order to recognize gestures, they first have to be trained to wiigee. For later use, the data for every gesture can be saved to a file afterwards. \cite{Schlomer:2008:GRW:1347390.1347395} claims that a training session with five to ten repetitions is sufficient for Wiigee to learn a new gesture. The gestures for controlling the music player are kept short and simple as \cite{kuhnel2011m} suggest. However, to avoid unintentional commands and to save battery life, an activation gesture has to be performed beforehand. Also, Wiigee does not support continuous gesture recognition. Figure \ref{fig:gestures} shows a list of all supported gestures and their meaning including the activation gesture. 
+In order to recognize gestures, they first have to be trained to wiigee. For later use, the data for every gesture can be saved to a file afterwards. \cite{Schlomer:2008:GRW:1347390.1347395} claims that a training session with five to ten repetitions is sufficient for Wiigee to learn a new gesture. The gestures for controlling the music player are kept short, simple and symbolic as \cite{kuhnel2011m} suggests. However, to avoid unintentional commands and to save battery life, an activation gesture has to be performed beforehand. Also, Wiigee does not support continuous gesture recognition. Figure \ref{fig:gestures} shows a list of all supported gestures and their meaning including the activation gesture. 
 
 Once Wiigee recognized a gesture it notifies the registered listeners sending the recognized gesture id and a confidence score between 0 and 1. In order to filter out false positives, the confidence score has to exceed 0.97 before the gesture is accepted by mapping its id to a music player command.
 
-\begin{figure}[Hbt]
+\begin{figure}[h]
 	\myfloatalign
 	\subfloat[Activation gesture]
 	{\label{fig:gesturesActivation}
@@ -255,19 +256,19 @@ Since it can not be assumed that users wear their watch in the same position and
 	\label{fig:pitchPlot}
 \end{figure}
 
-Wiigee is an event-based library where the training and recognition process is started by virtual button presses and completed by virtual button releases. In case of the Wiimote\footnote{Wiimote is a remote controller for the Nintendo Wii}, for which wiigee was originally designed, users were able to press real buttons. Gesture recognition on the smartwatch, however, can not be activated by real buttons, therefor training and recognition are activated by a virtual button press which is send to wiigee after the vibration countdown from the activation gesture. The virtual button release for finishing the training or recognition process is send automatically to wiigee after 750ms, which is enough time to perform each gesture. Deactivating the recognition process as soon as the device stops moving could not be used in this case, since this event can not be reliably detected.\\
-
+Wiigee is an event-based library where the training and recognition process is started by virtual button presses and completed by virtual button releases. In case of the Wiimote\footnote{Wiimote is a remote controller for the Nintendo Wii}, for which wiigee was originally designed, users were able to press real buttons. Gesture recognition on the smartwatch, however, can not be activated by real buttons, therefor training and recognition are activated by a virtual button press which is send to wiigee after the vibration countdown from the activation gesture. The virtual button release for finishing the training or recognition process is send automatically to wiigee after 750ms, which is enough time to perform each gesture. Deactivating the recognition process as soon as the device stops moving could not be used in this case, since this event can not be reliably detected.
+\newpage
 \section{Mobile-Wear Communication}\label{sec:Communication}
 Controlling the music player with the smartwatch requires some communication to happen between the watch and the mobile device. Android provides a solution for this which is called the Wearable Data Layer \ac{API}\footnote{\url{https://developer.android.com/training/wearables/data-layer/index.html}} that is part of Google Play Services. It offers a communication channel for smartphone and wearable applications. In particular, the \textit{MessageApi} class which is responsibule for sending text messages back and forth suffices for the music player. A message can have different types determined by a string that has to be attached to the message. Table \ref{tab:messageTypes} lists all types that can be attached to a message in both the wearable and mobile application as well as their purpose and when they are sent. Figure \ref{fig:communicationoverview} illustrates in which direction the messages are sent.
 
 \begin{figure}[bth]
 	\myfloatalign
-	\includegraphics[width=.7\linewidth]{img/CommunicationOverview.png}
+	\includegraphics[width=1\linewidth]{img/CommunicationOverview.png}
 	\caption{A Message can be of five different types: a data request type, list data type containing information about the music library, an update type containing the current music player state, a touch command type and a speech command type which both are sent from the wearable application and answered by the mobile application afterwards. The two greyed out message types on the right are included for the sake of completeness and are only used for the user study.}
 	\label{fig:communicationoverview}
 \end{figure}
 
-A communication manager class in both applications is responsible for sending and receiving these messsages. When a message is received, the communication manager forwards the message to the application parts concerned which then execute a corresponding action.
+A communication manager class in both applications is responsible for sending and receiving these messsages. When a message is received, the communication manager forwards the message to the  concerned application parts which then execute a corresponding action.
 
 \begin{table}[h]
 	\myfloatalign
