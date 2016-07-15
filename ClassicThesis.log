@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  15 JUL 2016 14:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  15 JUL 2016 15:19
 entering extended mode
 **ClassicThesis.tex
 
@@ -1928,18 +1928,14 @@ Overfull \hbox (1.52682pt too wide) in paragraph at lines 11--12
 ten-tion. They cover
  []
 
-) [35
+[35
 
 
 
 
 
 
-] [36
-
-
-
-]
+]) [36]
 (D:\Users\Sven\Documents\Dropbox\home\Uni\Masterarbeit\Masterthesis\FrontBackma
 tter/FiguresTables.tex
 Package tocbasic Info: character protrusion at lof deactivated on input line 17
@@ -1973,6 +1969,9 @@ Overfull \hbox (4.84335pt too wide) in paragraph at lines 24--24
  []
 
 [37
+
+
+
 
 
 ]
@@ -2292,7 +2291,7 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lcircle1.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (50 pages, 1410355 bytes).
+Output written on ClassicThesis.pdf (50 pages, 1410999 bytes).
 PDF statistics:
  869 PDF objects out of 1000 (max. 8388607)
  181 named destinations out of 1000 (max. 500000)
